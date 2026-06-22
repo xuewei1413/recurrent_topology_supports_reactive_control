@@ -1,13 +1,56 @@
-﻿file,path,description,used_in,generated_by,source_status
+file,path,description,used_in,generated_by,source_status
+README.md,README.md,Top-level public reproducibility artifact overview,Reviewer orientation,manual,documentation
+REPRODUCING.md,REPRODUCING.md,Result-by-result reproduction map from manuscript items to scripts and public data,Reviewer reproduction,manual,documentation
+experiment_code_index,code/experiments/README.md,Experiment-code index grouped by manuscript section,Reviewer reproduction,manual,documentation
+upload_checklist,UPLOAD_CHECKLIST.md,Public/private file triage record for the repository,Artifact integrity,manual,documentation
+artifact_readme,artifact/README.md,Focused TO/TG/TI audit artifact documentation,Statistical audit,manual,documentation
+analysis_endpoints.json,artifact/configs/analysis_endpoints.json,Machine-readable endpoint declaration for CartPole and MountainCar TO/TG/TI audits,Reproducibility audit,manual,config
 cartpole_coevolution_seed_level.csv,artifact/processed_results/cartpole_coevolution_seed_level.csv,Seed-level CartPole TO/TG/TI data with best_fitness and strict 20-episode fields,Statistics boundary audit,artifact/scripts/compute_statistical_boundaries.py,processed_seed_level
 mountaincar_coevolution_seed_level.csv,artifact/processed_results/mountaincar_coevolution_seed_level.csv,Seed-level MountainCar TO/TG/TI strict 20-episode data,Statistics boundary audit,artifact/scripts/compute_statistical_boundaries.py,processed_seed_level
 statistical_boundaries_to_tg_ti.csv,artifact/processed_results/statistical_boundaries_to_tg_ti.csv,Group mean CIs pairwise Welch difference CIs and ANOVA summaries,Manuscript TO/TG/TI reporting,artifact/scripts/compute_statistical_boundaries.py,derived_statistics
-compute_statistical_boundaries.py,artifact/scripts/compute_statistical_boundaries.py,Script that regenerates seed-level CSVs and statistical-boundary summaries,Reproducibility,manual,script
-coevolution_checkpoint.npy,code/results/coevolution/coevolution_checkpoint.npy,Source processed CartPole coevolution checkpoint used for current CartPole best_fitness audit,CartPole TO/TG/TI source,experiment pipeline,processed_result
-mountaincar_coevolution_results,struct_ai/code/experiments/results/mountaincar_coevolution/result_*.json,Source processed MountainCar coevolution per-seed JSON files,MountainCar TO/TG/TI source,experiment pipeline,processed_result
 robust_statistics_to_tg_ti.csv,artifact/processed_results/robust_statistics_to_tg_ti.csv,Median IQR Wilson success intervals and MountainCar goal rates,Supplementary statistics table,artifact/scripts/compute_statistical_boundaries.py,derived_statistics
 supplement_table_to_tg_ti.tex,artifact/processed_results/supplement_table_to_tg_ti.tex,LaTeX table for supplementary statistical-boundary reporting,Supplementary material,artifact/scripts/compute_statistical_boundaries.py,derived_table
-analysis_endpoints.json,artifact/configs/analysis_endpoints.json,Machine-readable declaration of primary endpoints sources seed counts and interpretation boundaries,Reproducibility audit,manual,config
-requirements.txt,artifact/requirements.txt,Minimal pip environment for regenerating statistical-boundary artifacts,Reproducibility,manual,environment
-environment.yml,artifact/environment.yml,Minimal conda environment for regenerating statistical-boundary artifacts,Reproducibility,manual,environment
-run_local_reproducibility_audit.py,artifact/scripts/run_local_reproducibility_audit.py,Local audit script for endpoints numeric anchors manifest and LaTeX compilation,Reproducibility,manual,script
+compute_statistical_boundaries.py,artifact/scripts/compute_statistical_boundaries.py,Script that regenerates seed-level CSVs and statistical-boundary summaries,Reproducibility,manual,script
+run_local_reproducibility_audit.py,artifact/scripts/run_local_reproducibility_audit.py,Local audit script for endpoints numeric anchors manifest docs and LaTeX compilation,Reproducibility,manual,script
+scan_public_artifact.py,artifact/scripts/scan_public_artifact.py,Pre-push sensitive-string scan over tracked public artifact files,Artifact integrity,manual,script
+artifact_requirements,artifact/requirements.txt,Minimal pip environment for regenerating statistical-boundary artifacts,Reproducibility,manual,environment
+artifact_environment,artifact/environment.yml,Minimal conda environment for regenerating statistical-boundary artifacts,Reproducibility,manual,environment
+main_manuscript_tex,paper/draft_v12_full.tex,Main manuscript LaTeX source,Manuscript rebuild,manual,source
+supplement_tex,paper/draft_v12_compact_supplement.tex,Compact supplement LaTeX source,Supplement rebuild,manual,source
+submitted_figures,figures_arxiv/*.pdf,Submitted PDF figure files used by manuscript and supplement,Manuscript figures,figure scripts,figure_outputs
+core_snn_code,code/src/*.py,Core fixed-weight SNN controllers continuous controller evolution utilities and custom environments,Experiment reruns,manual,source
+experiment_scripts,code/experiments/sec1_existence/*.py,Discrete-task existence baseline ablation and fingerprint scripts,Experiment reruns,manual,source
+coevolution_scripts,code/experiments/sec1_coevolution/*.py,TO/TG/TI and LunarLander co-evolution scripts,Experiment reruns,manual,source
+mechanism_scripts,code/experiments/sec2_mechanism/*.py,T-step membrane decoding and timing analysis scripts,Experiment reruns,manual,source
+adaptation_scripts,code/experiments/sec4_adaptation/*.py,Adaptation and parameter-boundary scripts,Experiment reruns,manual,source
+mujoco_scripts,code/experiments/sec5_mujoco/*.py,Continuous-control proof-of-concept and boundary scripts,Experiment reruns,manual,source
+supplementary_scripts,code/experiments/supplementary/*.py,Supplementary robustness and exploratory controls,Experiment reruns,manual,source
+revision_control_scripts,code/experiments/revision/*.py,Review-motivated control analyses,Revision audit,manual,source
+figure_scripts,code/gen_fig*.py,Figure regeneration scripts for submitted figures,Figure reproduction,manual,script
+fig01_script,code/plot_fig01.py,Figure 1 evolution-curve script,Figure reproduction,manual,script
+code_requirements,code/requirements.txt,Broader Python dependency list for figure and experiment scripts,Experiment reruns,manual,environment
+cross_task_results,code/experiments/results/cross_task/*,Processed five-task topology and per-seed result files,Figures and tables,experiment pipeline,processed_result
+ablation_results,code/experiments/results/ablation/*,Processed connection-ablation outputs,Figure 7 and supplement,experiment pipeline,processed_result
+adaptation_summary,code/experiments/results/adaptation/adaptation_summary.csv,Processed low-dimensional adaptation summary,Figure 9,experiment pipeline,processed_result
+comparison_results,code/experiments/results/comparison/comparison_analysis_summary.txt,Processed baseline-comparison summary,Figure 12 and text,experiment pipeline,processed_result
+mechanism_arrays,code/experiments/results/decoding_data.npy,Processed mechanism decoding array,Figure 4,experiment pipeline,processed_result
+spike_timing_array,code/experiments/results/spike_timing_data.npy,Processed spike timing data,Figure 6,experiment pipeline,processed_result
+tsteps_arrays,code/experiments/results/tsteps_curve_data*.npy,Processed T-step ablation arrays,Figure 2,experiment pipeline,processed_result
+weight_scale_array,code/experiments/results/weight_scale_ablation_data.npy,Processed weight-scale robustness data,Supplementary figure,experiment pipeline,processed_result
+triadic_motif_array,code/experiments/results/triadic_motif_analysis.npy,Processed triadic motif analysis,Supplementary analysis,experiment pipeline,processed_result
+selective_ablation_array,code/experiments/results/selective_ablation_results.npy,Processed selective-ablation analysis,Supplementary analysis,experiment pipeline,processed_result
+embodied_results,code/experiments/results/embodied_reflex/*,Processed Hopper Pendulum and HalfCheetah boundary outputs,Figure 14 and boundary text,experiment pipeline,processed_result
+fingerprint_corrected_results,code/experiments/results/fingerprint_analysis_corrected/*,Corrected structural fingerprint analysis report,Figure 13 and text,code/gen_fig13_fingerprint_corrected.py,derived_result
+lunarlander_results,code/experiments/results/lunarlander_coevolution/*,Processed LunarLander co-evolution outputs,Figure 15 and text,experiment pipeline,processed_result
+multi_seed_results,code/experiments/results/multi_seed_summary.*,Processed CartPole multi-seed summary,Baseline comparison and text,experiment pipeline,processed_result
+neat_baseline_results,code/experiments/results/neat_baseline/*,Processed NEAT baseline CSV and summary,Figure 12,experiment pipeline,processed_result
+ppo_baseline_results,code/experiments/results/ppo_baseline/*,Processed PPO baseline CSV summaries and curves,Figure 12,experiment pipeline,processed_result
+ppo_hopper_results,code/experiments/results/ppo_hopper/ppo_hopper_results.pkl,Processed PPO Hopper reference means used by the continuous-control figure,Figure 14,experiment pipeline,processed_result
+revision_controls,code/experiments/results/revision_controls/*,Processed review-control outputs including rate substitution and TOST sensitivity,Mechanism caveat audit,code/experiments/revision/analyze_review_controls.py,derived_result
+mountaincar_decoding_text,code/mountaincar_decoding_results.txt,MountainCar decoding text summary,Figure 4 support,experiment pipeline,processed_result
+mountaincar_decoding_array,code/mountaincar_T20_r2.npy,MountainCar decoding array,Figure 4 support,experiment pipeline,processed_result
+cartpole_coevolution_checkpoint,code/results/coevolution/coevolution_checkpoint.npy,Source processed CartPole coevolution checkpoint used for current CartPole best_fitness audit,CartPole TO/TG/TI source,experiment pipeline,processed_result
+mountaincar_coevolution_results,struct_ai/code/experiments/results/mountaincar_coevolution/result_*.json,Source processed MountainCar coevolution per-seed JSON files,MountainCar TO/TG/TI source,experiment pipeline,processed_result
+mountaincar_coevolution_summary,struct_ai/code/experiments/results/mountaincar_coevolution/mountaincar_coevolution_summary.csv,Processed MountainCar TO/TG/TI summary,MountainCar TO/TG/TI source,experiment pipeline,processed_result
+struct_ai_source,struct_ai/code/src/*.py,Minimal source files required by the MountainCar co-evolution subset,MountainCar audit,manual,source
+artifact_design_doc,docs/plans/2026-06-22-reviewer-reproducibility-artifact-design.md,Design note for the clean reviewer artifact,Repository maintenance,manual,documentation

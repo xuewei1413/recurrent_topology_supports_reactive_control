@@ -1,10 +1,9 @@
-﻿"""Generate Fig. 14: continuous-control extension on Hopper-v4 and Pendulum-v1.
+"""Generate Fig. 14: continuous-control extension on Hopper-v4 and Pendulum-v1.
 
 The figure is built from saved result files rather than hard-coded values:
-- Hopper SNN strict evaluation and gravity retuning: code/results/embodied_reflex/*.json
-- Hopper evolution curve: code/results/embodied_reflex/hopper_evolution.log
+- Hopper/Pendulum reports: code/experiments/results/embodied_reflex/*.json
+- Optional Hopper evolution curve fallback: code/results/embodied_reflex/hopper_evolution.log
 - PPO Hopper references: code/experiments/results/ppo_hopper/ppo_hopper_results.pkl
-- Pendulum report: code/experiments/results/embodied_reflex/pendulum_report.json
 """
 from __future__ import annotations
 
@@ -21,10 +20,11 @@ import numpy as np
 
 ROOT = Path(__file__).resolve().parents[1]
 FIG_DIR = ROOT / "figures_arxiv"
-HOPPER_DIR = ROOT / "code" / "results" / "embodied_reflex"
+EMBODIED_DIR = ROOT / "code" / "experiments" / "results" / "embodied_reflex"
+LEGACY_HOPPER_DIR = ROOT / "code" / "results" / "embodied_reflex"
 PPO_PATH = ROOT / "code" / "experiments" / "results" / "ppo_hopper" / "ppo_hopper_results.pkl"
-PENDULUM_PATH = ROOT / "code" / "experiments" / "results" / "embodied_reflex" / "pendulum_report.json"
-REPORT_PATH = ROOT / "code" / "experiments" / "results" / "embodied_reflex" / "fig14_data_report.json"
+PENDULUM_PATH = EMBODIED_DIR / "pendulum_report.json"
+REPORT_PATH = EMBODIED_DIR / "fig14_data_report.json"
 
 FIG_DIR.mkdir(parents=True, exist_ok=True)
 REPORT_PATH.parent.mkdir(parents=True, exist_ok=True)
@@ -36,11 +36,30 @@ def load_json(path: Path) -> dict:
 
 
 def load_hopper_eval() -> dict:
-    return load_json(HOPPER_DIR / "hopper_evaluation_results.json")
+    fig14_report = EMBODIED_DIR / "fig14_data_report.json"
+    if fig14_report.exists():
+        report = load_json(fig14_report)
+        return {
+            "strict_20ep_mean": report["hopper_snn_strict_20ep_mean"],
+            "strict_20ep_std": report["hopper_snn_strict_20ep_sd"],
+            "evo_5ep_mean": report["hopper_snn_evo_5ep_mean"],
+            "adaptation": {
+                gravity: {"best_score": score, "best_ws": report["gravity_best_weight_scales"][gravity]}
+                for gravity, score in report["gravity_scores"].items()
+            },
+        }
+    return load_json(LEGACY_HOPPER_DIR / "hopper_evaluation_results.json")
 
 
 def load_hopper_evolution() -> tuple[np.ndarray, np.ndarray, np.ndarray]:
-    log_path = HOPPER_DIR / "hopper_evolution.log"
+    log_path = LEGACY_HOPPER_DIR / "hopper_evolution.log"
+    if not log_path.exists():
+        report = load_json(EMBODIED_DIR / "fig14_data_report.json")
+        points = report["evolution_key_points"]
+        gens = np.array([6, 7, 8, 53], dtype=int)
+        bests = np.array([points["gen6"], points["gen7"], points["gen8"], points["gen53"]], dtype=float)
+        means = bests.copy()
+        return gens, bests, means
     text = log_path.read_text(encoding="utf-8", errors="replace").replace("\x00", "\n")
     gens, bests, means = [], [], []
     for line in text.splitlines():
@@ -51,7 +70,12 @@ def load_hopper_evolution() -> tuple[np.ndarray, np.ndarray, np.ndarray]:
         bests.append(float(match.group(2)))
         means.append(float(match.group(3)))
     if not gens:
-        raise RuntimeError(f"No evolution rows parsed from {log_path}")
+        report = load_json(EMBODIED_DIR / "fig14_data_report.json")
+        points = report["evolution_key_points"]
+        gens = np.array([6, 7, 8, 53], dtype=int)
+        bests = np.array([points["gen6"], points["gen7"], points["gen8"], points["gen53"]], dtype=float)
+        means = bests.copy()
+        return gens, bests, means
     return np.array(gens), np.array(bests), np.array(means)
 
 

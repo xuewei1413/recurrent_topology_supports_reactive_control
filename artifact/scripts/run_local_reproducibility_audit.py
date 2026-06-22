@@ -224,6 +224,65 @@ def validate_manifest() -> None:
         record("Manifest paths", "PASS", f"All {len(rows)} manifest entries resolve locally.")
 
 
+def validate_reproduction_docs() -> None:
+    required_docs = {
+        "README.md": [
+            "public reproducibility artifact",
+            "Quick Start",
+            "Regenerating Manuscript Figures",
+        ],
+        "REPRODUCING.md": [
+            "Main Manuscript Result Map",
+            "TO/TG/TI statistics",
+            "Continuous control",
+        ],
+        "code/experiments/README.md": [
+            "Experiment Code Index",
+            "Minimal Audit Path",
+            "Experiment Groups",
+        ],
+    }
+    missing: list[str] = []
+    for rel_path, tokens in required_docs.items():
+        path = ROOT / rel_path
+        if not path.exists():
+            missing.append(rel_path)
+            continue
+        raw = path.read_bytes()
+        if b"\x00" in raw:
+            missing.append(f"{rel_path} contains NUL bytes")
+            continue
+        text = raw.decode("utf-8", errors="replace")
+        for token in tokens:
+            if token not in text:
+                missing.append(f"{rel_path}: {token}")
+    if missing:
+        record("Reproduction documentation", "FAIL", f"Missing or invalid documentation anchors: {missing}")
+    else:
+        record("Reproduction documentation", "PASS", "README, REPRODUCING, and experiment index are present and readable.")
+
+
+def validate_figure_script_inventory() -> None:
+    expected = [
+        "code/plot_fig01.py",
+        "code/gen_fig04_mountaincar_decoding.py",
+        "code/gen_fig06_spike_timing_corrected.py",
+        "code/gen_fig07_connection_ablation.py",
+        "code/gen_fig08_coevolution.py",
+        "code/gen_fig09_adaptation.py",
+        "code/gen_fig10_cross_task.py",
+        "code/gen_fig11.py",
+        "code/gen_fig13_fingerprint_corrected.py",
+        "code/gen_fig14_hopper.py",
+        "code/gen_fig15_lunarlander_headroom.py",
+    ]
+    missing = [rel for rel in expected if not (ROOT / rel).exists()]
+    if missing:
+        record("Figure script inventory", "FAIL", f"Missing figure scripts: {missing}")
+    else:
+        record("Figure script inventory", "PASS", f"All {len(expected)} expected figure scripts are present.")
+
+
 def validate_manuscript_text() -> None:
     main = re.sub(
         r"\s+",
@@ -322,6 +381,7 @@ def write_report() -> None:
             "python -m pip install -r artifact\\requirements.txt",
             "python artifact\\scripts\\compute_statistical_boundaries.py",
             "python artifact\\scripts\\run_local_reproducibility_audit.py",
+            "python artifact\\scripts\\scan_public_artifact.py",
             ".\\tools\\tectonic\\tectonic.exe --outdir paper\\_compile_check paper\\draft_v12_full.tex",
             ".\\tools\\tectonic\\tectonic.exe --outdir paper\\_compile_check paper\\draft_v12_compact_supplement.tex",
             "```",
@@ -346,6 +406,8 @@ def main() -> int:
         ("Regenerate statistical artifact", regenerate_statistics),
         ("Numeric anchors", validate_numeric_anchors),
         ("Manifest paths", validate_manifest),
+        ("Reproduction documentation", validate_reproduction_docs),
+        ("Figure script inventory", validate_figure_script_inventory),
         ("Manuscript text anchors", validate_manuscript_text),
         ("LaTeX compilation", compile_latex),
     ]:
