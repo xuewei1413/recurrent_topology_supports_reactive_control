@@ -5,7 +5,7 @@ Generates all 15 figures (fig01-fig14) from saved data + SNN simulation (SEED=42
 Usage:
     python reproduce_all_figures.py [--outdir DIR] [--skip-sim] [--figures 01 02 ...]
 
-Output: 300 DPI PNG + vector PDF in figures_arxiv/
+Output: 300 DPI PNG + vector PDF in outputs/figures/
 
 Categories:
     Data-based (from pre-computed results in data/):
@@ -40,7 +40,7 @@ KEY_DIR = DATA_DIR / 'key_npy'                         # data/key_npy/
 RESULTS_DIR = EXP_DIR / 'results'                      # code/experiments/results/
 CROSS_DIR = DATA_DIR / 'cross_task'                    # data/cross_task/
 RERUN_DIR = DATA_DIR / 'rerun_results'                 # data/rerun_results/
-DEFAULT_OUT = PROJECT_DIR / 'figures_arxiv'             # figures_arxiv/
+DEFAULT_OUT = PROJECT_DIR / 'outputs' / 'figures'             # outputs/figures/
 
 SEED = 42
 
@@ -1220,7 +1220,7 @@ SIM_FIGURES = {'03', '04', '06'}
 def main():
     parser = argparse.ArgumentParser(description='Reproduce all paper figures (SEED=42)')
     parser.add_argument('--outdir', default=str(DEFAULT_OUT),
-                        help='Output directory (default: figures_arxiv/)')
+                        help='Output directory (default: outputs/figures/)')
     parser.add_argument('--skip-sim', action='store_true',
                         help='Skip figures requiring SNN simulation (fig03, 04, 06)')
     parser.add_argument('--figures', nargs='*', default=None,

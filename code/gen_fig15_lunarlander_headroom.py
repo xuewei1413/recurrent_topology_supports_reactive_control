@@ -1,4 +1,4 @@
-﻿from pathlib import Path
+from pathlib import Path
 import json
 import math
 
@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 ROOT = Path('code/experiments/results/lunarlander_coevolution')
-OUT = Path('figures_arxiv')
+OUT = Path('outputs') / 'figures'
 OUT.mkdir(exist_ok=True)
 with (ROOT / 'lunarlander_coevolution_results.json').open(encoding='utf-8') as f:
     data = json.load(f)

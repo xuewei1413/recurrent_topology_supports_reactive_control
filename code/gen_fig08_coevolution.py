@@ -14,7 +14,7 @@ from scipy import stats
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA_PATH = ROOT / "code" / "results" / "coevolution" / "coevolution_results.json"
-FIG_DIR = ROOT / "figures_arxiv"
+FIG_DIR = ROOT / "outputs" / "figures"
 FIG_DIR.mkdir(exist_ok=True)
 
 

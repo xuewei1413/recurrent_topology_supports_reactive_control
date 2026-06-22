@@ -24,8 +24,8 @@ TO/TG/TI statistical comparisons in the manuscript.
 - `scripts/compute_statistical_boundaries.py`: regenerates the three CSV files
   above from the processed result files in this repository.
 - `scripts/run_local_reproducibility_audit.py`: runs the local artifact audit,
-  verifies numeric anchors, checks the manifest, and compiles the manuscript and
-  supplement when `tools/tectonic/tectonic.exe` is available.
+  verifies numeric anchors, checks the manifest, and checks reproduction docs and
+  figure-script inventory.
 - `requirements.txt` and `environment.yml`: minimal Python environments for the
   artifact scripts.
 
@@ -51,5 +51,5 @@ record rather than a substitute for a fixed public release tag.
 ## Submission checklist
 
 Before submission, archive the repository with a fixed tag or commit identifier
-(e.g., `v1.0-neco-submission`) and replace the manuscript placeholder statement
-with the actual release/tag/commit.
+(e.g., `v1.0-submission-artifact`) and cite that release in the manuscript's
+code/data availability statement.

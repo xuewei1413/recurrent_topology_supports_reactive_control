@@ -2,7 +2,7 @@
 
 The audit intentionally checks the narrow claims that should be reproducible
 from this repository: TO/TG/TI statistical boundaries, endpoint declarations,
-manifest integrity, and LaTeX compilation.
+manifest integrity, reproduction documentation, and figure-script inventory.
 """
 
 from __future__ import annotations
@@ -227,9 +227,9 @@ def validate_manifest() -> None:
 def validate_reproduction_docs() -> None:
     required_docs = {
         "README.md": [
-            "public reproducibility artifact",
+            "public code and processed-data artifact",
             "Quick Start",
-            "Regenerating Manuscript Figures",
+            "Regenerating Figures From Processed Results",
         ],
         "REPRODUCING.md": [
             "Main Manuscript Result Map",
@@ -283,63 +283,6 @@ def validate_figure_script_inventory() -> None:
         record("Figure script inventory", "PASS", f"All {len(expected)} expected figure scripts are present.")
 
 
-def validate_manuscript_text() -> None:
-    main = re.sub(
-        r"\s+",
-        " ",
-        (ROOT / "paper" / "draft_v12_full.tex").read_text(encoding="utf-8"),
-    )
-    supp = re.sub(
-        r"\s+",
-        " ",
-        (ROOT / "paper" / "draft_v12_compact_supplement.tex").read_text(encoding="utf-8"),
-    )
-    required_main = [
-        "CartPole TO/TG/TI audit contains $10$ independent seeds per condition",
-        "formal equivalence claim",
-        "primary endpoint is the final best-fitness audit",
-        "seed-level TO/TG/TI result tables",
-        "v1.0-submission-artifact",
-        "available in the public",
-    ]
-    required_supp = [
-        "Statistical Boundary for TO/TG/TI Controls",
-        "supplement_table_to_tg_ti.tex",
-        "endpoint boundary",
-    ]
-    missing = [token for token in required_main if token not in main]
-    missing += [token for token in required_supp if token not in supp]
-    if missing:
-        record("Manuscript text anchors", "FAIL", f"Missing expected text anchors: {missing}")
-    else:
-        record("Manuscript text anchors", "PASS", "Endpoint, statistical-boundary, supplement, and availability anchors are present.")
-
-
-def compile_latex() -> None:
-    tectonic = ROOT / "tools" / "tectonic" / "tectonic.exe"
-    if not tectonic.exists():
-        record("LaTeX compilation", "WARN", "tools/tectonic/tectonic.exe not found; compile check skipped.")
-        return
-    outdir = ROOT / "paper" / "_compile_check"
-    outdir.mkdir(parents=True, exist_ok=True)
-    targets = [
-        ROOT / "paper" / "draft_v12_full.tex",
-        ROOT / "paper" / "draft_v12_compact_supplement.tex",
-    ]
-    for target in targets:
-        proc = run_command([str(tectonic), "--outdir", str(outdir), str(target)], timeout=240)
-        if proc.returncode != 0:
-            tail = "\n".join((proc.stdout + proc.stderr).splitlines()[-25:])
-            record(f"LaTeX compilation: {target.name}", "FAIL", tail)
-        else:
-            pdf = outdir / f"{target.stem}.pdf"
-            record(
-                f"LaTeX compilation: {target.name}",
-                "PASS",
-                f"Compiled to {pdf.relative_to(ROOT)}",
-            )
-
-
 def write_report() -> None:
     now = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S UTC")
     counts = Counter(result.status for result in RESULTS)
@@ -382,8 +325,6 @@ def write_report() -> None:
             "python artifact\\scripts\\compute_statistical_boundaries.py",
             "python artifact\\scripts\\run_local_reproducibility_audit.py",
             "python artifact\\scripts\\scan_public_artifact.py",
-            ".\\tools\\tectonic\\tectonic.exe --outdir paper\\_compile_check paper\\draft_v12_full.tex",
-            ".\\tools\\tectonic\\tectonic.exe --outdir paper\\_compile_check paper\\draft_v12_compact_supplement.tex",
             "```",
             "",
             "## Boundaries And Remaining Actions",
@@ -408,8 +349,6 @@ def main() -> int:
         ("Manifest paths", validate_manifest),
         ("Reproduction documentation", validate_reproduction_docs),
         ("Figure script inventory", validate_figure_script_inventory),
-        ("Manuscript text anchors", validate_manuscript_text),
-        ("LaTeX compilation", compile_latex),
     ]:
         try:
             func()

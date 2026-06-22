@@ -37,7 +37,7 @@ from sklearn.preprocessing import StandardScaler
 ROOT = Path(__file__).resolve().parents[1]
 CROSS_DIR = ROOT / "code" / "experiments" / "results" / "cross_task"
 OUT_DIR = ROOT / "code" / "experiments" / "results" / "fingerprint_analysis_corrected"
-FIG_DIR = ROOT / "figures_arxiv"
+FIG_DIR = ROOT / "outputs" / "figures"
 OUT_DIR.mkdir(parents=True, exist_ok=True)
 FIG_DIR.mkdir(parents=True, exist_ok=True)
 

@@ -1,10 +1,10 @@
 # Reproducibility Report
 
-Generated: 2026-06-22 06:35:05 UTC
+Generated: 2026-06-22 08:40:19 UTC
 
 ## Overall Status
 
-- PASS: 11
+- PASS: 8
 - WARN: 0
 - FAIL: 0
 
@@ -15,12 +15,9 @@ Generated: 2026-06-22 06:35:05 UTC
 - PASS - Endpoint config and source counts: CartPole {'TO': 10, 'TG': 10, 'TI': 10} from code/results/coevolution/coevolution_checkpoint.npy; MountainCar {'TG': 20, 'TI': 20, 'TO': 20} from struct_ai/code/experiments/results/mountaincar_coevolution/result_*.json
 - PASS - Regenerate statistical artifact: Rebuilt seed-level CSVs, statistical summaries, robust summaries, and supplement table.
 - PASS - Numeric anchors: All manuscript-level statistical anchors match regenerated CSV files.
-- PASS - Manifest paths: All 55 manifest entries resolve locally.
+- PASS - Manifest paths: All 51 manifest entries resolve locally.
 - PASS - Reproduction documentation: README, REPRODUCING, and experiment index are present and readable.
 - PASS - Figure script inventory: All 11 expected figure scripts are present.
-- PASS - Manuscript text anchors: Endpoint, statistical-boundary, supplement, and availability anchors are present.
-- PASS - LaTeX compilation: draft_v12_full.tex: Compiled to paper\_compile_check\draft_v12_full.pdf
-- PASS - LaTeX compilation: draft_v12_compact_supplement.tex: Compiled to paper\_compile_check\draft_v12_compact_supplement.pdf
 
 ## Regenerated Numeric Anchors
 
@@ -37,8 +34,6 @@ python -m pip install -r artifact\requirements.txt
 python artifact\scripts\compute_statistical_boundaries.py
 python artifact\scripts\run_local_reproducibility_audit.py
 python artifact\scripts\scan_public_artifact.py
-.\tools\tectonic\tectonic.exe --outdir paper\_compile_check paper\draft_v12_full.tex
-.\tools\tectonic\tectonic.exe --outdir paper\_compile_check paper\draft_v12_compact_supplement.tex
 ```
 
 ## Boundaries And Remaining Actions

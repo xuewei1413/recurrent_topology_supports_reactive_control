@@ -8,7 +8,7 @@ __pycache__/
 venv/
 env/
 
-# LaTeX build products
+# LaTeX build products from local manuscript work
 *.aux
 *.log
 *.out
@@ -16,10 +16,9 @@ env/
 *.fls
 *.fdb_latexmk
 *.synctex.gz
-paper/_compile_check/
-paper/_full_build/
-paper/_compact_build/
-paper/format_review_shots/
+paper/
+figures_arxiv/
+docs/plans/
 
 # Local tools, third-party skills, and private working files
 .claude/
@@ -50,7 +49,6 @@ struct_ai_patch.tar.gz
 # Duplicate or legacy result locations not used by the submission artifact
 /data/
 /results/
-code/figures_arxiv/
 code/results/**
 !code/results/
 !code/results/coevolution/
@@ -65,5 +63,5 @@ struct_ai/code/experiments/results/**/logs/
 struct_ai/code/experiments/results/**/topology_*.npz
 struct_ai/code/experiments/results/**/RUN_DONE.txt
 
-# GitHub repository should use PDF figures from figures_arxiv; PNGs are optional.
-figures_arxiv/*.png
+# Generated local outputs from figure regeneration.
+outputs/

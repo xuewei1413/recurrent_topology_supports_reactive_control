@@ -62,7 +62,7 @@ python artifact\scripts\run_local_reproducibility_audit.py
 | File | Purpose | Main outputs |
 | --- | --- | --- |
 | `exp_tsteps_ablation.py` | Varies internal rollout length `T_steps`. | `results/tsteps_curve_data*.npy` |
-| `exp_membrane_traces.py` | Records membrane and spike traces. | `figures_arxiv/fig03_membrane_traces.pdf` |
+| `exp_membrane_traces.py` | Records membrane and spike traces. | `outputs/figures/fig03_membrane_traces.pdf` |
 | `exp_trace_erasure.py` | Tests intermediate membrane-state reset. | Console/results files. |
 | `exp_input_decoding.py` | Ridge decoding of current and lagged inputs. | `results/decoding_data.npy` |
 | `exp_spike_timing.py` | Spike timing and count under selected history conditions. | `results/spike_timing_data.npy` |
@@ -72,7 +72,7 @@ python artifact\scripts\run_local_reproducibility_audit.py
 
 | File | Purpose | Main outputs |
 | --- | --- | --- |
-| `exp_adaptation_compare.py` | Compares zero-shot, global-scale, and T-step retuning after CartPole gravity change. | `figures_arxiv/fig09_adaptation.pdf` |
+| `exp_adaptation_compare.py` | Compares zero-shot, global-scale, and T-step retuning after CartPole gravity change. | `outputs/figures/fig09_adaptation.pdf` |
 | `exp_param_boundary.py` | Scans CartPole gravity/length and FlappyBird pipe-speed boundaries. | `results/boundary_scan/*.csv` |
 
 ### `sec5_mujoco/`: continuous-control proof-of-concept and boundary tests

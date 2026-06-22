@@ -30,7 +30,7 @@ CONFIG = {
 }
 TOPO_PATH = os.path.join(os.path.dirname(__file__),
                          'experiments', 'results', 'cross_task', 'CartPole_seed0.npz')
-OUT_DIR = os.path.join(os.path.dirname(__file__), 'figures_arxiv')
+OUT_DIR = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'outputs', 'figures')
 N_EVAL = 20
 N_RANDOM = 10
 

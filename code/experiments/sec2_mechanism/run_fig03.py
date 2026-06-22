@@ -41,7 +41,7 @@ CONFIG = {
 REPRESENTATIVE_NEURONS = [8, 38, 68, 98, 125]
 
 SAVE_DIR = os.path.normpath(os.path.join(
-    os.path.dirname(__file__), '..', '..', '..', 'figures_arxiv'))
+    os.path.dirname(__file__), '..', '..', '..', 'outputs', 'figures'))
 
 # ── Helper: forward pass with full membrane-potential trace ────────────────
 def forward_with_trace(controller, state):

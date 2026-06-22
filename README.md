@@ -1,6 +1,6 @@
 # Recurrent Connection Topology Supports Reactive Control
 
-This repository is the public reproducibility artifact for the manuscript:
+This repository is the public code and processed-data artifact for the manuscript:
 
 **Recurrent Connection Topology Supports Reactive Control through Propagation
 Dynamics in Fixed-Weight Spiking Neural Networks**
@@ -8,29 +8,24 @@ Dynamics in Fixed-Weight Spiking Neural Networks**
 The project asks whether binary recurrent connection topology, under fixed
 synaptic magnitudes and fixed neuron signs, can support reactive control in
 spiking neural networks. The repository is organized for reviewer audit: it
-contains manuscript source, figure outputs, core implementation, experiment
-scripts, processed result files, and scripts that regenerate the main
-statistical checks.
+contains core implementation, experiment scripts, processed result files, and
+scripts that regenerate the main statistical checks.
+
+This repository intentionally excludes the manuscript source, final PDF figure
+folder, local tools, private machine logs, local cluster launch files, legacy
+drafts, and duplicate raw result folders.
 
 ## What This Artifact Supports
 
-- Rebuild the manuscript and compact supplement from LaTeX source.
 - Audit the CartPole and MountainCar TO/TG/TI topology/weight-control results.
-- Regenerate the submitted figures from processed results where scripts are
-  available.
-- Inspect the exact scripts used for the discrete-task, mechanism, adaptation,
+- Inspect the scripts used for the discrete-task, mechanism, adaptation,
   fingerprint, and continuous-control analyses.
+- Regenerate result tables and selected figures from processed results.
 - Re-run selected experiments locally, subject to compute and optional package
   availability.
 
-The repository intentionally does not include private machine logs, local
-cluster launch files, third-party tools, legacy drafts, or duplicate raw result
-folders.
-
 ## Repository Layout
 
-- `paper/`: LaTeX source for the full manuscript and compact supplement.
-- `figures_arxiv/`: submitted PDF figures used by the manuscript.
 - `code/src/`: core SNN controllers, continuous-control controller, evolution
   utilities, and custom environments.
 - `code/experiments/`: experiment scripts grouped by manuscript section.
@@ -64,14 +59,12 @@ The audit writes `artifact/REPRODUCIBILITY_REPORT.md` and verifies:
 - seed counts and processed source files;
 - regenerated Welch confidence intervals and robust summaries;
 - manifest path integrity;
-- manuscript anchors for code/data availability and endpoint caveats;
-- LaTeX compilation when a local Tectonic binary is available.
+- reproducibility documentation anchors.
 
-## Regenerating Manuscript Figures
+## Regenerating Figures From Processed Results
 
-Most submitted figures are already stored as PDFs in `figures_arxiv/`. Figure
-scripts can be run from the repository root after installing the broader code
-dependencies in `code/requirements.txt`:
+Figure scripts write to `outputs/figures/` by default, creating the folder if it
+is absent. Install the broader code dependencies in `code/requirements.txt`:
 
 ```powershell
 python -m pip install -r code\requirements.txt
@@ -88,7 +81,7 @@ python code\gen_fig15_lunarlander_headroom.py
 
 Some scripts perform new simulation or optional baseline evaluation and may need
 Gymnasium, MuJoCo, Stable-Baselines3, or NEAT dependencies. See
-`REPRODUCING.md` and `code/experiments/README.md` for the figure-to-script map.
+`REPRODUCING.md` and `code/experiments/README.md` for the result-to-script map.
 
 ## Statistical Boundary Note
 

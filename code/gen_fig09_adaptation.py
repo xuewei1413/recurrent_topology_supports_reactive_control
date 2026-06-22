@@ -39,7 +39,7 @@ MAX_STEPS = 500
 
 CODE_DIR = os.path.dirname(os.path.abspath(__file__))
 TOPO_PATH = os.path.join(CODE_DIR, 'experiments', 'results', 'cross_task', 'CartPole_seed0.npz')
-OUT_DIR = os.path.join(os.path.dirname(CODE_DIR), 'figures_arxiv')
+OUT_DIR = os.path.join(os.path.dirname(CODE_DIR), 'outputs', 'figures')
 os.makedirs(OUT_DIR, exist_ok=True)
 
 

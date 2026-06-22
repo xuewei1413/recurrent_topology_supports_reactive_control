@@ -32,7 +32,7 @@ CONFIG = {
 
 TOPO_PATH = os.path.join(os.path.dirname(__file__),
                          'experiments', 'results', 'cross_task', 'MountainCar_seed0.npz')
-OUT_DIR = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'figures_arxiv')
+OUT_DIR = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'outputs', 'figures')
 
 
 def forward_with_trace(controller, state):

@@ -19,7 +19,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 ROOT = Path(__file__).resolve().parents[1]
-FIG_DIR = ROOT / "figures_arxiv"
+FIG_DIR = ROOT / "outputs" / "figures"
 EMBODIED_DIR = ROOT / "code" / "experiments" / "results" / "embodied_reflex"
 LEGACY_HOPPER_DIR = ROOT / "code" / "results" / "embodied_reflex"
 PPO_PATH = ROOT / "code" / "experiments" / "results" / "ppo_hopper" / "ppo_hopper_results.pkl"

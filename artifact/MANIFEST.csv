@@ -11,13 +11,10 @@ statistical_boundaries_to_tg_ti.csv,artifact/processed_results/statistical_bound
 robust_statistics_to_tg_ti.csv,artifact/processed_results/robust_statistics_to_tg_ti.csv,Median IQR Wilson success intervals and MountainCar goal rates,Supplementary statistics table,artifact/scripts/compute_statistical_boundaries.py,derived_statistics
 supplement_table_to_tg_ti.tex,artifact/processed_results/supplement_table_to_tg_ti.tex,LaTeX table for supplementary statistical-boundary reporting,Supplementary material,artifact/scripts/compute_statistical_boundaries.py,derived_table
 compute_statistical_boundaries.py,artifact/scripts/compute_statistical_boundaries.py,Script that regenerates seed-level CSVs and statistical-boundary summaries,Reproducibility,manual,script
-run_local_reproducibility_audit.py,artifact/scripts/run_local_reproducibility_audit.py,Local audit script for endpoints numeric anchors manifest docs and LaTeX compilation,Reproducibility,manual,script
+run_local_reproducibility_audit.py,artifact/scripts/run_local_reproducibility_audit.py,Local audit script for endpoints numeric anchors manifest docs and figure-script inventory,Reproducibility,manual,script
 scan_public_artifact.py,artifact/scripts/scan_public_artifact.py,Pre-push sensitive-string scan over tracked public artifact files,Artifact integrity,manual,script
 artifact_requirements,artifact/requirements.txt,Minimal pip environment for regenerating statistical-boundary artifacts,Reproducibility,manual,environment
 artifact_environment,artifact/environment.yml,Minimal conda environment for regenerating statistical-boundary artifacts,Reproducibility,manual,environment
-main_manuscript_tex,paper/draft_v12_full.tex,Main manuscript LaTeX source,Manuscript rebuild,manual,source
-supplement_tex,paper/draft_v12_compact_supplement.tex,Compact supplement LaTeX source,Supplement rebuild,manual,source
-submitted_figures,figures_arxiv/*.pdf,Submitted PDF figure files used by manuscript and supplement,Manuscript figures,figure scripts,figure_outputs
 core_snn_code,code/src/*.py,Core fixed-weight SNN controllers continuous controller evolution utilities and custom environments,Experiment reruns,manual,source
 experiment_scripts,code/experiments/sec1_existence/*.py,Discrete-task existence baseline ablation and fingerprint scripts,Experiment reruns,manual,source
 coevolution_scripts,code/experiments/sec1_coevolution/*.py,TO/TG/TI and LunarLander co-evolution scripts,Experiment reruns,manual,source
@@ -53,4 +50,3 @@ cartpole_coevolution_checkpoint,code/results/coevolution/coevolution_checkpoint.
 mountaincar_coevolution_results,struct_ai/code/experiments/results/mountaincar_coevolution/result_*.json,Source processed MountainCar coevolution per-seed JSON files,MountainCar TO/TG/TI source,experiment pipeline,processed_result
 mountaincar_coevolution_summary,struct_ai/code/experiments/results/mountaincar_coevolution/mountaincar_coevolution_summary.csv,Processed MountainCar TO/TG/TI summary,MountainCar TO/TG/TI source,experiment pipeline,processed_result
 struct_ai_source,struct_ai/code/src/*.py,Minimal source files required by the MountainCar co-evolution subset,MountainCar audit,manual,source
-artifact_design_doc,docs/plans/2026-06-22-reviewer-reproducibility-artifact-design.md,Design note for the clean reviewer artifact,Repository maintenance,manual,documentation

@@ -6,8 +6,8 @@ sweeps weight_scale from 0.1 to 2.0, evaluates performance, and plots
 robustness curves for all 5 tasks.
 
 Output:
-  figures_arxiv/fig05_weight_robustness.png
-  figures_arxiv/fig05_weight_robustness.pdf
+  outputs/figures/fig05_weight_robustness.png
+  outputs/figures/fig05_weight_robustness.pdf
   experiments/results/weight_scale_ablation_data.npy
 """
 import numpy as np
@@ -308,7 +308,7 @@ if __name__ == '__main__':
     print(f'\nData saved: {data_path}')
 
     # Generate figure
-    outdir = os.path.abspath(os.path.join(SCRIPT_DIR, '..', '..', '..', 'figures_arxiv'))
+    outdir = os.path.abspath(os.path.join(SCRIPT_DIR, '..', '..', '..', 'outputs', 'figures'))
     plot_figure(all_results, outdir)
 
     # Print summary table

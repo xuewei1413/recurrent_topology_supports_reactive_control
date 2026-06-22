@@ -261,7 +261,7 @@ def plot_fig04(cp_results, mc_results, save_dir):
 # ══════════════════════════════════════════════════════════════════════
 if __name__ == '__main__':
     CROSS_TASK = os.path.join(CODE_ROOT, 'experiments', 'results', 'cross_task')
-    FIG_DIR = os.path.abspath(os.path.join(CODE_ROOT, '..', 'figures_arxiv'))
+    FIG_DIR = os.path.abspath(os.path.join(CODE_ROOT, '..', 'outputs', 'figures'))
 
     # T_steps values to sweep
     T_list = [1, 3, 5, 10, 15, 20, 30]

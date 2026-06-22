@@ -13,7 +13,7 @@ from matplotlib.patches import Patch, Rectangle
 
 
 ROOT = Path(__file__).resolve().parents[1]
-FIG_DIR = ROOT / "figures_arxiv"
+FIG_DIR = ROOT / "outputs" / "figures"
 BOUNDARY_DIR = ROOT / "code" / "experiments" / "sec4_adaptation" / "results" / "boundary_scan"
 CARTPOLE_CSV = BOUNDARY_DIR / "cartpole_boundary.csv"
 FLAPPY_CSV = BOUNDARY_DIR / "flappy_boundary.csv"

@@ -33,7 +33,7 @@ INPUT_SCALE = 4.0
 SEED = 42
 
 TOPO_PATH = os.path.join(CODE_DIR, 'experiments', 'results', 'cross_task', 'CartPole_seed0.npz')
-OUT_DIR = os.path.join(os.path.dirname(CODE_DIR), 'figures_arxiv')
+OUT_DIR = os.path.join(os.path.dirname(CODE_DIR), 'outputs', 'figures')
 
 # ── Config ───────────────────────────────────────────────────────────────
 config = {

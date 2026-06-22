@@ -5,7 +5,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 data_dir = ROOT / "code" / "experiments" / "results" / "cross_task"
-out_dir = ROOT / "figures_arxiv"
+out_dir = ROOT / "outputs" / "figures"
 out_dir.mkdir(exist_ok=True)
 
 # ── colour map ──
