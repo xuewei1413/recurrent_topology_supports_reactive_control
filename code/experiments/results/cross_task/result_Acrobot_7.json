@@ -1,0 +1,15 @@
+{
+  "task": "Acrobot",
+  "seed": 7,
+  "generations": 3,
+  "best_fitness": 400.8,
+  "solved": true,
+  "n_connections": 2003,
+  "elapsed_sec": 570.909833908081,
+  "strict_20ep": {
+    "mean": -108.65,
+    "std": 20.51895465173604,
+    "min": -149.0,
+    "max": -76.0
+  }
+}

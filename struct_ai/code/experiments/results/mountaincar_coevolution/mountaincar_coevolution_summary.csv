@@ -1,0 +1,2 @@
+mode,seed,strict_fitness_mean,strict_fitness_std,seed_success,goal_episode_rate,max_position_mean,env_return_mean,generations,best_training_fitness,n_connections,elapsed_sec
+TO,13,2942.7966026100057,4.547473508864641e-13,True,1.0,0.5212966799736023,-159.8,62,2942.7966026100057,3534,4636.184596300125

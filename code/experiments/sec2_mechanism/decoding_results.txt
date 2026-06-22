@@ -1,0 +1,62 @@
+CARTPOLE INPUT DECODING RESULTS
+==================================================
+
+T_steps = 1:
+  Current Input R2: 0.000
+    Cart Pos: 0.000
+    Cart Vel: 0.000
+    Pole Ang: 0.000
+    Pole Vel: 0.000
+  History R2 values:
+    lag=0: 0.000
+    lag=1: 0.000
+    lag=2: 0.000
+    lag=3: 0.000
+    lag=4: 0.000
+T_steps = 5:
+  Current Input R2: 0.257
+    Cart Pos: 0.179
+    Cart Vel: 0.239
+    Pole Ang: 0.447
+    Pole Vel: 0.162
+  History R2 values:
+    lag=0: 0.257
+    lag=1: 0.332
+    lag=2: 0.291
+    lag=3: 0.260
+    lag=4: 0.334
+T_steps = 10:
+  Current Input R2: 0.069
+    Cart Pos: 0.164
+    Cart Vel: 0.023
+    Pole Ang: 0.025
+    Pole Vel: 0.066
+  History R2 values:
+    lag=0: 0.069
+    lag=1: 0.053
+    lag=2: 0.062
+    lag=3: 0.052
+    lag=4: 0.055
+T_steps = 20:
+  Current Input R2: 0.047
+    Cart Pos: 0.107
+    Cart Vel: 0.020
+    Pole Ang: 0.014
+    Pole Vel: 0.046
+  History R2 values:
+    lag=0: 0.047
+    lag=1: 0.032
+    lag=2: 0.041
+    lag=3: 0.032
+    lag=4: 0.037
+
+==================================================
+OPTIMAL T ANALYSIS
+==================================================
+Current Input (lag=0) Performance:
+  T =  1: R2 = 0.000
+  T =  5: R2 = 0.257
+  T = 10: R2 = 0.069
+  T = 20: R2 = 0.047
+
+Optimal T for CartPole: 5 (R2 = 0.257)

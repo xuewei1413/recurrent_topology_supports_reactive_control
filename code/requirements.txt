@@ -1,0 +1,17 @@
+# Core dependencies (required for figure reproduction)
+numpy>=1.24
+gymnasium>=0.29
+matplotlib>=3.7
+scipy>=1.10
+scikit-learn>=1.2
+tqdm
+
+# Environment dependencies
+pygame>=2.0
+
+# Optional: for baseline experiments (NEAT, PPO, MuJoCo)
+# Not needed for figure reproduction from pre-computed data
+# neat-python>=0.92
+# stable-baselines3>=2.0
+# torch>=2.0
+# mujoco

@@ -1,0 +1,86 @@
+MOUNTAINCAR INPUT DECODING RESULTS
+==================================================
+
+T_steps = 1:
+  Current Input R2: -0.104
+    Position: -0.135
+    Velocity: -0.073
+  History R2:
+    lag=0: -0.104
+    lag=1: -0.083
+    lag=2: -0.086
+    lag=3: -0.089
+    lag=4: -0.081
+T_steps = 3:
+  Current Input R2: -0.012
+    Position: -0.012
+    Velocity: -0.011
+  History R2:
+    lag=0: -0.012
+    lag=1: -0.010
+    lag=2: -0.013
+    lag=3: -0.013
+    lag=4: -0.015
+T_steps = 5:
+  Current Input R2: -0.051
+    Position: -0.049
+    Velocity: -0.052
+  History R2:
+    lag=0: -0.051
+    lag=1: -0.054
+    lag=2: -0.052
+    lag=3: -0.051
+    lag=4: -0.056
+T_steps = 10:
+  Current Input R2: -0.038
+    Position: -0.035
+    Velocity: -0.040
+  History R2:
+    lag=0: -0.038
+    lag=1: -0.040
+    lag=2: -0.047
+    lag=3: -0.045
+    lag=4: -0.044
+T_steps = 15:
+  Current Input R2: -0.052
+    Position: -0.057
+    Velocity: -0.046
+  History R2:
+    lag=0: -0.052
+    lag=1: -0.051
+    lag=2: -0.049
+    lag=3: -0.050
+    lag=4: -0.054
+T_steps = 20:
+  Current Input R2: -0.051
+    Position: -0.051
+    Velocity: -0.052
+  History R2:
+    lag=0: -0.051
+    lag=1: -0.049
+    lag=2: -0.046
+    lag=3: -0.050
+    lag=4: -0.054
+T_steps = 30:
+  Current Input R2: -0.046
+    Position: -0.010
+    Velocity: -0.082
+  History R2:
+    lag=0: -0.046
+    lag=1: -0.053
+    lag=2: -0.054
+    lag=3: -0.057
+    lag=4: -0.060
+
+==================================================
+OPTIMAL T ANALYSIS
+==================================================
+  T =  1: R2 = -0.104
+  T =  3: R2 = -0.012
+  T =  5: R2 = -0.051
+  T = 10: R2 = -0.038
+  T = 15: R2 = -0.052
+  T = 20: R2 = -0.051
+  T = 30: R2 = -0.046
+
+Optimal T for MountainCar: 3 (R2 = -0.012)

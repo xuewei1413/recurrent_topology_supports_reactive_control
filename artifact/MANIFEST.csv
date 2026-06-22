@@ -1,0 +1,13 @@
+﻿file,path,description,used_in,generated_by,source_status
+cartpole_coevolution_seed_level.csv,artifact/processed_results/cartpole_coevolution_seed_level.csv,Seed-level CartPole TO/TG/TI data with best_fitness and strict 20-episode fields,Statistics boundary audit,artifact/scripts/compute_statistical_boundaries.py,processed_seed_level
+mountaincar_coevolution_seed_level.csv,artifact/processed_results/mountaincar_coevolution_seed_level.csv,Seed-level MountainCar TO/TG/TI strict 20-episode data,Statistics boundary audit,artifact/scripts/compute_statistical_boundaries.py,processed_seed_level
+statistical_boundaries_to_tg_ti.csv,artifact/processed_results/statistical_boundaries_to_tg_ti.csv,Group mean CIs pairwise Welch difference CIs and ANOVA summaries,Manuscript TO/TG/TI reporting,artifact/scripts/compute_statistical_boundaries.py,derived_statistics
+compute_statistical_boundaries.py,artifact/scripts/compute_statistical_boundaries.py,Script that regenerates seed-level CSVs and statistical-boundary summaries,Reproducibility,manual,script
+coevolution_checkpoint.npy,code/results/coevolution/coevolution_checkpoint.npy,Source processed CartPole coevolution checkpoint used for current CartPole best_fitness audit,CartPole TO/TG/TI source,experiment pipeline,processed_result
+mountaincar_coevolution_results,struct_ai/code/experiments/results/mountaincar_coevolution/result_*.json,Source processed MountainCar coevolution per-seed JSON files,MountainCar TO/TG/TI source,experiment pipeline,processed_result
+robust_statistics_to_tg_ti.csv,artifact/processed_results/robust_statistics_to_tg_ti.csv,Median IQR Wilson success intervals and MountainCar goal rates,Supplementary statistics table,artifact/scripts/compute_statistical_boundaries.py,derived_statistics
+supplement_table_to_tg_ti.tex,artifact/processed_results/supplement_table_to_tg_ti.tex,LaTeX table for supplementary statistical-boundary reporting,Supplementary material,artifact/scripts/compute_statistical_boundaries.py,derived_table
+analysis_endpoints.json,artifact/configs/analysis_endpoints.json,Machine-readable declaration of primary endpoints sources seed counts and interpretation boundaries,Reproducibility audit,manual,config
+requirements.txt,artifact/requirements.txt,Minimal pip environment for regenerating statistical-boundary artifacts,Reproducibility,manual,environment
+environment.yml,artifact/environment.yml,Minimal conda environment for regenerating statistical-boundary artifacts,Reproducibility,manual,environment
+run_local_reproducibility_audit.py,artifact/scripts/run_local_reproducibility_audit.py,Local audit script for endpoints numeric anchors manifest and LaTeX compilation,Reproducibility,manual,script

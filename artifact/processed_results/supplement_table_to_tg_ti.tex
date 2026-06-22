@@ -1,0 +1,25 @@
+\begin{table}[H]
+\centering
+\footnotesize
+\caption{\textbf{Statistical boundary for TO/TG/TI controls.} Mean confidence intervals and pairwise Welch mean-difference intervals are computed from seed-level final scores. They define the range of differences compatible with the data and are not formal equivalence or non-inferiority tests.}
+\label{tab:supp-stat-boundary}
+\begin{tabularx}{\textwidth}{@{}llYYY@{}}
+\toprule
+\textbf{Task} & \textbf{Condition / contrast} & \textbf{Mean or diff. (95\% CI)} & \textbf{Median [IQR]} & \textbf{Success / goal rate} \\
+\midrule
+CartPole & TO & $498.1$ [$496.0$, $500.2$] & $500.0$ [$497.1$, $500.0$] & 10/10 \\
+CartPole & TG & $496.8$ [$494.2$, $499.3$] & $497.6$ [$493.5$, $500.0$] & 10/10 \\
+CartPole & TI & $497.8$ [$495.3$, $500.3$] & $500.0$ [$495.5$, $500.0$] & 10/10 \\
+CartPole & TO-TI & $0.2$ [$-2.8$, $3.3$] & -- & -- \\
+CartPole & TO-TG & $1.3$ [$-1.8$, $4.4$] & -- & -- \\
+CartPole & TG-TI & $-1.1$ [$-4.4$, $2.2$] & -- & -- \\
+\midrule
+MountainCar & TO & $895.5$ [$648.8$, $1142.2$] & $763.4$ [$658.6$, $798.4$] & 16/20; goal 17.0\% \\
+MountainCar & TG & $1049.4$ [$774.0$, $1324.8$] & $764.0$ [$682.4$, $1243.0$] & 17/20; goal 17.8\% \\
+MountainCar & TI & $984.0$ [$703.7$, $1264.3$] & $764.0$ [$679.0$, $992.9$] & 16/20; goal 15.5\% \\
+MountainCar & TO-TI & $-88.5$ [$-449.9$, $272.8$] & -- & -- \\
+MountainCar & TO-TG & $-153.9$ [$-511.6$, $203.8$] & -- & -- \\
+MountainCar & TG-TI & $65.4$ [$-314.7$, $445.4$] & -- & -- \\
+\bottomrule
+\end{tabularx}
+\end{table}

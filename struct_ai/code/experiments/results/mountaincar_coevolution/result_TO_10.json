@@ -1,0 +1,76 @@
+{
+  "task": "MountainCar",
+  "mode": "TO",
+  "seed": 10,
+  "generations": 5,
+  "best_training_fitness": 652.7812475132921,
+  "strict_20ep": {
+    "fitness_mean": 652.7812475132921,
+    "fitness_std": 766.9492081937973,
+    "fitness_min": 383.48143870644884,
+    "fitness_max": 2953.506948964594,
+    "env_return_mean": -197.15,
+    "env_return_std": 8.56314778571525,
+    "max_position_mean": -0.3781817466020584,
+    "max_position_std": 0.3007713681090223,
+    "max_position_min": -0.5029214024543762,
+    "max_position_max": 0.5231245160102844,
+    "steps_mean": 197.15,
+    "goal_episodes": 2,
+    "goal_episode_rate": 0.1,
+    "seed_success": true,
+    "n_episodes": 20,
+    "threshold": 650.0
+  },
+  "solved_by_training_threshold": true,
+  "solved_by_strict_threshold": true,
+  "n_connections": 2746,
+  "elapsed_sec": 394.131530046463,
+  "config": {
+    "task": "MountainCar",
+    "env_id": "MountainCar-v0",
+    "n_total": 128,
+    "n_input": 4,
+    "n_output": 3,
+    "tau": 5.0,
+    "threshold": 0.8,
+    "T_steps": 20,
+    "weight_scale": 0.6,
+    "sparsity": 0.1,
+    "pop_size": 80,
+    "n_generations": 400,
+    "n_elite": 16,
+    "mutation_rate": 0.03,
+    "n_eval_episodes": 20,
+    "stagnation_limit": 10,
+    "mut_rate_cap": 0.1,
+    "tournament_size": 3,
+    "crossover_rate": 0.5,
+    "max_steps": 200,
+    "solve_threshold": 650.0,
+    "target_sparsity": 0.15,
+    "density_penalty": 200.0,
+    "input_pre_scale": 4.0
+  },
+  "extra": {
+    "weight_scale": 0.6,
+    "continuous_evolved_dof": 0
+  },
+  "history": {
+    "best": [
+      539.9364970314007,
+      539.9364970314007,
+      539.9364970314007,
+      539.9364970314007,
+      652.7812475132921
+    ],
+    "mean": [
+      413.5325054437593,
+      442.69596890662797,
+      457.1734805041098,
+      469.3965414893743,
+      464.24850796933043
+    ]
+  },
+  "artifact": "topology_TO_10.npz"
+}

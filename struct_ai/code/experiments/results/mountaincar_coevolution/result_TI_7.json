@@ -1,0 +1,80 @@
+{
+  "task": "MountainCar",
+  "mode": "TI",
+  "seed": 7,
+  "generations": 7,
+  "best_training_fitness": 1016.6217033056604,
+  "strict_20ep": {
+    "fitness_mean": 1228.6281940825968,
+    "fitness_std": 1121.148877622838,
+    "fitness_min": 466.65478969496377,
+    "fitness_max": 2948.913172465714,
+    "env_return_mean": -179.1,
+    "env_return_std": 31.927887496669747,
+    "max_position_mean": -0.0482148215174675,
+    "max_position_std": 0.36894865149816475,
+    "max_position_min": -0.3397669494152069,
+    "max_position_max": 0.5282981395721436,
+    "steps_mean": 179.1,
+    "goal_episodes": 6,
+    "goal_episode_rate": 0.3,
+    "seed_success": true,
+    "n_episodes": 20,
+    "threshold": 650.0
+  },
+  "solved_by_training_threshold": true,
+  "solved_by_strict_threshold": true,
+  "n_connections": 3353,
+  "elapsed_sec": 532.5149703025818,
+  "config": {
+    "task": "MountainCar",
+    "env_id": "MountainCar-v0",
+    "n_total": 128,
+    "n_input": 4,
+    "n_output": 3,
+    "tau": 5.0,
+    "threshold": 0.8,
+    "T_steps": 20,
+    "weight_scale": 0.6,
+    "sparsity": 0.1,
+    "pop_size": 80,
+    "n_generations": 400,
+    "n_elite": 16,
+    "mutation_rate": 0.03,
+    "n_eval_episodes": 20,
+    "stagnation_limit": 10,
+    "mut_rate_cap": 0.1,
+    "tournament_size": 3,
+    "crossover_rate": 0.5,
+    "max_steps": 200,
+    "solve_threshold": 650.0,
+    "target_sparsity": 0.15,
+    "density_penalty": 200.0,
+    "input_pre_scale": 4.0
+  },
+  "extra": {
+    "weight_scale": null,
+    "continuous_evolved_dof": 16384
+  },
+  "history": {
+    "best": [
+      587.2472684002585,
+      587.2472684002585,
+      587.2472684002585,
+      587.2472684002585,
+      587.2472684002585,
+      587.2472684002585,
+      1016.6217033056604
+    ],
+    "mean": [
+      419.73553087510584,
+      441.88595665360083,
+      471.09849566088343,
+      478.68274265238506,
+      472.0632918422487,
+      471.1820000315831,
+      487.5292610379265
+    ]
+  },
+  "artifact": "topology_TI_7.npz"
+}

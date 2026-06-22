@@ -1,0 +1,15 @@
+{
+  "task": "Snake",
+  "seed": 3,
+  "generations": 1,
+  "best_fitness": 29.214,
+  "solved": true,
+  "n_connections": 628,
+  "elapsed_sec": 28.118349313735962,
+  "strict_20ep": {
+    "mean": 0.2,
+    "std": 0.4000000000000001,
+    "min": 0.0,
+    "max": 1.0
+  }
+}

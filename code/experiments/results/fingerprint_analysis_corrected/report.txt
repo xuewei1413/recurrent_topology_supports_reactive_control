@@ -1,0 +1,28 @@
+Corrected cross-task structural fingerprint analysis
+==========================================================
+Corrections: FlappyBird n_input=8/state_dim=4; Snake n_input=16/state_dim=8.
+Layer features use W[i,j] as source i -> target j.
+
+Networks: 50
+Feature count: 19
+LOO-KNN accuracy: 0.940 (4.70x random)
+Mantel exact label-permutation: r=0.433, p=0.308
+
+Confusion matrix rows=true, cols=predicted; task order: Acrobot, CartPole, FlappyBird, MountainCar, Snake
+[[10  0  0  0  0]
+ [ 0 10  0  0  0]
+ [ 0  0  8  2  0]
+ [ 0  0  1  9  0]
+ [ 0  0  0  0 10]]
+
+Top 10 features:
+  ei_ratio: 0.1798
+  path_length: 0.1391
+  degree_entropy: 0.0839
+  exc_indeg: 0.0788
+  density: 0.0659
+  hidden_internal: 0.0583
+  sparsity: 0.0579
+  clustering: 0.0539
+  inv_path_len: 0.0539
+  info_efficiency: 0.0522

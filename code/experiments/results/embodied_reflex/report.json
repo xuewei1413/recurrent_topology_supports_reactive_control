@@ -1,0 +1,21 @@
+{
+  "timestamp": "2026-05-26 12:51:32",
+  "evaluation_timestamp": "2026-05-31",
+  "results": {
+    "Hopper-v4": {
+      "snn_best_fitness": 1012.80,
+      "snn_best_fitness_note": "5-episode mean during evolution (best single genome)",
+      "snn_strict_20ep_mean": 1009.10,
+      "snn_strict_20ep_std": 2.78,
+      "snn_strict_10ep_mean": 1008.98,
+      "snn_strict_10ep_std": 2.45,
+      "ppo_mean_reward": null,
+      "ppo_std_reward": null
+    }
+  },
+  "gravity_adaptation": {
+    "1.0x": {"best_weight_scale": 0.5, "score": 1014.4},
+    "1.3x": {"best_weight_scale": 0.6, "score": 980.8},
+    "1.5x": {"best_weight_scale": 0.6, "score": 982.0}
+  }
+}

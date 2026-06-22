@@ -1,0 +1,13 @@
+platform,strategy,mean,std,n_eval,params_adjusted
+CartPole,baseline,431.3,,20,0
+CartPole,zero_shot,313.3,68.83610970994802,20,0
+CartPole,struct_weight_scale,415.75,,20,1
+CartPole,struct_T_steps,340.2,,20,1
+CartPole,ppo_retrain,500.0,0.0,20,34691
+CartPole,reevolve,470.2,83.29381729756417,20,N/A
+FlappyBird,baseline,475.8,,20,0
+FlappyBird,zero_shot,384.0,291.6300738949946,20,0
+FlappyBird,struct_weight_scale,527.8,,20,1
+FlappyBird,struct_T_steps,550.95,,20,1
+FlappyBird,ppo_retrain,393.95,281.6399252591862,20,34691
+FlappyBird,reevolve,2269.35,2341.841823757531,20,N/A

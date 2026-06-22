@@ -1,0 +1,8 @@
+name: topology-neco-artifact
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - numpy=1.26
+  - scipy=1.13
+  - pip

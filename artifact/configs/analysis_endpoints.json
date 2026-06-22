@@ -1,0 +1,22 @@
+{
+  "to_tg_ti_controls": {
+    "cartpole": {
+      "task_label": "CartPole",
+      "source": "code/results/coevolution/coevolution_checkpoint.npy",
+      "primary_metric": "best_fitness",
+      "n_per_condition": 10,
+      "conditions": ["TO", "TG", "TI"],
+      "secondary_fields": ["strict_20ep_mean", "strict_20ep_sd", "strict_20ep_min", "strict_20ep_max"],
+      "interpretation": "Final best-fitness endpoint under the aligned evolutionary budget; strict 20-episode re-evaluation fields are released for endpoint transparency."
+    },
+    "mountaincar": {
+      "task_label": "MountainCar",
+      "source_glob": "struct_ai/code/experiments/results/mountaincar_coevolution/result_*.json",
+      "primary_metric": "strict_20ep_mean",
+      "n_per_condition": 20,
+      "conditions": ["TO", "TG", "TI"],
+      "secondary_fields": ["best_fitness", "goal_episode_rate"],
+      "interpretation": "Strict 20-episode endpoint under the aligned evolutionary budget; success and goal-episode rates are reported because outcomes are high-variance."
+    }
+  }
+}

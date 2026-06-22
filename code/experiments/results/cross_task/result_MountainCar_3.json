@@ -1,0 +1,15 @@
+{
+  "task": "MountainCar",
+  "seed": 3,
+  "generations": 3,
+  "best_fitness": 1393.3095703125,
+  "solved": true,
+  "n_connections": 507,
+  "elapsed_sec": 98.02425384521484,
+  "strict_20ep": {
+    "mean": 0.0,
+    "std": 0.0,
+    "min": 0.0,
+    "max": 0.0
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "env": "Pendulum-v1",
+  "random_baseline": -1336.6017297054752,
+  "snn_best_fitness": -678.2304299588977,
+  "snn_final_20ep": -761.5905472157937,
+  "config": {
+    "n_total": 64,
+    "n_input": 6,
+    "n_output": 1,
+    "sparsity": 0.15,
+    "weight_scale": 0.6,
+    "tau": 5.0,
+    "threshold": 0.8,
+    "T_steps": 15,
+    "pop_size": 50,
+    "n_generations": 120,
+    "n_elite": 8,
+    "mutation_rate": 0.03,
+    "n_eval_episodes": 20,
+    "max_steps": 200
+  }
+}

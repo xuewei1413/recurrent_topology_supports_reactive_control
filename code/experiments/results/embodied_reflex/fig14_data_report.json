@@ -1,0 +1,50 @@
+{
+  "hopper_snn_strict_20ep_mean": 1009.1017042223436,
+  "hopper_snn_strict_20ep_sd": 2.7761133114804553,
+  "hopper_snn_evo_5ep_mean": 1010.2625901121849,
+  "ppo_100k_mean": 1307.2226928390749,
+  "ppo_100k_sd_sample": 707.9853516490117,
+  "ppo_100k_sd_population": 578.0676189683319,
+  "ppo_100k_seed_means": [
+    2074.7835448205183,
+    1167.1244615789396,
+    679.7600721177669
+  ],
+  "ppo_1m_mean": 2083.6549289273803,
+  "ppo_1m_sd_sample": 1257.3127800036912,
+  "ppo_1m_sd_population": 1026.591586029748,
+  "ppo_1m_seed_means": [
+    1376.3268221091353,
+    1339.3205129663042,
+    3535.317451706701
+  ],
+  "ppo_params": 36615,
+  "snn_ratio_to_ppo_1m_pct": 48.42940595455539,
+  "gravity_scores": {
+    "1.0": 1014.3982080365544,
+    "1.3": 980.838834371884,
+    "1.5": 981.9858331775616
+  },
+  "gravity_best_weight_scales": {
+    "1.0": 0.5,
+    "1.3": 0.6,
+    "1.5": 0.6
+  },
+  "gravity_retention_pct": {
+    "1.0": 100.0,
+    "1.3": 96.69169627875948,
+    "1.5": 96.80476812732847
+  },
+  "pendulum_random_baseline": -1336.6017297054752,
+  "pendulum_snn_strict_20ep": -761.5905472157937,
+  "pendulum_snn_best": -678.2304299588977,
+  "pendulum_strict_improvement_pct": 43.02038293908143,
+  "pendulum_best_improvement_pct": 49.257103676773774,
+  "evolution_key_points": {
+    "gen6": 99.33,
+    "gen7": 642.97,
+    "gen8": 986.77,
+    "gen53": 1008.93,
+    "best_fitness": 1012.8
+  }
+}

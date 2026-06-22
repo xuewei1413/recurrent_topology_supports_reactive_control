@@ -1,0 +1,69 @@
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+
+# LaTeX build products
+*.aux
+*.log
+*.out
+*.toc
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+paper/_compile_check/
+paper/_full_build/
+paper/_compact_build/
+paper/format_review_shots/
+
+# Local tools, third-party skills, and private working files
+.claude/
+Nature-Skill/
+tools/
+server_results_mc/
+struct_ai_patch/
+struct_ai_patch.tar.gz
+
+# Root-level legacy drafts, generated PDFs, archives, and scratch files
+/*.pdf
+/*.zip
+/*.tar.gz
+/draft_cn_v11*
+/draft_en_v11*
+/fig11*.png
+/empty_ssh_config
+/known_hosts_tmp
+/ssh_*.txt
+/tmp_*.py
+/patch_script.py
+/fix_save_results.py
+/merge_coevolution.py
+/upload_and_launch.py
+/remote_run_*.sh
+/run_mountaincar_parallel_*.sh
+
+# Duplicate or legacy result locations not used by the submission artifact
+/data/
+/results/
+code/figures_arxiv/
+code/results/**
+!code/results/
+!code/results/coevolution/
+!code/results/coevolution/coevolution_checkpoint.npy
+code/results/coevolution/coevolution_results.json
+
+# Generated figures/logs inside experiment result folders; keep CSV/JSON/NPY/NPZ data.
+code/experiments/results/**/*.png
+code/experiments/results/**/*.log
+code/experiments/results/logs/
+struct_ai/code/experiments/results/**/logs/
+struct_ai/code/experiments/results/**/topology_*.npz
+struct_ai/code/experiments/results/**/RUN_DONE.txt
+
+# GitHub repository should use PDF figures from figures_arxiv; PNGs are optional.
+figures_arxiv/*.png

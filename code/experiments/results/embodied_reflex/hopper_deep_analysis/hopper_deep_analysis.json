@@ -1,0 +1,46 @@
+{
+  "topology": {
+    "n_total": 64,
+    "n_connections": 1633,
+    "density": 0.40500992063492064
+  },
+  "connection_types": {
+    "EE": 0.670545009185548,
+    "EI": 0.16044090630740968,
+    "IE": 0.14268218003674218,
+    "II": 0.026331904470300063
+  },
+  "fingerprint": {
+    "density": 0.40500992063492064,
+    "clustering": 0.019301172192135292,
+    "path_length": 0.02492559523809524,
+    "degree_entropy": 0.998906911507175,
+    "ei_ratio": 0.828125,
+    "ee_ratio": 0.670545009185548,
+    "ei_ratio_conn": 0.16044090630740968,
+    "ie_ratio": 0.14268218003674218,
+    "ii_ratio": 0.026331904470300063,
+    "exc_indeg": 0.3915094339622642,
+    "inh_indeg": 0.43323863636363635,
+    "in_to_hidden": 0.4090909090909091,
+    "hidden_to_out": 0.42735042735042733,
+    "hidden_internal": 0.4017094017094017,
+    "info_efficiency": 0.7023809523809523,
+    "inv_path_len": 0.626865671641791,
+    "sparsity": 0.5949900793650793,
+    "modularity_ei": 0.0
+  },
+  "fingerprint_distances": {
+    "CartPole": 0.7342848411118584,
+    "MountainCar": 0.5460308483910999,
+    "Acrobot": 0.5161149298102536,
+    "FlappyBird": 0.545353096956125,
+    "Snake": 0.49635674991027834
+  },
+  "closest_discrete_task": "Snake",
+  "episode_rewards": [
+    59.63252688912926,
+    55.812364069521244,
+    62.58381916203978
+  ]
+}

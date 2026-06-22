@@ -1,0 +1,15 @@
+{
+  "task": "CartPole",
+  "seed": 2,
+  "generations": 30,
+  "best_fitness": 499.65,
+  "solved": true,
+  "n_connections": 4376,
+  "elapsed_sec": 1305.8495976924896,
+  "strict_20ep": {
+    "mean": 479.7,
+    "std": 88.48564855387568,
+    "min": 94.0,
+    "max": 500.0
+  }
+}

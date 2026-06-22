@@ -1,0 +1,28 @@
+{
+  "experiment": "HalfCheetah Local Optimum Escape",
+  "pre_registration": "results/preregistration_halfcheetah_escape.md",
+  "thresholds": {
+    "F_boundary": -200,
+    "F_partial": 0,
+    "F_success": 200
+  },
+  "random_baseline": -314.6,
+  "original_ga_score": -415.5,
+  "results": {
+    "S1_QD": {
+      "score": -260.5176363147838
+    },
+    "S3_FitnessShaping": {
+      "score": -328.87660741866904
+    },
+    "S4_LargerPop": {
+      "score": -227.36381930735888
+    },
+    "S5_PerOutputScales": {
+      "score": -241.3279992186721
+    }
+  },
+  "best_strategy": "S4_LargerPop",
+  "best_score": -227.36381930735888,
+  "conclusion": "TRUE BOUNDARY: 1-parameter typed-graph framework cannot solve 6D multi-joint coordination. Multiple escape strategies confirmed the boundary."
+}

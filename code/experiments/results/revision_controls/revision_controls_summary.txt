@@ -1,0 +1,20 @@
+Revision control analyses
+=========================
+
+TOST sensitivity (selected rows):
+  CartPole TO-TI delta=5: diff=0.25, pTOST=0.002118, min_delta_alpha05=2.76
+  CartPole TO-TG delta=5: diff=1.32, pTOST=0.01121, min_delta_alpha05=3.87
+  MountainCar TO-TI delta=500: diff=-88.54, pTOST=0.01337, min_delta_alpha05=389.44
+  MountainCar TO-TG delta=500: diff=-153.92, pTOST=0.02877, min_delta_alpha05=451.81
+
+Rate-substitution control:
+  SNN reference: 460.2 +/- 61.6
+  Best non-spiking rate substitution: 12.2 +/- 1.4 (relu, gain=0.5)
+
+Fingerprint metadata audit:
+  structural_features: 0.940
+  architecture_metadata_only_N_nin_nout: 1.000
+  task_metadata_only_N_nin_nout_state_action: 1.000
+  structural_residual_after_architecture_metadata: 0.480
+  structural_residual_after_full_size_io_metadata: 0.480
+  fixed_N_subset_CartPole_vs_Acrobot: 1.000

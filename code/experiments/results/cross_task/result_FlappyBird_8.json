@@ -1,0 +1,15 @@
+{
+  "task": "FlappyBird",
+  "seed": 8,
+  "generations": 9,
+  "best_fitness": 902.3,
+  "solved": true,
+  "n_connections": 808,
+  "elapsed_sec": 98.2349693775177,
+  "strict_20ep": {
+    "mean": 544.55,
+    "std": 372.8759143468508,
+    "min": 74.0,
+    "max": 1284.0
+  }
+}
