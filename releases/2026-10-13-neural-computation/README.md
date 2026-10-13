@@ -2,7 +2,7 @@
 
 ## Study
 
-**Evolved Spiking Networks with Fixed Synaptic Weight Magnitudes: Connectivity, Output Activity, and Preservation of Control Function**
+**Control Robustness in Evolved Spiking Neural Networks: Linking Performance after Rewiring and Deletion**
 
 Authors: Xuewei Li, Bowen Zhao, Guangxu Mei, Huanci Li, and Xin Ding.
 
