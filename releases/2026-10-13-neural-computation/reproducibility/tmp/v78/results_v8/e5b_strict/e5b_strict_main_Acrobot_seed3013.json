@@ -1,0 +1,202 @@
+{
+ "version": "v8_e5b_strict",
+ "cohort": "main",
+ "task": "Acrobot",
+ "tag": "seed3013",
+ "scaffold_seed": 3013,
+ "n_hh": 1443,
+ "n_skel": 289,
+ "n_strict": 12,
+ "strict_frac_of_skel": 0.04152249134948097,
+ "n_keys": 11,
+ "key_counts": {
+  "(1, 2, 1, 0, 1)": [
+   1,
+   2,
+   1
+  ],
+  "(1, 2, 4, 0, 0)": [
+   1,
+   4,
+   1
+  ],
+  "(-1, 1, 4, 0, 0)": [
+   1,
+   2,
+   1
+  ],
+  "(1, 3, 4, 1, 0)": [
+   1,
+   6,
+   1
+  ],
+  "(1, 3, 4, 4, 0)": [
+   1,
+   3,
+   1
+  ],
+  "(1, 6, 4, 1, 0)": [
+   2,
+   5,
+   2
+  ],
+  "(1, 6, 4, 3, 0)": [
+   1,
+   2,
+   1
+  ],
+  "(-1, 2, 4, 1, 0)": [
+   1,
+   3,
+   1
+  ],
+  "(-1, 4, 4, 1, 0)": [
+   1,
+   3,
+   1
+  ],
+  "(1, 3, 4, 0, 0)": [
+   1,
+   6,
+   1
+  ],
+  "(1, 3, 6, 0, 1)": [
+   1,
+   1,
+   1
+  ]
+ },
+ "skel_strict_hash": "0a71f74b26e95de9",
+ "eval_seeds": [
+  96000,
+  96001,
+  96002,
+  96003,
+  96004,
+  96005,
+  96006,
+  96007,
+  96008,
+  96009,
+  96010,
+  96011,
+  96012,
+  96013,
+  96014,
+  96015,
+  96016,
+  96017,
+  96018,
+  96019
+ ],
+ "R": 10,
+ "J_F0": -95.8,
+ "J_del_skel_strict": -95.8,
+ "drop_skel_strict": 0.0,
+ "reps": [
+  {
+   "rep": 0,
+   "n_matched": 12,
+   "matched_hash": "cd002ed3c14e2310",
+   "rand_hash": "c3871e7f6d1fe2f8",
+   "J_del_matched": -95.8,
+   "drop_matched": 0.0,
+   "J_del_rand": -95.8,
+   "drop_rand": 0.0
+  },
+  {
+   "rep": 1,
+   "n_matched": 12,
+   "matched_hash": "dddfde7f0bd21935",
+   "rand_hash": "3c60199e709b7111",
+   "J_del_matched": -95.8,
+   "drop_matched": 0.0,
+   "J_del_rand": -95.8,
+   "drop_rand": 0.0
+  },
+  {
+   "rep": 2,
+   "n_matched": 12,
+   "matched_hash": "b9627689943644e0",
+   "rand_hash": "1f9bfb8358ebe46a",
+   "J_del_matched": -95.8,
+   "drop_matched": 0.0,
+   "J_del_rand": -95.8,
+   "drop_rand": 0.0
+  },
+  {
+   "rep": 3,
+   "n_matched": 12,
+   "matched_hash": "208b71a97d998e7b",
+   "rand_hash": "a2f262054dd99a39",
+   "J_del_matched": -95.8,
+   "drop_matched": 0.0,
+   "J_del_rand": -95.8,
+   "drop_rand": 0.0
+  },
+  {
+   "rep": 4,
+   "n_matched": 12,
+   "matched_hash": "c35e77b18f7628bf",
+   "rand_hash": "ae362d015016d6ce",
+   "J_del_matched": -95.8,
+   "drop_matched": 0.0,
+   "J_del_rand": -95.8,
+   "drop_rand": 0.0
+  },
+  {
+   "rep": 5,
+   "n_matched": 12,
+   "matched_hash": "4f1720a143d6f69d",
+   "rand_hash": "be1f37acf7c24d25",
+   "J_del_matched": -95.8,
+   "drop_matched": 0.0,
+   "J_del_rand": -95.8,
+   "drop_rand": 0.0
+  },
+  {
+   "rep": 6,
+   "n_matched": 12,
+   "matched_hash": "1283d10e52316fbf",
+   "rand_hash": "e4f3a3fd62d7127d",
+   "J_del_matched": -95.8,
+   "drop_matched": 0.0,
+   "J_del_rand": -95.8,
+   "drop_rand": 0.0
+  },
+  {
+   "rep": 7,
+   "n_matched": 12,
+   "matched_hash": "5ecdeff4369c7539",
+   "rand_hash": "3fcd54644e51b0bb",
+   "J_del_matched": -95.8,
+   "drop_matched": 0.0,
+   "J_del_rand": -95.8,
+   "drop_rand": 0.0
+  },
+  {
+   "rep": 8,
+   "n_matched": 12,
+   "matched_hash": "72bec61996a16aa9",
+   "rand_hash": "c181fb5400f71a67",
+   "J_del_matched": -95.8,
+   "drop_matched": 0.0,
+   "J_del_rand": -95.8,
+   "drop_rand": 0.0
+  },
+  {
+   "rep": 9,
+   "n_matched": 12,
+   "matched_hash": "0c1832e06c923972",
+   "rand_hash": "549a104766ebb8df",
+   "J_del_matched": -95.8,
+   "drop_matched": 0.0,
+   "J_del_rand": -95.8,
+   "drop_rand": 0.0
+  }
+ ],
+ "drop_matched_mean": 0.0,
+ "drop_rand_mean": 0.0,
+ "elapsed_sec": 13.244469404220581,
+ "evo_seed": 3013
+}

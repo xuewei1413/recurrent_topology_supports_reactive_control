@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="945" viewBox="0 0 1800 945" role="img">
+<rect width="1800" height="945" fill="#FFFFFF"/>
+<title>English manuscript figure: 03_localization</title><desc>English manuscript figure: 03_localization</desc>
+<text x="92.00" y="82.00" fill="#26333D" font-size="36" font-weight="600" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" style="font-family: Arial, Helvetica, sans-serif; font-size: 36px; font-weight: 600; font-style: normal; fill: rgb(38, 51, 61);">Equal deletion counts can yield different impairment</text>
+<text x="92.00" y="127.00" fill="#697780" font-size="23" font-weight="400" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" style="font-family: Arial, Helvetica, sans-serif; font-size: 23px; font-weight: 400; font-style: normal; fill: rgb(105, 119, 128);">CartPole: each point is one lineage; vertical jitter reveals overlap</text>
+<line x1="92.00" y1="158.00" x2="1708.00" y2="158.00" stroke="#CFD7D9" stroke-width="2" opacity="1"/>
+<line x1="902.00" y1="213.00" x2="902.00" y2="812.00" stroke="#CFD7D9" stroke-width="2" opacity="1"/>
+<text x="92.00" y="251.00" fill="#B45C47" font-size="27" font-weight="700" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif">A</text>
+<text x="132.00" y="251.00" fill="#26333D" font-size="31" font-weight="600" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" style="font-family: Arial, Helvetica, sans-serif; font-size: 31px; font-weight: 600; font-style: normal; fill: rgb(38, 51, 61);">Three-hop path score</text>
+<text x="92.00" y="302.00" fill="#697780" font-size="22" font-weight="400" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" style="font-family: Arial, Helvetica, sans-serif; font-size: 22px; font-weight: 400; font-style: normal; fill: rgb(105, 119, 128);">High-score vs matched; 30 lineages</text>
+<line x1="118.00" y1="610.00" x2="836.00" y2="610.00" stroke="#697780" stroke-width="1.5" opacity="1"/>
+<line x1="177.83" y1="604.00" x2="177.83" y2="617.00" stroke="#697780" stroke-width="1.5" opacity="1"/>
+<text x="177.83" y="645.00" fill="#697780" font-size="20" font-weight="400" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif">-100</text>
+<line x1="297.50" y1="604.00" x2="297.50" y2="617.00" stroke="#697780" stroke-width="1.5" opacity="1"/>
+<text x="297.50" y="645.00" fill="#697780" font-size="20" font-weight="400" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif">0</text>
+<line x1="417.17" y1="604.00" x2="417.17" y2="617.00" stroke="#697780" stroke-width="1.5" opacity="1"/>
+<text x="417.17" y="645.00" fill="#697780" font-size="20" font-weight="400" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif">100</text>
+<line x1="536.83" y1="604.00" x2="536.83" y2="617.00" stroke="#697780" stroke-width="1.5" opacity="1"/>
+<text x="536.83" y="645.00" fill="#697780" font-size="20" font-weight="400" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif">200</text>
+<line x1="656.50" y1="604.00" x2="656.50" y2="617.00" stroke="#697780" stroke-width="1.5" opacity="1"/>
+<text x="656.50" y="645.00" fill="#697780" font-size="20" font-weight="400" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif">300</text>
+<line x1="776.17" y1="604.00" x2="776.17" y2="617.00" stroke="#697780" stroke-width="1.5" opacity="1"/>
+<text x="776.17" y="645.00" fill="#697780" font-size="20" font-weight="400" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif">400</text>
+<line x1="297.50" y1="356.00" x2="297.50" y2="590.00" stroke="#CFD7D9" stroke-width="2" opacity="1" stroke-dasharray="7 6"/>
+<line x1="333.40" y1="356.00" x2="333.40" y2="590.00" stroke="#B45C47" stroke-width="2" opacity="0.5" stroke-dasharray="5 6"/>
+<text x="341.40" y="346.00" fill="#B45C47" font-size="18" font-weight="400" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" style="font-family: Arial, Helvetica, sans-serif; font-size: 18px; font-weight: 400; font-style: normal; fill: rgb(180, 92, 71);">Prespecified difference 30</text>
+<circle cx="155.31" cy="425.00" r="7" fill="#A7B2B6" stroke="#FFFFFF" stroke-width="1.4" opacity="0.86"/>
+<circle cx="169.11" cy="537.00" r="7" fill="#A7B2B6" stroke="#FFFFFF" stroke-width="1.4" opacity="0.86"/>
+<circle cx="211.13" cy="505.00" r="7" fill="#A7B2B6" stroke="#FFFFFF" stroke-width="1.4" opacity="0.86"/>
+<circle cx="233.26" cy="473.00" r="7" fill="#A7B2B6" stroke="#FFFFFF" stroke-width="1.4" opacity="0.86"/>
+<circle cx="240.85" cy="441.00" r="7" fill="#A7B2B6" stroke="#FFFFFF" stroke-width="1.4" opacity="0.86"/>
+<circle cx="339.66" cy="553.00" r="7" fill="#A7B2B6" stroke="#FFFFFF" stroke-width="1.4" opacity="0.86"/>
+<circle cx="371.41" cy="521.00" r="7" fill="#A7B2B6" stroke="#FFFFFF" stroke-width="1.4" opacity="0.86"/>
+<circle cx="379.08" cy="489.00" r="7" fill="#A7B2B6" stroke="#FFFFFF" stroke-width="1.4" opacity="0.86"/>
+<circle cx="413.00" cy="457.00" r="7" fill="#A7B2B6" stroke="#FFFFFF" stroke-width="1.4" opacity="0.86"/>
+<circle cx="418.06" cy="425.00" r="7" fill="#A7B2B6" stroke="#FFFFFF" stroke-width="1.4" opacity="0.86"/>
+<circle cx="434.99" cy="537.00" r="7" fill="#A7B2B6" stroke="#FFFFFF" stroke-width="1.4" opacity="0.86"/>
+<circle cx="450.66" cy="505.00" r="7" fill="#A7B2B6" stroke="#FFFFFF" stroke-width="1.4" opacity="0.86"/>
+<circle cx="458.66" cy="473.00" r="7" fill="#A7B2B6" stroke="#FFFFFF" stroke-width="1.4" opacity="0.86"/>
+<circle cx="459.13" cy="441.00" r="7" fill="#A7B2B6" stroke="#FFFFFF" stroke-width="1.4" opacity="0.86"/>
+<circle cx="480.83" cy="553.00" r="7" fill="#A7B2B6" stroke="#FFFFFF" stroke-width="1.4" opacity="0.86"/>
+<circle cx="493.80" cy="521.00" r="7" fill="#A7B2B6" stroke="#FFFFFF" stroke-width="1.4" opacity="0.86"/>
+<circle cx="494.13" cy="489.00" r="7" fill="#A7B2B6" stroke="#FFFFFF" stroke-width="1.4" opacity="0.86"/>
+<circle cx="502.88" cy="457.00" r="7" fill="#A7B2B6" stroke="#FFFFFF" stroke-width="1.4" opacity="0.86"/>
+<circle cx="503.67" cy="425.00" r="7" fill="#A7B2B6" stroke="#FFFFFF" stroke-width="1.4" opacity="0.86"/>
+<circle cx="546.59" cy="537.00" r="7" fill="#A7B2B6" stroke="#FFFFFF" stroke-width="1.4" opacity="0.86"/>
+<circle cx="546.98" cy="505.00" r="7" fill="#A7B2B6" stroke="#FFFFFF" stroke-width="1.4" opacity="0.86"/>
+<circle cx="547.40" cy="473.00" r="7" fill="#A7B2B6" stroke="#FFFFFF" stroke-width="1.4" opacity="0.86"/>
+<circle cx="549.60" cy="441.00" r="7" fill="#A7B2B6" stroke="#FFFFFF" stroke-width="1.4" opacity="0.86"/>
+<circle cx="558.02" cy="553.00" r="7" fill="#A7B2B6" stroke="#FFFFFF" stroke-width="1.4" opacity="0.86"/>
+<circle cx="565.37" cy="521.00" r="7" fill="#A7B2B6" stroke="#FFFFFF" stroke-width="1.4" opacity="0.86"/>
+<circle cx="623.02" cy="489.00" r="7" fill="#A7B2B6" stroke="#FFFFFF" stroke-width="1.4" opacity="0.86"/>
+<circle cx="634.64" cy="457.00" r="7" fill="#A7B2B6" stroke="#FFFFFF" stroke-width="1.4" opacity="0.86"/>
+<circle cx="672.61" cy="425.00" r="7" fill="#A7B2B6" stroke="#FFFFFF" stroke-width="1.4" opacity="0.86"/>
+<circle cx="698.37" cy="537.00" r="7" fill="#A7B2B6" stroke="#FFFFFF" stroke-width="1.4" opacity="0.86"/>
+<circle cx="792.86" cy="505.00" r="7" fill="#A7B2B6" stroke="#FFFFFF" stroke-width="1.4" opacity="0.86"/>
+<line x1="487.32" y1="385.00" x2="487.32" y2="585.00" stroke="#B45C47" stroke-width="3" opacity="1"/>
+<path d="M 487.32 373.00 L 499.32 385.00 L 487.32 397.00 L 475.32 385.00 Z" fill="#B45C47"/>
+<text x="92.00" y="713.00" fill="#B45C47" font-size="30" font-weight="600" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" style="font-family: Arial, Helvetica, sans-serif; font-size: 30px; font-weight: 600; font-style: normal; fill: rgb(180, 92, 71);">Median excess impairment 158.6</text>
+<text x="92.00" y="756.00" fill="#697780" font-size="22" font-weight="400" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" style="font-family: Arial, Helvetica, sans-serif; font-size: 22px; font-weight: 400; font-style: normal; fill: rgb(105, 119, 128);">Positive differences: 25/30</text>
+<text x="950.00" y="251.00" fill="#197F78" font-size="27" font-weight="700" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif">B</text>
+<text x="990.00" y="251.00" fill="#26333D" font-size="31" font-weight="600" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" style="font-family: Arial, Helvetica, sans-serif; font-size: 31px; font-weight: 600; font-style: normal; fill: rgb(38, 51, 61);">Output sensitivity</text>
+<text x="950.00" y="302.00" fill="#697780" font-size="22" font-weight="400" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" style="font-family: Arial, Helvetica, sans-serif; font-size: 22px; font-weight: 400; font-style: normal; fill: rgb(105, 119, 128);">High vs low sensitivity; 30 lineages</text>
+<line x1="976.00" y1="610.00" x2="1678.00" y2="610.00" stroke="#697780" stroke-width="1.5" opacity="1"/>
+<line x1="976.00" y1="604.00" x2="976.00" y2="617.00" stroke="#697780" stroke-width="1.5" opacity="1"/>
+<text x="976.00" y="645.00" fill="#697780" font-size="20" font-weight="400" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif">-100</text>
+<line x1="1176.57" y1="604.00" x2="1176.57" y2="617.00" stroke="#697780" stroke-width="1.5" opacity="1"/>
+<text x="1176.57" y="645.00" fill="#697780" font-size="20" font-weight="400" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif">0</text>
+<line x1="1377.14" y1="604.00" x2="1377.14" y2="617.00" stroke="#697780" stroke-width="1.5" opacity="1"/>
+<text x="1377.14" y="645.00" fill="#697780" font-size="20" font-weight="400" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif">100</text>
+<line x1="1577.71" y1="604.00" x2="1577.71" y2="617.00" stroke="#697780" stroke-width="1.5" opacity="1"/>
+<text x="1577.71" y="645.00" fill="#697780" font-size="20" font-weight="400" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif">200</text>
+<line x1="1176.57" y1="356.00" x2="1176.57" y2="590.00" stroke="#CFD7D9" stroke-width="2" opacity="1" stroke-dasharray="7 6"/>
+<line x1="1236.74" y1="356.00" x2="1236.74" y2="590.00" stroke="#197F78" stroke-width="2" opacity="0.5" stroke-dasharray="5 6"/>
+<text x="1244.74" y="346.00" fill="#197F78" font-size="18" font-weight="400" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" style="font-family: Arial, Helvetica, sans-serif; font-size: 18px; font-weight: 400; font-style: normal; fill: rgb(25, 127, 120);">Prespecified difference 30</text>
+<circle cx="1102.31" cy="425.00" r="7" fill="#A7B2B6" stroke="#FFFFFF" stroke-width="1.4" opacity="0.86"/>
+<circle cx="1113.83" cy="537.00" r="7" fill="#A7B2B6" stroke="#FFFFFF" stroke-width="1.4" opacity="0.86"/>
+<circle cx="1164.62" cy="505.00" r="7" fill="#A7B2B6" stroke="#FFFFFF" stroke-width="1.4" opacity="0.86"/>
+<circle cx="1175.36" cy="473.00" r="7" fill="#A7B2B6" stroke="#FFFFFF" stroke-width="1.4" opacity="0.86"/>
+<circle cx="1176.57" cy="441.00" r="7" fill="#A7B2B6" stroke="#FFFFFF" stroke-width="1.4" opacity="0.86"/>
+<circle cx="1180.53" cy="553.00" r="7" fill="#A7B2B6" stroke="#FFFFFF" stroke-width="1.4" opacity="0.86"/>
+<circle cx="1182.70" cy="521.00" r="7" fill="#A7B2B6" stroke="#FFFFFF" stroke-width="1.4" opacity="0.86"/>
+<circle cx="1184.42" cy="489.00" r="7" fill="#A7B2B6" stroke="#FFFFFF" stroke-width="1.4" opacity="0.86"/>
+<circle cx="1185.93" cy="457.00" r="7" fill="#A7B2B6" stroke="#FFFFFF" stroke-width="1.4" opacity="0.86"/>
+<circle cx="1187.33" cy="425.00" r="7" fill="#A7B2B6" stroke="#FFFFFF" stroke-width="1.4" opacity="0.86"/>
+<circle cx="1187.95" cy="537.00" r="7" fill="#A7B2B6" stroke="#FFFFFF" stroke-width="1.4" opacity="0.86"/>
+<circle cx="1190.90" cy="505.00" r="7" fill="#A7B2B6" stroke="#FFFFFF" stroke-width="1.4" opacity="0.86"/>
+<circle cx="1229.62" cy="473.00" r="7" fill="#A7B2B6" stroke="#FFFFFF" stroke-width="1.4" opacity="0.86"/>
+<circle cx="1239.60" cy="441.00" r="7" fill="#A7B2B6" stroke="#FFFFFF" stroke-width="1.4" opacity="0.86"/>
+<circle cx="1264.92" cy="553.00" r="7" fill="#A7B2B6" stroke="#FFFFFF" stroke-width="1.4" opacity="0.86"/>
+<circle cx="1265.00" cy="521.00" r="7" fill="#A7B2B6" stroke="#FFFFFF" stroke-width="1.4" opacity="0.86"/>
+<circle cx="1294.63" cy="489.00" r="7" fill="#A7B2B6" stroke="#FFFFFF" stroke-width="1.4" opacity="0.86"/>
+<circle cx="1332.38" cy="457.00" r="7" fill="#A7B2B6" stroke="#FFFFFF" stroke-width="1.4" opacity="0.86"/>
+<circle cx="1350.66" cy="425.00" r="7" fill="#A7B2B6" stroke="#FFFFFF" stroke-width="1.4" opacity="0.86"/>
+<circle cx="1367.90" cy="537.00" r="7" fill="#A7B2B6" stroke="#FFFFFF" stroke-width="1.4" opacity="0.86"/>
+<circle cx="1371.60" cy="505.00" r="7" fill="#A7B2B6" stroke="#FFFFFF" stroke-width="1.4" opacity="0.86"/>
+<circle cx="1376.93" cy="473.00" r="7" fill="#A7B2B6" stroke="#FFFFFF" stroke-width="1.4" opacity="0.86"/>
+<circle cx="1386.67" cy="441.00" r="7" fill="#A7B2B6" stroke="#FFFFFF" stroke-width="1.4" opacity="0.86"/>
+<circle cx="1448.49" cy="553.00" r="7" fill="#A7B2B6" stroke="#FFFFFF" stroke-width="1.4" opacity="0.86"/>
+<circle cx="1484.00" cy="521.00" r="7" fill="#A7B2B6" stroke="#FFFFFF" stroke-width="1.4" opacity="0.86"/>
+<circle cx="1558.64" cy="489.00" r="7" fill="#A7B2B6" stroke="#FFFFFF" stroke-width="1.4" opacity="0.86"/>
+<circle cx="1585.75" cy="457.00" r="7" fill="#A7B2B6" stroke="#FFFFFF" stroke-width="1.4" opacity="0.86"/>
+<circle cx="1605.04" cy="425.00" r="7" fill="#A7B2B6" stroke="#FFFFFF" stroke-width="1.4" opacity="0.86"/>
+<circle cx="1696.66" cy="537.00" r="7" fill="#A7B2B6" stroke="#FFFFFF" stroke-width="1.4" opacity="0.86"/>
+<circle cx="1720.73" cy="505.00" r="7" fill="#A7B2B6" stroke="#FFFFFF" stroke-width="1.4" opacity="0.86"/>
+<line x1="1264.96" y1="385.00" x2="1264.96" y2="585.00" stroke="#197F78" stroke-width="3" opacity="1"/>
+<path d="M 1264.96 373.00 L 1276.96 385.00 L 1264.96 397.00 L 1252.96 385.00 Z" fill="#197F78"/>
+<text x="950.00" y="713.00" fill="#197F78" font-size="30" font-weight="600" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" style="font-family: Arial, Helvetica, sans-serif; font-size: 30px; font-weight: 600; font-style: normal; fill: rgb(25, 127, 120);">Median excess impairment 44.1</text>
+<text x="950.00" y="756.00" fill="#697780" font-size="22" font-weight="400" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" style="font-family: Arial, Helvetica, sans-serif; font-size: 22px; font-weight: 400; font-style: normal; fill: rgb(105, 119, 128);">Positive differences: 25/30</text>
+<text x="92.00" y="855.00" fill="#697780" font-size="22" font-weight="400" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" style="font-family: Arial, Helvetica, sans-serif; font-size: 22px; font-weight: 400; font-style: normal; fill: rgb(105, 119, 128);">Excess return loss at equal deletion counts; zero indicates no excess. Panels use separate scales.</text>
+<text x="92.00" y="898.00" fill="#697780" font-size="20" font-weight="400" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" style="font-family: Arial, Helvetica, sans-serif; font-size: 20px; font-weight: 400; font-style: normal; fill: rgb(105, 119, 128);">Matching both path-score component counts reduces eligible edges; exact-matching results are in the text.</text>
+</svg>

@@ -1,0 +1,76 @@
+{
+  "date": "2026-10-12",
+  "status": "passed",
+  "figure_count": 6,
+  "cross_perturbation_panel_rows": {
+    "a": 25,
+    "b": 30,
+    "c": 30,
+    "d": 30
+  },
+  "unique_cross_perturbation_topologies": 55,
+  "checks": [
+    "SVG parsed",
+    "PNG decoded",
+    "Unchanged historical artwork byte-identical",
+    "Source hashes recorded and historical sources verified",
+    "Scatter estimates match new analysis"
+  ],
+  "manifest_sha256": "e0b5a56ef37230fcd9ebbdfd216d746248a19ab7989870c9e8afa80618a692c8",
+  "media": {
+    "00_overview": {
+      "svg_sha256": "90bcdbdca8763b30a8464507cb58a9547557f4f823badab6e4e68b8ba195fdec",
+      "png_sha256": "45bf74ad796188977cd94693a4cdbf8c940bc5e40baf0f5c2c22d786d7b66f9d",
+      "png_pixels": [
+        2267,
+        1426
+      ],
+      "source": "Local execution completed 2026-10-12; new matched graphs and measurements"
+    },
+    "01_cross_perturbation": {
+      "svg_sha256": "ebb6e67c6afb1a33e40028ea9f843efc1d219d64a1a0aa9e3bf475f420ba3c76",
+      "png_sha256": "e2a29db28cc53eadbbf2f72dd8ce6a56a4cf0c2400015403514d832623d7cd7b",
+      "png_pixels": [
+        2125,
+        1854
+      ],
+      "source": "Local execution completed 2026-10-12; new matched graphs and measurements"
+    },
+    "02_topology_controls": {
+      "svg_sha256": "033e713c70b4bb5d75691b4487c8aea3a65284977085dc427f9ba6d09feb6b45",
+      "png_sha256": "80f860ae000ee214312b8ec8acb1c717e2e9f6d73a60ca48dac5170a4c78333a",
+      "png_pixels": [
+        1800,
+        1055
+      ],
+      "source": "Unchanged historical experiment; not rerun in the local execution"
+    },
+    "03_localization": {
+      "svg_sha256": "d25c4de12ffe3013b3f7c36a66ca4f88a25c7acb08a5cb164cec469ba3cdf651",
+      "png_sha256": "ecc4fac3da7aa577f8b6b4e3830e6742ebaf87a63680262f0c58e822f6643103",
+      "png_pixels": [
+        1800,
+        945
+      ],
+      "source": "Unchanged historical experiment; not rerun in the local execution"
+    },
+    "04_conditional_retention": {
+      "svg_sha256": "ddfcd6643a1303490b96541080d7c5c5445f8697f91ee6068c217a84b0154dd5",
+      "png_sha256": "5a65865571064c6303c26b01eb7aaf0369458d2ec9933818e2fb327ab2453020",
+      "png_pixels": [
+        1800,
+        1055
+      ],
+      "source": "Unchanged historical experiment; not rerun in the local execution"
+    },
+    "05_readout_boundaries": {
+      "svg_sha256": "4a56404350ad1ed2cd824cd9ea36d8cebc43a023e8ca7d2e21b6c5b528c3c63a",
+      "png_sha256": "b1f59f341ec98402411762953255003b8bccfd1011e05450338fd921230cb9f5",
+      "png_pixels": [
+        1800,
+        1445
+      ],
+      "source": "Unchanged historical experiment; not rerun in the local execution"
+    }
+  }
+}

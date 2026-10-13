@@ -1,0 +1,6 @@
+{
+  "scope": "historical equal-score matching audit only; no simulations",
+  "extracted_source_files": 42,
+  "regenerated_audit_byte_identical": true,
+  "audit_sha256": "b7b34f2c897d2ed423deee98737d6d3331d0b46839eabe36ae1593bf4c392746"
+}

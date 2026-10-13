@@ -1,0 +1,269 @@
+{
+  "date": "2026-10-12",
+  "status": "Current local-rerun figures and unchanged historical figures separated",
+  "current_source_sha256": {
+    "paper/manuscript_v5_zh_draft.md": "cddea7092382b2fb366cc2a7cc854b0dff19f2bcb8b6bbc3883a94ae1e11db03",
+    "paper/manuscript_v5_en_draft.md": "d523f51a015576a6426cde7a02b1abb9cd0588ed22b1f8f6d1e884eb2079a455",
+    "paper/analysis/2026-10-12_local_comparison.json": "d808827e0b68a1c26d0db0936aa46b44cc6ec19869c0c5b00a94f14a73ea0b9b",
+    "paper/analysis/2026-10-12_current_figure.json": "e40165eed555241c02f0b0368aa529e53e15eaebd626a0ca3352dfa56eecc8fd",
+    "paper/analysis/2026-10-12_current_lineages.csv": "d762412ecaadcfb7959b14da8a1a833e42c6763d5d35bd722e0c35b6a4955f1d",
+    "paper/figures/v5/figure2_source_data.csv": "dc6eae082622d6569d12557dc3981d98859750b38b7ba4afb04f6c55c1846097",
+    "paper/figures/v5/figure2_statistics.json": "391fdd525fb46cc047940fd7949ce36ce02b9e878ec5b5e47174e792bb213dbc"
+  },
+  "historical_source_sha256": {
+    "_phase8/audit_v9_layer1_route.json": "b2071a2bda0b82e0e176f0e57da7c383a2864c681930f60e1f037a8963c48cf1",
+    "e5_results_0803.tgz": "58ea0be04f407875aaed30ce34c170b0f135338ec9d99c5e6f646cd5539b2206",
+    "e2rv2_results_0803.tgz": "0ce03dbc5663d5dd27a903edef47f0d4dc86d97621bb478669b22fd6ff107085",
+    "artifact_e1/results_v7_v8_data.tar.gz": "202007f98c3018c9b0b6808e5e6d9014c0ef3aadfc888227098893df1863a771"
+  },
+  "historical_input_members": {
+    "e5_results_0803.tgz": "results_v6/e5_matched_skeleton/e5_analysis_cells.csv",
+    "e2rv2_results_0803.tgz": "results_v6/lesion_e2r_v2/e2r_lineages.csv",
+    "artifact_e1\\results_v7_v8_data.tar.gz": "results_v7/interaction_table.csv",
+    "readout_members": "results_v7/tie_table.csv; results_v7/ga_randtie_table.csv"
+  },
+  "media": {
+    "00_overview": {
+      "svg_sha256": "90bcdbdca8763b30a8464507cb58a9547557f4f823badab6e4e68b8ba195fdec",
+      "png_sha256": "45bf74ad796188977cd94693a4cdbf8c940bc5e40baf0f5c2c22d786d7b66f9d",
+      "png_pixels": [
+        2267,
+        1426
+      ],
+      "source": "Local execution completed 2026-10-12; new matched graphs and measurements"
+    },
+    "01_cross_perturbation": {
+      "svg_sha256": "ebb6e67c6afb1a33e40028ea9f843efc1d219d64a1a0aa9e3bf475f420ba3c76",
+      "png_sha256": "e2a29db28cc53eadbbf2f72dd8ce6a56a4cf0c2400015403514d832623d7cd7b",
+      "png_pixels": [
+        2125,
+        1854
+      ],
+      "source": "Local execution completed 2026-10-12; new matched graphs and measurements"
+    },
+    "02_topology_controls": {
+      "svg_sha256": "033e713c70b4bb5d75691b4487c8aea3a65284977085dc427f9ba6d09feb6b45",
+      "png_sha256": "80f860ae000ee214312b8ec8acb1c717e2e9f6d73a60ca48dac5170a4c78333a",
+      "png_pixels": [
+        1800,
+        1055
+      ],
+      "source": "Unchanged historical experiment; not rerun in the local execution"
+    },
+    "03_localization": {
+      "svg_sha256": "d25c4de12ffe3013b3f7c36a66ca4f88a25c7acb08a5cb164cec469ba3cdf651",
+      "png_sha256": "ecc4fac3da7aa577f8b6b4e3830e6742ebaf87a63680262f0c58e822f6643103",
+      "png_pixels": [
+        1800,
+        945
+      ],
+      "source": "Unchanged historical experiment; not rerun in the local execution"
+    },
+    "04_conditional_retention": {
+      "svg_sha256": "ddfcd6643a1303490b96541080d7c5c5445f8697f91ee6068c217a84b0154dd5",
+      "png_sha256": "5a65865571064c6303c26b01eb7aaf0369458d2ec9933818e2fb327ab2453020",
+      "png_pixels": [
+        1800,
+        1055
+      ],
+      "source": "Unchanged historical experiment; not rerun in the local execution"
+    },
+    "05_readout_boundaries": {
+      "svg_sha256": "4a56404350ad1ed2cd824cd9ea36d8cebc43a023e8ca7d2e21b6c5b528c3c63a",
+      "png_sha256": "b1f59f341ec98402411762953255003b8bccfd1011e05450338fd921230cb9f5",
+      "png_pixels": [
+        1800,
+        1445
+      ],
+      "source": "Unchanged historical experiment; not rerun in the local execution"
+    }
+  },
+  "scatter_statistics": {
+    "main": {
+      "rho": 0.6507692307692308,
+      "ci95": [
+        0.30575796456127985,
+        0.8628465139469569
+      ]
+    },
+    "extended": {
+      "rho": 0.6453837597330366,
+      "ci95": [
+        0.37067290166490896,
+        0.8156270568384649
+      ]
+    },
+    "repeat": {
+      "rho": 0.6186874304783093,
+      "ci95": [
+        0.3430064442034071,
+        0.801428013784416
+      ]
+    },
+    "cross": {
+      "rho": 0.6351501668520578,
+      "ci95": [
+        0.371251928319747,
+        0.8107655782030042
+      ]
+    }
+  },
+  "historical_results_figures_3_to_6": {
+    "controls": {
+      "CartPole": {
+        "F0_med": 499.405,
+        "dRA": {
+          "med": 480.653,
+          "ci_med": [
+            464.197,
+            483.631
+          ],
+          "mean": 472.0182,
+          "wilcoxon_p": 1.9073486328125e-06,
+          "frac_gt_sesoi": 1.0,
+          "holm_p": 1.71661376953125e-05
+        },
+        "dRW": {
+          "med": 484.675,
+          "ci_med": [
+            476.264,
+            486.202
+          ],
+          "mean": 475.2026000000001,
+          "wilcoxon_p": 1.9073486328125e-06,
+          "frac_gt_sesoi": 1.0,
+          "holm_p": 1.71661376953125e-05
+        },
+        "double_exceed": 20
+      },
+      "Acrobot": {
+        "F0_med": -90.35,
+        "dRA": {
+          "med": 400.592,
+          "ci_med": [
+            379.657,
+            409.14
+          ],
+          "mean": 388.0536,
+          "wilcoxon_p": 1.9073486328125e-06,
+          "frac_gt_sesoi": 1.0,
+          "holm_p": 1.71661376953125e-05
+        },
+        "dRW": {
+          "med": 404.329,
+          "ci_med": [
+            383.176,
+            409.915
+          ],
+          "mean": 386.2926,
+          "wilcoxon_p": 1.9073486328125e-06,
+          "frac_gt_sesoi": 1.0,
+          "holm_p": 1.71661376953125e-05
+        },
+        "double_exceed": 20
+      },
+      "MountainCar": {
+        "F0_med": -112.655,
+        "dRA": {
+          "med": 86.905,
+          "ci_med": [
+            86.6,
+            88.013425
+          ],
+          "mean": 81.56640000000002,
+          "wilcoxon_p": 0.0001289601382984357,
+          "frac_gt_sesoi": 0.95,
+          "holm_p": 0.000244140625
+        },
+        "dRW": {
+          "med": 86.8,
+          "ci_med": [
+            85.39699999999999,
+            87.92
+          ],
+          "mean": 80.654,
+          "wilcoxon_p": 0.00013018593685836283,
+          "frac_gt_sesoi": 0.95,
+          "holm_p": 0.000244140625
+        },
+        "double_exceed": 19
+      },
+      "LunarLander": {
+        "F0_med": -128.70971495751877,
+        "dRA": {
+          "med": 97.50232791744375,
+          "ci_med": [
+            59.97476720626108,
+            157.9292435972697
+          ],
+          "mean": 110.75961504705117,
+          "wilcoxon_p": 1.9073486328125e-06,
+          "frac_gt_sesoi": 0.9,
+          "holm_p": 1.71661376953125e-05
+        },
+        "dRW": {
+          "med": 113.70030459334988,
+          "ci_med": [
+            94.56967180869007,
+            160.9667291609247
+          ],
+          "mean": 118.46023504001118,
+          "wilcoxon_p": 1.9073486328125e-06,
+          "frac_gt_sesoi": 0.85,
+          "holm_p": 1.71661376953125e-05
+        },
+        "double_exceed": 15
+      }
+    },
+    "localization": {
+      "path": {
+        "n_cells": 60,
+        "n_lineages": 30,
+        "median": 158.62,
+        "positive": 25
+      },
+      "response": {
+        "n_lineages": 30,
+        "median": 44.07000000000001,
+        "positive": 25
+      }
+    },
+    "retention": {
+      "n_cells": 60,
+      "n_lineages": 30,
+      "medians": {
+        "J_F0": 499.475,
+        "J_skel_only": 276.4125,
+        "J_del_skel": 229.325,
+        "J_empty": 270.375
+      },
+      "median_deficits": {
+        "selected_only": 211.9375,
+        "other_only": 269.40000000000003
+      },
+      "median_interaction": 266.71250000000003,
+      "interface_above_partial": 20
+    },
+    "readout": {
+      "old_CartPole": {
+        "n": 20,
+        "median_loss": 459.65000000000003,
+        "positive_loss": 20
+      },
+      "new_randtie": {
+        "CartPole": {
+          "median_dRW": 464.85,
+          "dual_exceed": 19,
+          "median_F0_randtie": 480.35
+        },
+        "Acrobot": {
+          "median_dRW": 389.70000000000005,
+          "dual_exceed": 20,
+          "median_F0_randtie": -91.0
+        }
+      },
+      "coverage_source": "manuscript_v5_supplement_ranking.md, S9"
+    }
+  },
+  "overview": "Network layouts and waveforms are schematics; correlation panel uses new measured data"
+}

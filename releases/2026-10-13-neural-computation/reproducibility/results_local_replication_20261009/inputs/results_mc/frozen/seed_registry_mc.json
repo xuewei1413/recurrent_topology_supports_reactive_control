@@ -1,0 +1,1927 @@
+{
+  "registry_name": "mc2026_seed_registry_v1",
+  "created": "2026-08-08",
+  "derive_rule": "sha256('mc2026|' + '|'.join(parts))[:16] hex int; evolution/episode 主种子直接采用显式整数",
+  "historical_segments": {
+    "evolution": [
+      [
+        1000,
+        1004,
+        "pilot"
+      ],
+      [
+        2000,
+        2019,
+        "v2 confirmatory main"
+      ],
+      [
+        3000,
+        3019,
+        "v3 confirmatory"
+      ],
+      [
+        3020,
+        3034,
+        "c2 held-out"
+      ],
+      [
+        3040,
+        3054,
+        "c3 (CartPole)"
+      ],
+      [
+        3100,
+        3119,
+        "v7/v8 randtie re-evolution"
+      ],
+      [
+        7000,
+        7009,
+        "e5/e6 sf-grid"
+      ],
+      [
+        7100,
+        7102,
+        "e1 GA variants"
+      ],
+      [
+        50000,
+        52999,
+        "boundary/density"
+      ],
+      [
+        97000,
+        97009,
+        "density-evo"
+      ],
+      [
+        99000,
+        99009,
+        "density-evo"
+      ],
+      [
+        500000,
+        899999,
+        "e0/e1/e2 construction bases"
+      ]
+    ],
+    "episode": [
+      [
+        10000,
+        30099,
+        "v2 train/val/test"
+      ],
+      [
+        40000,
+        47049,
+        "boundary"
+      ],
+      [
+        50000,
+        50099,
+        "v2b audit"
+      ],
+      [
+        60000,
+        61999,
+        "v3 train/val"
+      ],
+      [
+        70000,
+        70099,
+        "v3 test"
+      ],
+      [
+        80000,
+        82999,
+        "e1"
+      ],
+      [
+        83000,
+        85099,
+        "v7 randtie train/selection/test"
+      ],
+      [
+        90000,
+        90099,
+        "v4/v5 train"
+      ],
+      [
+        91000,
+        91019,
+        "v4/v5 selection"
+      ],
+      [
+        92000,
+        92099,
+        "v4/v5 test"
+      ],
+      [
+        93000,
+        93019,
+        "EVAL mechanism"
+      ],
+      [
+        93020,
+        93039,
+        "EVAL2 (e2)"
+      ],
+      [
+        93040,
+        93059,
+        "EVAL3 (e2r/e5)"
+      ],
+      [
+        93500,
+        93539,
+        "e0 noise / e4 pool"
+      ],
+      [
+        94000,
+        94019,
+        "robustness noise"
+      ],
+      [
+        94200,
+        94219,
+        "EVAL4 (e6)"
+      ],
+      [
+        95000,
+        95029,
+        "robustness edge masks"
+      ],
+      [
+        96000,
+        96099,
+        "context / e5b"
+      ],
+      [
+        97000,
+        97009,
+        "density-sel"
+      ],
+      [
+        98000,
+        98019,
+        "density-test"
+      ],
+      [
+        99000,
+        99009,
+        "density-evo"
+      ]
+    ]
+  },
+  "new_segments": {
+    "evolution": [
+      [
+        4000,
+        4011,
+        "mc2026 CartPole lineage"
+      ],
+      [
+        4012,
+        4023,
+        "mc2026 Acrobot lineage"
+      ]
+    ],
+    "episode": [
+      [
+        86000,
+        86099,
+        "mc2026 train"
+      ],
+      [
+        86100,
+        86119,
+        "mc2026 selection"
+      ],
+      [
+        86200,
+        86299,
+        "mc2026 test"
+      ],
+      [
+        86300,
+        86319,
+        "mc2026 calibration (old topo only)"
+      ],
+      [
+        86400,
+        86419,
+        "mc2026 final_confirm"
+      ]
+    ]
+  },
+  "seeds": {
+    "4000": {
+      "segment": "4000-4011",
+      "tag": "mc2026 CartPole lineage",
+      "canonical": "mc2026|role=evolution|index=4000|mc2026 CartPole lineage",
+      "sha256": "3d6521532d8de16c774ffa6c50051a972fa0e50b787745b87437fbbeacc53164"
+    },
+    "4001": {
+      "segment": "4000-4011",
+      "tag": "mc2026 CartPole lineage",
+      "canonical": "mc2026|role=evolution|index=4001|mc2026 CartPole lineage",
+      "sha256": "fc2ca88b220a709fc38b44efc308ecd19dae96285a308397fd70111e28ae7095"
+    },
+    "4002": {
+      "segment": "4000-4011",
+      "tag": "mc2026 CartPole lineage",
+      "canonical": "mc2026|role=evolution|index=4002|mc2026 CartPole lineage",
+      "sha256": "64cf8e7c841865e98c45e8af30b7ff99cac935559ab612fb1492689cb6b102ec"
+    },
+    "4003": {
+      "segment": "4000-4011",
+      "tag": "mc2026 CartPole lineage",
+      "canonical": "mc2026|role=evolution|index=4003|mc2026 CartPole lineage",
+      "sha256": "955e94f7ddf078457f9daea3db6e7d1e133b9834afe2ba0bde57127f6b53fa2a"
+    },
+    "4004": {
+      "segment": "4000-4011",
+      "tag": "mc2026 CartPole lineage",
+      "canonical": "mc2026|role=evolution|index=4004|mc2026 CartPole lineage",
+      "sha256": "cfe550c9995ed0eb6b11f1f5b6de0639dc003f3e379334f86aef3430af6c853c"
+    },
+    "4005": {
+      "segment": "4000-4011",
+      "tag": "mc2026 CartPole lineage",
+      "canonical": "mc2026|role=evolution|index=4005|mc2026 CartPole lineage",
+      "sha256": "a9a0332ffb3c5ab27c5df996919f4a49ac6797ad7d2ec1fe6b820704c057e75f"
+    },
+    "4006": {
+      "segment": "4000-4011",
+      "tag": "mc2026 CartPole lineage",
+      "canonical": "mc2026|role=evolution|index=4006|mc2026 CartPole lineage",
+      "sha256": "eac35eb53c0547f6a342ff8cd16dbac334f6d63c3002e8bc2999aa8fb112d529"
+    },
+    "4007": {
+      "segment": "4000-4011",
+      "tag": "mc2026 CartPole lineage",
+      "canonical": "mc2026|role=evolution|index=4007|mc2026 CartPole lineage",
+      "sha256": "e4040c67954754739de6f0a4070359e5e0919a177da070d5b82745f7490a672f"
+    },
+    "4008": {
+      "segment": "4000-4011",
+      "tag": "mc2026 CartPole lineage",
+      "canonical": "mc2026|role=evolution|index=4008|mc2026 CartPole lineage",
+      "sha256": "834e7e9a38048665027e8b6684135dc8cf369ddc0be4f36fa81c1c7736e3c6e4"
+    },
+    "4009": {
+      "segment": "4000-4011",
+      "tag": "mc2026 CartPole lineage",
+      "canonical": "mc2026|role=evolution|index=4009|mc2026 CartPole lineage",
+      "sha256": "064420c2d1e2a96f9b5da8e37128fe2a36c3db3f212d5dd001ccb2cf280ea362"
+    },
+    "4010": {
+      "segment": "4000-4011",
+      "tag": "mc2026 CartPole lineage",
+      "canonical": "mc2026|role=evolution|index=4010|mc2026 CartPole lineage",
+      "sha256": "430adba2a2c84e5123f11906ca242c7c5d8517a0e96d80c8a2a6c175adf03d62"
+    },
+    "4011": {
+      "segment": "4000-4011",
+      "tag": "mc2026 CartPole lineage",
+      "canonical": "mc2026|role=evolution|index=4011|mc2026 CartPole lineage",
+      "sha256": "0239db1f5ebb23ecebe537b4e1dc4659a21c176717d9dff431a874dd1746425e"
+    },
+    "4012": {
+      "segment": "4012-4023",
+      "tag": "mc2026 Acrobot lineage",
+      "canonical": "mc2026|role=evolution|index=4012|mc2026 Acrobot lineage",
+      "sha256": "2d7118e0a11c78ac57eb09517bb9e8995b2211e3a4be25d572a34263c4eec157"
+    },
+    "4013": {
+      "segment": "4012-4023",
+      "tag": "mc2026 Acrobot lineage",
+      "canonical": "mc2026|role=evolution|index=4013|mc2026 Acrobot lineage",
+      "sha256": "447d5aa91447e923189e13d2dc05c7f20f08e9a0a4b5f37fbf3df090c790d4c6"
+    },
+    "4014": {
+      "segment": "4012-4023",
+      "tag": "mc2026 Acrobot lineage",
+      "canonical": "mc2026|role=evolution|index=4014|mc2026 Acrobot lineage",
+      "sha256": "e7ff845eecbfa1613f164744bc848e1f93096ec140701e2322fef2dc5b245771"
+    },
+    "4015": {
+      "segment": "4012-4023",
+      "tag": "mc2026 Acrobot lineage",
+      "canonical": "mc2026|role=evolution|index=4015|mc2026 Acrobot lineage",
+      "sha256": "b44fa5f206ae9ca84a7e5622cb31cbc3b5dad77f9e3f8a52cee75689e2014bec"
+    },
+    "4016": {
+      "segment": "4012-4023",
+      "tag": "mc2026 Acrobot lineage",
+      "canonical": "mc2026|role=evolution|index=4016|mc2026 Acrobot lineage",
+      "sha256": "592cdf2276e56a6af776df49e6e2fe3e0f577ebe88c236ee5e22212e70dbbb3e"
+    },
+    "4017": {
+      "segment": "4012-4023",
+      "tag": "mc2026 Acrobot lineage",
+      "canonical": "mc2026|role=evolution|index=4017|mc2026 Acrobot lineage",
+      "sha256": "41a1138a3258c93022f463ee3b4b0e874fc3f7a11ef8b0c474f0fe29c473aeda"
+    },
+    "4018": {
+      "segment": "4012-4023",
+      "tag": "mc2026 Acrobot lineage",
+      "canonical": "mc2026|role=evolution|index=4018|mc2026 Acrobot lineage",
+      "sha256": "844307ab2b0ab759e4d765400a03cd53f3be34559e30ca5b31608063a46f3026"
+    },
+    "4019": {
+      "segment": "4012-4023",
+      "tag": "mc2026 Acrobot lineage",
+      "canonical": "mc2026|role=evolution|index=4019|mc2026 Acrobot lineage",
+      "sha256": "144d4210186515407f0e9ff4b00dd7c0bdad8e6d72ef1e5797157502836c08c9"
+    },
+    "4020": {
+      "segment": "4012-4023",
+      "tag": "mc2026 Acrobot lineage",
+      "canonical": "mc2026|role=evolution|index=4020|mc2026 Acrobot lineage",
+      "sha256": "78305da0773bff634d84875e5d663ec591ad68d900dfeebcb9090612a3553b65"
+    },
+    "4021": {
+      "segment": "4012-4023",
+      "tag": "mc2026 Acrobot lineage",
+      "canonical": "mc2026|role=evolution|index=4021|mc2026 Acrobot lineage",
+      "sha256": "18ba4fefffea1933d1087746ca4147a56060264dc98ad6bed49112d9bff66749"
+    },
+    "4022": {
+      "segment": "4012-4023",
+      "tag": "mc2026 Acrobot lineage",
+      "canonical": "mc2026|role=evolution|index=4022|mc2026 Acrobot lineage",
+      "sha256": "bc8cf4861273915c1d0ca0d76367aa295d7c552eb18d02b34092a1b9f159614f"
+    },
+    "4023": {
+      "segment": "4012-4023",
+      "tag": "mc2026 Acrobot lineage",
+      "canonical": "mc2026|role=evolution|index=4023|mc2026 Acrobot lineage",
+      "sha256": "7fbe25594f040b39fda003006b41101b724e8b9c479b84dea6ae54f6152b0936"
+    },
+    "86000": {
+      "segment": "86000-86099",
+      "tag": "mc2026 train",
+      "canonical": "mc2026|role=episode|index=86000|mc2026 train",
+      "sha256": "f552d687bb020f178d5bf3d3c643ea2cbc1f454228bb7244d4b55c5fa0beee81"
+    },
+    "86001": {
+      "segment": "86000-86099",
+      "tag": "mc2026 train",
+      "canonical": "mc2026|role=episode|index=86001|mc2026 train",
+      "sha256": "062edcd7a58963041d7e43e3bb6150f3b0059473e4fc7e0206605f3ae807ca8b"
+    },
+    "86002": {
+      "segment": "86000-86099",
+      "tag": "mc2026 train",
+      "canonical": "mc2026|role=episode|index=86002|mc2026 train",
+      "sha256": "9b21350e83d6a031c087d278cee4499310babc4e0887a8e53d6cc912e4647032"
+    },
+    "86003": {
+      "segment": "86000-86099",
+      "tag": "mc2026 train",
+      "canonical": "mc2026|role=episode|index=86003|mc2026 train",
+      "sha256": "54126240d027c3e49b94a1919bf65ee3eecffe73f05f4050624ef44450fa7149"
+    },
+    "86004": {
+      "segment": "86000-86099",
+      "tag": "mc2026 train",
+      "canonical": "mc2026|role=episode|index=86004|mc2026 train",
+      "sha256": "43e08b276e40d48f88a0e5ca357756bfccf982b13a7e39dd332fe7ad3774e5d4"
+    },
+    "86005": {
+      "segment": "86000-86099",
+      "tag": "mc2026 train",
+      "canonical": "mc2026|role=episode|index=86005|mc2026 train",
+      "sha256": "8276c3492544d53f958fcbdf8d073a2cb847bdd2d577decc4aff1f62036638f3"
+    },
+    "86006": {
+      "segment": "86000-86099",
+      "tag": "mc2026 train",
+      "canonical": "mc2026|role=episode|index=86006|mc2026 train",
+      "sha256": "4bb2be0d7f978ace7d689048709d01ebef4808a1fe8cfd08be879ecb1c194e32"
+    },
+    "86007": {
+      "segment": "86000-86099",
+      "tag": "mc2026 train",
+      "canonical": "mc2026|role=episode|index=86007|mc2026 train",
+      "sha256": "bc3e2f5321f75c9f10367ffd12ad28f57b40903e1bf3d7027e4cae94b95eff50"
+    },
+    "86008": {
+      "segment": "86000-86099",
+      "tag": "mc2026 train",
+      "canonical": "mc2026|role=episode|index=86008|mc2026 train",
+      "sha256": "3019b9b78a61e9e84595fcc8f551e8f5c6f45070ea6b0c016b1ef35368e49c2b"
+    },
+    "86009": {
+      "segment": "86000-86099",
+      "tag": "mc2026 train",
+      "canonical": "mc2026|role=episode|index=86009|mc2026 train",
+      "sha256": "400ce0e38d8a3c9cc435ff201ef1d9007dd564719914c8db3971ab57b91d7d16"
+    },
+    "86010": {
+      "segment": "86000-86099",
+      "tag": "mc2026 train",
+      "canonical": "mc2026|role=episode|index=86010|mc2026 train",
+      "sha256": "8b9fd81951cd12729dc13c4e77969ee99ced42fc9ad0da07a35e6c244e669851"
+    },
+    "86011": {
+      "segment": "86000-86099",
+      "tag": "mc2026 train",
+      "canonical": "mc2026|role=episode|index=86011|mc2026 train",
+      "sha256": "f2cfa0b77023bd8d33529f863ff58e56af60f50735dc17d03887dea9b0771bd6"
+    },
+    "86012": {
+      "segment": "86000-86099",
+      "tag": "mc2026 train",
+      "canonical": "mc2026|role=episode|index=86012|mc2026 train",
+      "sha256": "431deaddc0723283fa6a95a74818f18801a68ec3348fdba345354d5cb3716538"
+    },
+    "86013": {
+      "segment": "86000-86099",
+      "tag": "mc2026 train",
+      "canonical": "mc2026|role=episode|index=86013|mc2026 train",
+      "sha256": "ed847f3cea30bd106c101c5c5f5cc868c0814b697b9dfd19ccf17313d8c2e608"
+    },
+    "86014": {
+      "segment": "86000-86099",
+      "tag": "mc2026 train",
+      "canonical": "mc2026|role=episode|index=86014|mc2026 train",
+      "sha256": "353c14b5226bba7727aa46b215975f596778b95dfd8d5c6ef311eb7154f1c756"
+    },
+    "86015": {
+      "segment": "86000-86099",
+      "tag": "mc2026 train",
+      "canonical": "mc2026|role=episode|index=86015|mc2026 train",
+      "sha256": "379863ffbdc432aa56eb03c96f19c71b107ef64fbcdf3b14976e88482321adec"
+    },
+    "86016": {
+      "segment": "86000-86099",
+      "tag": "mc2026 train",
+      "canonical": "mc2026|role=episode|index=86016|mc2026 train",
+      "sha256": "c599d3f4a9eaeea4d269fabc9168cac6b80da7fb0e6f8e37438de760638ed8e4"
+    },
+    "86017": {
+      "segment": "86000-86099",
+      "tag": "mc2026 train",
+      "canonical": "mc2026|role=episode|index=86017|mc2026 train",
+      "sha256": "3ecf27426d1d787251e6efe58f299ff059372c7f71fc5993cc32af0ef9605f73"
+    },
+    "86018": {
+      "segment": "86000-86099",
+      "tag": "mc2026 train",
+      "canonical": "mc2026|role=episode|index=86018|mc2026 train",
+      "sha256": "a3b6c0d265bae6033a342e12c06fff1f69aa44c5ba2c734ad14d95e41683bd24"
+    },
+    "86019": {
+      "segment": "86000-86099",
+      "tag": "mc2026 train",
+      "canonical": "mc2026|role=episode|index=86019|mc2026 train",
+      "sha256": "a8b0818eb3f40b5b760fab67067ad8c04b59406ea0f1a7c218193398b70c78f7"
+    },
+    "86020": {
+      "segment": "86000-86099",
+      "tag": "mc2026 train",
+      "canonical": "mc2026|role=episode|index=86020|mc2026 train",
+      "sha256": "550a334cc3cc0c57dfd4ba42115419e60f801297c3562a94b15be85f9192be51"
+    },
+    "86021": {
+      "segment": "86000-86099",
+      "tag": "mc2026 train",
+      "canonical": "mc2026|role=episode|index=86021|mc2026 train",
+      "sha256": "d7923d38bcc7c3eaa5bc4012a794abc582fbf6a863430d9b1273aa671584bb1b"
+    },
+    "86022": {
+      "segment": "86000-86099",
+      "tag": "mc2026 train",
+      "canonical": "mc2026|role=episode|index=86022|mc2026 train",
+      "sha256": "e6bed93449424e5d71fe0c6b98fc67a8d334d8a4949c41583eb5d7b7b722747c"
+    },
+    "86023": {
+      "segment": "86000-86099",
+      "tag": "mc2026 train",
+      "canonical": "mc2026|role=episode|index=86023|mc2026 train",
+      "sha256": "80514c3da2b9a451dde6a5d3692db19669c16315ff2a1460605fecb11303bb63"
+    },
+    "86024": {
+      "segment": "86000-86099",
+      "tag": "mc2026 train",
+      "canonical": "mc2026|role=episode|index=86024|mc2026 train",
+      "sha256": "f38a0a19c5d5c0b26441bcf2846d9ae9972a5f43835cb8aa22380f41c7487f7c"
+    },
+    "86025": {
+      "segment": "86000-86099",
+      "tag": "mc2026 train",
+      "canonical": "mc2026|role=episode|index=86025|mc2026 train",
+      "sha256": "155480ac26ab039774a1ba3b35404cd83a0d997d28fe072c1ba52dacb6d8469a"
+    },
+    "86026": {
+      "segment": "86000-86099",
+      "tag": "mc2026 train",
+      "canonical": "mc2026|role=episode|index=86026|mc2026 train",
+      "sha256": "de2a8b4916065713d1ecddef3773caf0cf82fd9a78f9200a38dccc0a53b58588"
+    },
+    "86027": {
+      "segment": "86000-86099",
+      "tag": "mc2026 train",
+      "canonical": "mc2026|role=episode|index=86027|mc2026 train",
+      "sha256": "6598c1ece06be2e929d2110e00b5f645032198ff916faf69adb03ee1b9b56367"
+    },
+    "86028": {
+      "segment": "86000-86099",
+      "tag": "mc2026 train",
+      "canonical": "mc2026|role=episode|index=86028|mc2026 train",
+      "sha256": "4957e9076c9a6b68f6ec17a2fe6a4784fbd36e520d964bdee0598f788abe6a2f"
+    },
+    "86029": {
+      "segment": "86000-86099",
+      "tag": "mc2026 train",
+      "canonical": "mc2026|role=episode|index=86029|mc2026 train",
+      "sha256": "8a7a16a2f8d405c394696af9ec88d72e09c61c9a3ce9d4148f9afa2701a51bbd"
+    },
+    "86030": {
+      "segment": "86000-86099",
+      "tag": "mc2026 train",
+      "canonical": "mc2026|role=episode|index=86030|mc2026 train",
+      "sha256": "9717ba97fb2953cfcf4fb47372aa1fffb8e39c457eee06256cbd977cdd43ae64"
+    },
+    "86031": {
+      "segment": "86000-86099",
+      "tag": "mc2026 train",
+      "canonical": "mc2026|role=episode|index=86031|mc2026 train",
+      "sha256": "28424d43a414127368b623aa8202ab01fbb328adb23800a5d9d704f0497cc489"
+    },
+    "86032": {
+      "segment": "86000-86099",
+      "tag": "mc2026 train",
+      "canonical": "mc2026|role=episode|index=86032|mc2026 train",
+      "sha256": "d5e357b1ee0da3a035035b138adac0dd0fcbb11da45e2eaa59ee81592569baf1"
+    },
+    "86033": {
+      "segment": "86000-86099",
+      "tag": "mc2026 train",
+      "canonical": "mc2026|role=episode|index=86033|mc2026 train",
+      "sha256": "86f05e04f3b852b96039095c95a231382e9c3d2bee558cb2f8ec10d3a806e1e0"
+    },
+    "86034": {
+      "segment": "86000-86099",
+      "tag": "mc2026 train",
+      "canonical": "mc2026|role=episode|index=86034|mc2026 train",
+      "sha256": "04daa09e571738e444479b280b1bd3e51a1a3ccbc213eeba291626bbc1e6db9b"
+    },
+    "86035": {
+      "segment": "86000-86099",
+      "tag": "mc2026 train",
+      "canonical": "mc2026|role=episode|index=86035|mc2026 train",
+      "sha256": "0962f6eda033f0f5cfd195342c4e18dde7745820078c1d4855c97649f03c3725"
+    },
+    "86036": {
+      "segment": "86000-86099",
+      "tag": "mc2026 train",
+      "canonical": "mc2026|role=episode|index=86036|mc2026 train",
+      "sha256": "cffd2640bf008931a51fad664523b8ebd10648c9e4603ac3967c809cd956be81"
+    },
+    "86037": {
+      "segment": "86000-86099",
+      "tag": "mc2026 train",
+      "canonical": "mc2026|role=episode|index=86037|mc2026 train",
+      "sha256": "7d54419ae70e44246064d9d9e7d57c3d4116ffaa09b6fbb182aab6e00e9bc32e"
+    },
+    "86038": {
+      "segment": "86000-86099",
+      "tag": "mc2026 train",
+      "canonical": "mc2026|role=episode|index=86038|mc2026 train",
+      "sha256": "71c1bebd2234d26c0c99bdf29aecb00cb125184e81016f666fb8f5616a29df6e"
+    },
+    "86039": {
+      "segment": "86000-86099",
+      "tag": "mc2026 train",
+      "canonical": "mc2026|role=episode|index=86039|mc2026 train",
+      "sha256": "0330ec956915eb2a8593448241d9feab6fb96d26e4d9f36d39dc3e7398fb3160"
+    },
+    "86040": {
+      "segment": "86000-86099",
+      "tag": "mc2026 train",
+      "canonical": "mc2026|role=episode|index=86040|mc2026 train",
+      "sha256": "a21e199c00edfaee7a1dae17272370973628d360df72e1c730dea56e1dfa0c95"
+    },
+    "86041": {
+      "segment": "86000-86099",
+      "tag": "mc2026 train",
+      "canonical": "mc2026|role=episode|index=86041|mc2026 train",
+      "sha256": "e8ff547c42bd39749f118475e56d484637da98af7328926812ad95d37e006d75"
+    },
+    "86042": {
+      "segment": "86000-86099",
+      "tag": "mc2026 train",
+      "canonical": "mc2026|role=episode|index=86042|mc2026 train",
+      "sha256": "63ab98b1200e1d9fefb5fbcd6a8cbe199455cd27b6197e48e7358883ee6ab42c"
+    },
+    "86043": {
+      "segment": "86000-86099",
+      "tag": "mc2026 train",
+      "canonical": "mc2026|role=episode|index=86043|mc2026 train",
+      "sha256": "44244de285384188053c511824b86de0cacd1f18052f6bc1dcdf30fa10a54f53"
+    },
+    "86044": {
+      "segment": "86000-86099",
+      "tag": "mc2026 train",
+      "canonical": "mc2026|role=episode|index=86044|mc2026 train",
+      "sha256": "808a57d376c1f7e99987579f909d2f676b4fea33244c9d4eb4e1d8c84fb454c7"
+    },
+    "86045": {
+      "segment": "86000-86099",
+      "tag": "mc2026 train",
+      "canonical": "mc2026|role=episode|index=86045|mc2026 train",
+      "sha256": "d61a61fbe3ac66def3e847c07536b80e14e9b951fd8523d3a06f0caec5f978da"
+    },
+    "86046": {
+      "segment": "86000-86099",
+      "tag": "mc2026 train",
+      "canonical": "mc2026|role=episode|index=86046|mc2026 train",
+      "sha256": "8d91f30b864824cde4c00024ffb4248e520cf56014b79729b92ada93930b2fc1"
+    },
+    "86047": {
+      "segment": "86000-86099",
+      "tag": "mc2026 train",
+      "canonical": "mc2026|role=episode|index=86047|mc2026 train",
+      "sha256": "068191f328dcdef998db39eec778bbc3157478c376b26481ae2fd397c68d050e"
+    },
+    "86048": {
+      "segment": "86000-86099",
+      "tag": "mc2026 train",
+      "canonical": "mc2026|role=episode|index=86048|mc2026 train",
+      "sha256": "7a7dbd3edd804fc7acd4781f6e3fab3c060a00381da87e96c9936d66de877683"
+    },
+    "86049": {
+      "segment": "86000-86099",
+      "tag": "mc2026 train",
+      "canonical": "mc2026|role=episode|index=86049|mc2026 train",
+      "sha256": "e4028bb6dcaea870d65e2f7ab0d2710d6ad2dd7202cc59368117335aa3e8e8f9"
+    },
+    "86050": {
+      "segment": "86000-86099",
+      "tag": "mc2026 train",
+      "canonical": "mc2026|role=episode|index=86050|mc2026 train",
+      "sha256": "3848437903be7d0787a2667bc550d43f0883f858149ee22de54b535394dcf1bb"
+    },
+    "86051": {
+      "segment": "86000-86099",
+      "tag": "mc2026 train",
+      "canonical": "mc2026|role=episode|index=86051|mc2026 train",
+      "sha256": "3151ccafeb4cac40971a13fb03a15349cf763ee59bb145e0db8fc08c6643ec55"
+    },
+    "86052": {
+      "segment": "86000-86099",
+      "tag": "mc2026 train",
+      "canonical": "mc2026|role=episode|index=86052|mc2026 train",
+      "sha256": "4659ed9c29a68fa82f7fb8d3af2ce373eddd25dc06728096cbf37bf48558e901"
+    },
+    "86053": {
+      "segment": "86000-86099",
+      "tag": "mc2026 train",
+      "canonical": "mc2026|role=episode|index=86053|mc2026 train",
+      "sha256": "956c1af92c522f564b9ec7b3c835e7f5b5d7ede589e5cfcb202405e37f69ff97"
+    },
+    "86054": {
+      "segment": "86000-86099",
+      "tag": "mc2026 train",
+      "canonical": "mc2026|role=episode|index=86054|mc2026 train",
+      "sha256": "5033f089a389c462ae9fa065d587e6c45c702c333c583f587e5ce69c012846a6"
+    },
+    "86055": {
+      "segment": "86000-86099",
+      "tag": "mc2026 train",
+      "canonical": "mc2026|role=episode|index=86055|mc2026 train",
+      "sha256": "7d5bbcfd63a769d5543f9a59497e2a298d3170254711e8eed16b5f7f77a2557d"
+    },
+    "86056": {
+      "segment": "86000-86099",
+      "tag": "mc2026 train",
+      "canonical": "mc2026|role=episode|index=86056|mc2026 train",
+      "sha256": "282652e8ac63e36da73302ded28124088acd120e0e88e0dd43ec4efde4723ca9"
+    },
+    "86057": {
+      "segment": "86000-86099",
+      "tag": "mc2026 train",
+      "canonical": "mc2026|role=episode|index=86057|mc2026 train",
+      "sha256": "8749429ff41c2a71498566eefdc2693d07af6a435fb6607be9df764b6e18bfeb"
+    },
+    "86058": {
+      "segment": "86000-86099",
+      "tag": "mc2026 train",
+      "canonical": "mc2026|role=episode|index=86058|mc2026 train",
+      "sha256": "98d211afa0d8f472a730b38e19207dd7db116d2c0a799353271775430f4c6b59"
+    },
+    "86059": {
+      "segment": "86000-86099",
+      "tag": "mc2026 train",
+      "canonical": "mc2026|role=episode|index=86059|mc2026 train",
+      "sha256": "e3e7e50df461dfdfb25d3b21d2d23b27676719a7ea7dfa2b4a0ea0e1c2b32217"
+    },
+    "86060": {
+      "segment": "86000-86099",
+      "tag": "mc2026 train",
+      "canonical": "mc2026|role=episode|index=86060|mc2026 train",
+      "sha256": "2afc99cf4eec471a8a491cac54a8462ff53376dade98c6cbde7776a8fa31b883"
+    },
+    "86061": {
+      "segment": "86000-86099",
+      "tag": "mc2026 train",
+      "canonical": "mc2026|role=episode|index=86061|mc2026 train",
+      "sha256": "60b3b49ccabcb4fe8a56c7e7236ebd3c1df3326681fcf8de199386ea4cc2070f"
+    },
+    "86062": {
+      "segment": "86000-86099",
+      "tag": "mc2026 train",
+      "canonical": "mc2026|role=episode|index=86062|mc2026 train",
+      "sha256": "52dacda867b81ba6ca7b91aa5877fdfc7cdd402d135732603a897c7d8cde7990"
+    },
+    "86063": {
+      "segment": "86000-86099",
+      "tag": "mc2026 train",
+      "canonical": "mc2026|role=episode|index=86063|mc2026 train",
+      "sha256": "f728adc5076699759cad888583af38cba50b2bd5430df11f5a18f95484c719d1"
+    },
+    "86064": {
+      "segment": "86000-86099",
+      "tag": "mc2026 train",
+      "canonical": "mc2026|role=episode|index=86064|mc2026 train",
+      "sha256": "073ba31fc0a7988610a449b82b66caf63122757f8077c28950b27163b8baa625"
+    },
+    "86065": {
+      "segment": "86000-86099",
+      "tag": "mc2026 train",
+      "canonical": "mc2026|role=episode|index=86065|mc2026 train",
+      "sha256": "b455d829ce8d0edd6919333d0bb67217af02468415ba42f0d6463bf76df98bfd"
+    },
+    "86066": {
+      "segment": "86000-86099",
+      "tag": "mc2026 train",
+      "canonical": "mc2026|role=episode|index=86066|mc2026 train",
+      "sha256": "3e00d22533162cb7b5bcb62b094140ea2513a5135b369b30bd263fe7b4f74fe3"
+    },
+    "86067": {
+      "segment": "86000-86099",
+      "tag": "mc2026 train",
+      "canonical": "mc2026|role=episode|index=86067|mc2026 train",
+      "sha256": "390d2dc535cc82021f7d26dd2bcf68e95a79d9f5ac9c5befea416bf15ad83f1c"
+    },
+    "86068": {
+      "segment": "86000-86099",
+      "tag": "mc2026 train",
+      "canonical": "mc2026|role=episode|index=86068|mc2026 train",
+      "sha256": "1d853e8a3e901215bce4f3676177168a5e2ddaa299086d35b8978be5c9d9c3ac"
+    },
+    "86069": {
+      "segment": "86000-86099",
+      "tag": "mc2026 train",
+      "canonical": "mc2026|role=episode|index=86069|mc2026 train",
+      "sha256": "186630f5f6e150214a32702e665c26a1cbf581964e4d60f42e314b076fb52d59"
+    },
+    "86070": {
+      "segment": "86000-86099",
+      "tag": "mc2026 train",
+      "canonical": "mc2026|role=episode|index=86070|mc2026 train",
+      "sha256": "b1d6a24a7dbe240ecd746db417a570dec283833b0c7fd23a39c377fc922a1a95"
+    },
+    "86071": {
+      "segment": "86000-86099",
+      "tag": "mc2026 train",
+      "canonical": "mc2026|role=episode|index=86071|mc2026 train",
+      "sha256": "c667421a666746471d004426f4d4f49b33341822af3a73a110660d31dd0e2b00"
+    },
+    "86072": {
+      "segment": "86000-86099",
+      "tag": "mc2026 train",
+      "canonical": "mc2026|role=episode|index=86072|mc2026 train",
+      "sha256": "39d544e76a6102449a4e6852c4c89685815c22f111c9a356a287ef559a87d8f8"
+    },
+    "86073": {
+      "segment": "86000-86099",
+      "tag": "mc2026 train",
+      "canonical": "mc2026|role=episode|index=86073|mc2026 train",
+      "sha256": "6d36987f9a439998e1f76c12a547d66044e78bd093be73e0f07ee32e394421e1"
+    },
+    "86074": {
+      "segment": "86000-86099",
+      "tag": "mc2026 train",
+      "canonical": "mc2026|role=episode|index=86074|mc2026 train",
+      "sha256": "00ade6a1e8ed27480b28449d15a3b4ac69a2d46414885273363571e28f5eacd0"
+    },
+    "86075": {
+      "segment": "86000-86099",
+      "tag": "mc2026 train",
+      "canonical": "mc2026|role=episode|index=86075|mc2026 train",
+      "sha256": "126467a1a231c1da07d9406d95776e9b3ce1785990b0e5e3b70306cd6ad1337f"
+    },
+    "86076": {
+      "segment": "86000-86099",
+      "tag": "mc2026 train",
+      "canonical": "mc2026|role=episode|index=86076|mc2026 train",
+      "sha256": "6cec94fd5f495e1a74ddb0f1895223792576d1a57472779f04bc64c2f8143de7"
+    },
+    "86077": {
+      "segment": "86000-86099",
+      "tag": "mc2026 train",
+      "canonical": "mc2026|role=episode|index=86077|mc2026 train",
+      "sha256": "ce224ee4d90b9abe931513e2c42ad3db79e0ec05ef004a9a617f0b32e67ed087"
+    },
+    "86078": {
+      "segment": "86000-86099",
+      "tag": "mc2026 train",
+      "canonical": "mc2026|role=episode|index=86078|mc2026 train",
+      "sha256": "f7174a1ba5176ca7e9e9a990a3a9e927e05527ee4b603cbbf15748bf4d6a4032"
+    },
+    "86079": {
+      "segment": "86000-86099",
+      "tag": "mc2026 train",
+      "canonical": "mc2026|role=episode|index=86079|mc2026 train",
+      "sha256": "21d9afadd84632b7ae05079154e06387563470f26ed97c915094fe1ece641b57"
+    },
+    "86080": {
+      "segment": "86000-86099",
+      "tag": "mc2026 train",
+      "canonical": "mc2026|role=episode|index=86080|mc2026 train",
+      "sha256": "0d0df42c70c1cfb491f8889d9b39350ce9a960ee2726850daf6b6851ddcfe01a"
+    },
+    "86081": {
+      "segment": "86000-86099",
+      "tag": "mc2026 train",
+      "canonical": "mc2026|role=episode|index=86081|mc2026 train",
+      "sha256": "e7ad0df569787ab11f6c382ee455d071f7c68caa7a13c2a07a6f0cac12a12d2f"
+    },
+    "86082": {
+      "segment": "86000-86099",
+      "tag": "mc2026 train",
+      "canonical": "mc2026|role=episode|index=86082|mc2026 train",
+      "sha256": "3a1ca023afd9795e65a193d55f35fbff6d1a6644b8f8bddcae7a89e342164300"
+    },
+    "86083": {
+      "segment": "86000-86099",
+      "tag": "mc2026 train",
+      "canonical": "mc2026|role=episode|index=86083|mc2026 train",
+      "sha256": "c3625a8bd557a38ae6cc07dc06e27988894bd9fb929a38a1d3eac46eaf57575e"
+    },
+    "86084": {
+      "segment": "86000-86099",
+      "tag": "mc2026 train",
+      "canonical": "mc2026|role=episode|index=86084|mc2026 train",
+      "sha256": "ec7cd5b2c3a44efa951217f2acbb5c8b39244483c05f5de4a37fd151ff6cb80b"
+    },
+    "86085": {
+      "segment": "86000-86099",
+      "tag": "mc2026 train",
+      "canonical": "mc2026|role=episode|index=86085|mc2026 train",
+      "sha256": "5b58145ede12fb32a725dbd3ded2faac7552be9965b283e066fe30e1ecb75e80"
+    },
+    "86086": {
+      "segment": "86000-86099",
+      "tag": "mc2026 train",
+      "canonical": "mc2026|role=episode|index=86086|mc2026 train",
+      "sha256": "e3aeb0530e249fe5d6f495b10880cfafcafa29fce3662710a2a68390169b033e"
+    },
+    "86087": {
+      "segment": "86000-86099",
+      "tag": "mc2026 train",
+      "canonical": "mc2026|role=episode|index=86087|mc2026 train",
+      "sha256": "5d56847915358cbc5af9692ef6d7e1bf0762a4857e2b43fe4599643a688037af"
+    },
+    "86088": {
+      "segment": "86000-86099",
+      "tag": "mc2026 train",
+      "canonical": "mc2026|role=episode|index=86088|mc2026 train",
+      "sha256": "aaa384834ad74008bf19a0d2f8d6e8c82db4285aa3158d9710d6a9da40c5ed31"
+    },
+    "86089": {
+      "segment": "86000-86099",
+      "tag": "mc2026 train",
+      "canonical": "mc2026|role=episode|index=86089|mc2026 train",
+      "sha256": "287852760377139655ab2af5d26e89a8db41d207645dfe871e77ff4e8831e6dd"
+    },
+    "86090": {
+      "segment": "86000-86099",
+      "tag": "mc2026 train",
+      "canonical": "mc2026|role=episode|index=86090|mc2026 train",
+      "sha256": "17a26c10683b51adc0a0320d6bd66161fbf74638d087254e5e00a102223d6152"
+    },
+    "86091": {
+      "segment": "86000-86099",
+      "tag": "mc2026 train",
+      "canonical": "mc2026|role=episode|index=86091|mc2026 train",
+      "sha256": "228418af8f15778d4ba0ba738107dc611e31bf4cc0d6df91051f617cedf6984c"
+    },
+    "86092": {
+      "segment": "86000-86099",
+      "tag": "mc2026 train",
+      "canonical": "mc2026|role=episode|index=86092|mc2026 train",
+      "sha256": "6ab32ebae00db7e9aecf6a42b355cc8591328de8bc31629b6eb60d27c0919e19"
+    },
+    "86093": {
+      "segment": "86000-86099",
+      "tag": "mc2026 train",
+      "canonical": "mc2026|role=episode|index=86093|mc2026 train",
+      "sha256": "27ed0380bc3391d01f962b4c846831a39439901ca6803940f833cc90a228d755"
+    },
+    "86094": {
+      "segment": "86000-86099",
+      "tag": "mc2026 train",
+      "canonical": "mc2026|role=episode|index=86094|mc2026 train",
+      "sha256": "6e2fd1d659d33cb63c7783c342174f7ac45acdb21933cbb4c66c8ad114a6ab3c"
+    },
+    "86095": {
+      "segment": "86000-86099",
+      "tag": "mc2026 train",
+      "canonical": "mc2026|role=episode|index=86095|mc2026 train",
+      "sha256": "690e8c989937e93abb2185edeb4b160e576759f2d606d7bc4b55f0adb008b4da"
+    },
+    "86096": {
+      "segment": "86000-86099",
+      "tag": "mc2026 train",
+      "canonical": "mc2026|role=episode|index=86096|mc2026 train",
+      "sha256": "54618ce380392d33e90b8740b69410660b119c7071e62e956df3297e89017eaf"
+    },
+    "86097": {
+      "segment": "86000-86099",
+      "tag": "mc2026 train",
+      "canonical": "mc2026|role=episode|index=86097|mc2026 train",
+      "sha256": "cf46f0015f37d53450b4855eaaf8c5dbba9f448bbdc70cb4575060a301f519be"
+    },
+    "86098": {
+      "segment": "86000-86099",
+      "tag": "mc2026 train",
+      "canonical": "mc2026|role=episode|index=86098|mc2026 train",
+      "sha256": "8634e6aa8e904ab100e970a81cbc898c1d2cd2e918ca39442c4ea029ac82b1e1"
+    },
+    "86099": {
+      "segment": "86000-86099",
+      "tag": "mc2026 train",
+      "canonical": "mc2026|role=episode|index=86099|mc2026 train",
+      "sha256": "49392a91951f436f756c9953ea3f695492cea699d3360feda8d61735c6f96a74"
+    },
+    "86100": {
+      "segment": "86100-86119",
+      "tag": "mc2026 selection",
+      "canonical": "mc2026|role=episode|index=86100|mc2026 selection",
+      "sha256": "15036d01d9f5d1d2161f5bbe8a29f66bc3dc1a0c6ed5afb8e2b981c537ad5231"
+    },
+    "86101": {
+      "segment": "86100-86119",
+      "tag": "mc2026 selection",
+      "canonical": "mc2026|role=episode|index=86101|mc2026 selection",
+      "sha256": "93680038826624b8fe3af47f2efb185372d0d09d57e76e34f1a59825e8883518"
+    },
+    "86102": {
+      "segment": "86100-86119",
+      "tag": "mc2026 selection",
+      "canonical": "mc2026|role=episode|index=86102|mc2026 selection",
+      "sha256": "a24df169f72676ad99599a3fe307006d04c9109acb6d6d034ebe69e8377cdf85"
+    },
+    "86103": {
+      "segment": "86100-86119",
+      "tag": "mc2026 selection",
+      "canonical": "mc2026|role=episode|index=86103|mc2026 selection",
+      "sha256": "d8327d452d02e9f57cb49a919f46cd57d6b575c4e83ae88cc62c612044ce138d"
+    },
+    "86104": {
+      "segment": "86100-86119",
+      "tag": "mc2026 selection",
+      "canonical": "mc2026|role=episode|index=86104|mc2026 selection",
+      "sha256": "4a2220d04d90bcbd6e6cdca5ff527c56f4b4fcc17562cb1309987ace75b742f7"
+    },
+    "86105": {
+      "segment": "86100-86119",
+      "tag": "mc2026 selection",
+      "canonical": "mc2026|role=episode|index=86105|mc2026 selection",
+      "sha256": "0b5c3b0b1b749ff62c49d8a9c8ca7b621618e87d4d87ab00021b85abb1f28fea"
+    },
+    "86106": {
+      "segment": "86100-86119",
+      "tag": "mc2026 selection",
+      "canonical": "mc2026|role=episode|index=86106|mc2026 selection",
+      "sha256": "22559385667952c46c24e6d7a6892a96a1e57549282b6b94b41528b0eb7bacd8"
+    },
+    "86107": {
+      "segment": "86100-86119",
+      "tag": "mc2026 selection",
+      "canonical": "mc2026|role=episode|index=86107|mc2026 selection",
+      "sha256": "f4e66b6d203567e5cf0742dbb5fbd3f85a787a8d6141c6e5be2fc920b6ee7aa6"
+    },
+    "86108": {
+      "segment": "86100-86119",
+      "tag": "mc2026 selection",
+      "canonical": "mc2026|role=episode|index=86108|mc2026 selection",
+      "sha256": "592acd58a9c6892f8a562e62c34d8260b3efd27efdbe29045526bd18db8860d1"
+    },
+    "86109": {
+      "segment": "86100-86119",
+      "tag": "mc2026 selection",
+      "canonical": "mc2026|role=episode|index=86109|mc2026 selection",
+      "sha256": "237e54e58c09c2b7e323610ba18c66679ee0b7735686370fe1d3afeaf1f36b12"
+    },
+    "86110": {
+      "segment": "86100-86119",
+      "tag": "mc2026 selection",
+      "canonical": "mc2026|role=episode|index=86110|mc2026 selection",
+      "sha256": "3e593b85bbbf90de15e9b5474407d45d57b2143a568527d7f9c1cf680bfd29cd"
+    },
+    "86111": {
+      "segment": "86100-86119",
+      "tag": "mc2026 selection",
+      "canonical": "mc2026|role=episode|index=86111|mc2026 selection",
+      "sha256": "7730a30087cd07ca8be08a88a706ded573fe53b5925d6103078d5d6f68a12a78"
+    },
+    "86112": {
+      "segment": "86100-86119",
+      "tag": "mc2026 selection",
+      "canonical": "mc2026|role=episode|index=86112|mc2026 selection",
+      "sha256": "732593704b97087e2393fa8c1e70006afa9e3bc0728083ab43e51fc815243dfa"
+    },
+    "86113": {
+      "segment": "86100-86119",
+      "tag": "mc2026 selection",
+      "canonical": "mc2026|role=episode|index=86113|mc2026 selection",
+      "sha256": "146a85db1f528c9e047e6cf22089bb95fd95232ef981c50b10c70362598c7f7b"
+    },
+    "86114": {
+      "segment": "86100-86119",
+      "tag": "mc2026 selection",
+      "canonical": "mc2026|role=episode|index=86114|mc2026 selection",
+      "sha256": "3876e406bfa7c1ac9d73cc7b6fa6ee923f86d971287a9c26693c514a4cd7e5bb"
+    },
+    "86115": {
+      "segment": "86100-86119",
+      "tag": "mc2026 selection",
+      "canonical": "mc2026|role=episode|index=86115|mc2026 selection",
+      "sha256": "34bc3bfd4cb93d8058b8a88fd1a473d943d8d5d2636c3326c74b2a82784a0ad0"
+    },
+    "86116": {
+      "segment": "86100-86119",
+      "tag": "mc2026 selection",
+      "canonical": "mc2026|role=episode|index=86116|mc2026 selection",
+      "sha256": "8e17a126f5a0936dfcd7a15b22ad4227b6b011d7227354b9d629a86f721ad08b"
+    },
+    "86117": {
+      "segment": "86100-86119",
+      "tag": "mc2026 selection",
+      "canonical": "mc2026|role=episode|index=86117|mc2026 selection",
+      "sha256": "be312325271dc0e8806402f5233ea6df70aad88869741996cc0292429f22f8ae"
+    },
+    "86118": {
+      "segment": "86100-86119",
+      "tag": "mc2026 selection",
+      "canonical": "mc2026|role=episode|index=86118|mc2026 selection",
+      "sha256": "b5e30eb68b715f28295f32f4b65d07dbd37c02178c47df52174853dbb7ff4000"
+    },
+    "86119": {
+      "segment": "86100-86119",
+      "tag": "mc2026 selection",
+      "canonical": "mc2026|role=episode|index=86119|mc2026 selection",
+      "sha256": "efdfac7234c5958fc11f0de93655da939dde89cafd6a1415f72a7ecaa3b2e892"
+    },
+    "86200": {
+      "segment": "86200-86299",
+      "tag": "mc2026 test",
+      "canonical": "mc2026|role=episode|index=86200|mc2026 test",
+      "sha256": "857635636772f8f12deab6e2e5d550871f2df735835ec64b80033a65cfb8a135"
+    },
+    "86201": {
+      "segment": "86200-86299",
+      "tag": "mc2026 test",
+      "canonical": "mc2026|role=episode|index=86201|mc2026 test",
+      "sha256": "e8525e6c6e187190f9fc6eb9f9153745bfd111aa42608e4e01cd9e1b96502328"
+    },
+    "86202": {
+      "segment": "86200-86299",
+      "tag": "mc2026 test",
+      "canonical": "mc2026|role=episode|index=86202|mc2026 test",
+      "sha256": "5ea3585fcb3fb1ca17fb9672aa311a3f8897e24ee31e6ca6e8405fb8106ea910"
+    },
+    "86203": {
+      "segment": "86200-86299",
+      "tag": "mc2026 test",
+      "canonical": "mc2026|role=episode|index=86203|mc2026 test",
+      "sha256": "6fecce994da4c89db8e93e825f137b213e94c38f6f0f69838fbae9dc33171f87"
+    },
+    "86204": {
+      "segment": "86200-86299",
+      "tag": "mc2026 test",
+      "canonical": "mc2026|role=episode|index=86204|mc2026 test",
+      "sha256": "c87aa4e77c68e6b514ddfc03017cc56e5974aa58b2f80de45579942b74ff636d"
+    },
+    "86205": {
+      "segment": "86200-86299",
+      "tag": "mc2026 test",
+      "canonical": "mc2026|role=episode|index=86205|mc2026 test",
+      "sha256": "ded56d50e93fd09642c3378a448e28d23c53ed4eb6d216d8e9d20597be44613a"
+    },
+    "86206": {
+      "segment": "86200-86299",
+      "tag": "mc2026 test",
+      "canonical": "mc2026|role=episode|index=86206|mc2026 test",
+      "sha256": "781ed85c43eb0a345c2459defeae7007ad35797442cd46af335f1a4b4615d6ba"
+    },
+    "86207": {
+      "segment": "86200-86299",
+      "tag": "mc2026 test",
+      "canonical": "mc2026|role=episode|index=86207|mc2026 test",
+      "sha256": "06800c6638724a1c11d3f487fae5d1d193a5bdba39c9800c7dff511611f92f90"
+    },
+    "86208": {
+      "segment": "86200-86299",
+      "tag": "mc2026 test",
+      "canonical": "mc2026|role=episode|index=86208|mc2026 test",
+      "sha256": "d78a60d8da652ce8139a19e5a6411559e13adcf6e1602a43ce3f380b7cf5d348"
+    },
+    "86209": {
+      "segment": "86200-86299",
+      "tag": "mc2026 test",
+      "canonical": "mc2026|role=episode|index=86209|mc2026 test",
+      "sha256": "9317e21656876a6b601ca761045d35711158f84a1125eea90163887d6e975b59"
+    },
+    "86210": {
+      "segment": "86200-86299",
+      "tag": "mc2026 test",
+      "canonical": "mc2026|role=episode|index=86210|mc2026 test",
+      "sha256": "1e2331bc4493d21f8d1133b26b6f899e0f72ba527cd5d29fb37b289252117a56"
+    },
+    "86211": {
+      "segment": "86200-86299",
+      "tag": "mc2026 test",
+      "canonical": "mc2026|role=episode|index=86211|mc2026 test",
+      "sha256": "262b534c0e9b4e97b2b7f8ea451d984aaf462e42198445b47991cb063871fc85"
+    },
+    "86212": {
+      "segment": "86200-86299",
+      "tag": "mc2026 test",
+      "canonical": "mc2026|role=episode|index=86212|mc2026 test",
+      "sha256": "e291eb214391f685ba64e5c451de9f6dd6c8a7eb0e6fdbe8d1d8929c8ced1dce"
+    },
+    "86213": {
+      "segment": "86200-86299",
+      "tag": "mc2026 test",
+      "canonical": "mc2026|role=episode|index=86213|mc2026 test",
+      "sha256": "fecbb39d48490c07e16bfff7be61609e434995d8f483d53868ed5dd9c736c99a"
+    },
+    "86214": {
+      "segment": "86200-86299",
+      "tag": "mc2026 test",
+      "canonical": "mc2026|role=episode|index=86214|mc2026 test",
+      "sha256": "64360e55a189dfa5435cca729f959f2b980718488f47ed820e61793901126fa0"
+    },
+    "86215": {
+      "segment": "86200-86299",
+      "tag": "mc2026 test",
+      "canonical": "mc2026|role=episode|index=86215|mc2026 test",
+      "sha256": "825c1722e8bbeb605d791dd2075bd01b4bafd596705a675863b10237bcc61ad4"
+    },
+    "86216": {
+      "segment": "86200-86299",
+      "tag": "mc2026 test",
+      "canonical": "mc2026|role=episode|index=86216|mc2026 test",
+      "sha256": "adb77c6a59889c34d1a2a8143470db0b3346d17df8c1f88ea8a4b7b38aa5595f"
+    },
+    "86217": {
+      "segment": "86200-86299",
+      "tag": "mc2026 test",
+      "canonical": "mc2026|role=episode|index=86217|mc2026 test",
+      "sha256": "5d2aa11352c217ac6140a14bfc2a2eda077a8a116ab4a585d4203a95ee301964"
+    },
+    "86218": {
+      "segment": "86200-86299",
+      "tag": "mc2026 test",
+      "canonical": "mc2026|role=episode|index=86218|mc2026 test",
+      "sha256": "86001c4df13453bbf8b108cacb5b1067b8149a298355e7a457c0da0fbdde743c"
+    },
+    "86219": {
+      "segment": "86200-86299",
+      "tag": "mc2026 test",
+      "canonical": "mc2026|role=episode|index=86219|mc2026 test",
+      "sha256": "4a00da3df531a07ceb7de88e694f6ffe79fadb30fe36aeceb9a61a879ae21321"
+    },
+    "86220": {
+      "segment": "86200-86299",
+      "tag": "mc2026 test",
+      "canonical": "mc2026|role=episode|index=86220|mc2026 test",
+      "sha256": "042030b7d2a41302be9e3bcea085533c50d647bfb651297926659661ea0c4383"
+    },
+    "86221": {
+      "segment": "86200-86299",
+      "tag": "mc2026 test",
+      "canonical": "mc2026|role=episode|index=86221|mc2026 test",
+      "sha256": "8a8aa118af911f18fd901c9585348e77333b0e443111e113f2bea328aef05aa1"
+    },
+    "86222": {
+      "segment": "86200-86299",
+      "tag": "mc2026 test",
+      "canonical": "mc2026|role=episode|index=86222|mc2026 test",
+      "sha256": "d7a13fbef7707aa41dc892650deb78a89173c9210480decac751debd681c1b5f"
+    },
+    "86223": {
+      "segment": "86200-86299",
+      "tag": "mc2026 test",
+      "canonical": "mc2026|role=episode|index=86223|mc2026 test",
+      "sha256": "997f567fe3da28b82cfb123cbde776cef655af21ffe89bf4a3eb5a50f70dd48e"
+    },
+    "86224": {
+      "segment": "86200-86299",
+      "tag": "mc2026 test",
+      "canonical": "mc2026|role=episode|index=86224|mc2026 test",
+      "sha256": "7984ff7cdff2eaf21e473d9ef719400d77100601f5fb9b0465369855c59a757f"
+    },
+    "86225": {
+      "segment": "86200-86299",
+      "tag": "mc2026 test",
+      "canonical": "mc2026|role=episode|index=86225|mc2026 test",
+      "sha256": "2a2d37bfc8acd55d59d21de20ae21156718a152bc2c9c59facaca2154e8004e6"
+    },
+    "86226": {
+      "segment": "86200-86299",
+      "tag": "mc2026 test",
+      "canonical": "mc2026|role=episode|index=86226|mc2026 test",
+      "sha256": "0d667798c14d0c0eb17389cca688a50855d3d60fe72e4ae806a78d6c9ba662c9"
+    },
+    "86227": {
+      "segment": "86200-86299",
+      "tag": "mc2026 test",
+      "canonical": "mc2026|role=episode|index=86227|mc2026 test",
+      "sha256": "4afa3898f0c8a9a7526d810a2b2e349250fad2d570049054c1d57fa3ffe0ea87"
+    },
+    "86228": {
+      "segment": "86200-86299",
+      "tag": "mc2026 test",
+      "canonical": "mc2026|role=episode|index=86228|mc2026 test",
+      "sha256": "e54004972187aee5bf4727aac30fa787c50f65e2c8c317be288eccc156f07c2f"
+    },
+    "86229": {
+      "segment": "86200-86299",
+      "tag": "mc2026 test",
+      "canonical": "mc2026|role=episode|index=86229|mc2026 test",
+      "sha256": "2e6e69ab270e837e0336163e36c2b583f527d4249de0809c9ce55e8a58534bb8"
+    },
+    "86230": {
+      "segment": "86200-86299",
+      "tag": "mc2026 test",
+      "canonical": "mc2026|role=episode|index=86230|mc2026 test",
+      "sha256": "24468648a9ac5285fb6ebaf7336508bddeaa4a26eed28f5c6959700ae08495ba"
+    },
+    "86231": {
+      "segment": "86200-86299",
+      "tag": "mc2026 test",
+      "canonical": "mc2026|role=episode|index=86231|mc2026 test",
+      "sha256": "5708ba3d2dcaeee084eac90ea7cdc827548096269c5df301fb276d9b0e412402"
+    },
+    "86232": {
+      "segment": "86200-86299",
+      "tag": "mc2026 test",
+      "canonical": "mc2026|role=episode|index=86232|mc2026 test",
+      "sha256": "bfad0ccb9569ac60d85e4bdde9c9b82fd7644ae579a4587b4049bfc52ebb96a4"
+    },
+    "86233": {
+      "segment": "86200-86299",
+      "tag": "mc2026 test",
+      "canonical": "mc2026|role=episode|index=86233|mc2026 test",
+      "sha256": "6f4ed80caa582bf396749e6a9f6f13955e98260ab76a0383594298e278393972"
+    },
+    "86234": {
+      "segment": "86200-86299",
+      "tag": "mc2026 test",
+      "canonical": "mc2026|role=episode|index=86234|mc2026 test",
+      "sha256": "afdcb02e1dbf4d31f7a73568a5a01dc94ee85634dbb2f20870993b36cae9681f"
+    },
+    "86235": {
+      "segment": "86200-86299",
+      "tag": "mc2026 test",
+      "canonical": "mc2026|role=episode|index=86235|mc2026 test",
+      "sha256": "7c41c3b8030b06ddc4e124cd9a9e8a0c1c91243224b3d6e43500b76f30e96bd1"
+    },
+    "86236": {
+      "segment": "86200-86299",
+      "tag": "mc2026 test",
+      "canonical": "mc2026|role=episode|index=86236|mc2026 test",
+      "sha256": "7da842041c0c3a5b3866a4b989a0b08af8674707862a74193a4e8fd2e0c74696"
+    },
+    "86237": {
+      "segment": "86200-86299",
+      "tag": "mc2026 test",
+      "canonical": "mc2026|role=episode|index=86237|mc2026 test",
+      "sha256": "b6b7e11342c2ef545b367fc3946ac2023e5096f9de53b0aad886c78a57b2f737"
+    },
+    "86238": {
+      "segment": "86200-86299",
+      "tag": "mc2026 test",
+      "canonical": "mc2026|role=episode|index=86238|mc2026 test",
+      "sha256": "2477def65d2103f0d6906cc9dcd3dff18347a03399874324d8268595b71aaf8a"
+    },
+    "86239": {
+      "segment": "86200-86299",
+      "tag": "mc2026 test",
+      "canonical": "mc2026|role=episode|index=86239|mc2026 test",
+      "sha256": "09eb0ffd7513e4dbf9bab3731ac0787dfa79396a830d01618e8503d4243c196f"
+    },
+    "86240": {
+      "segment": "86200-86299",
+      "tag": "mc2026 test",
+      "canonical": "mc2026|role=episode|index=86240|mc2026 test",
+      "sha256": "4db2a794b9bff39a8bab1b55cf7ce3be503ec6c00f8fb8ad612c6f6e5372a8db"
+    },
+    "86241": {
+      "segment": "86200-86299",
+      "tag": "mc2026 test",
+      "canonical": "mc2026|role=episode|index=86241|mc2026 test",
+      "sha256": "8c763154347a2aa4e7af616e889f00c0f28ae61959af972333ce0f8f4c0e82c7"
+    },
+    "86242": {
+      "segment": "86200-86299",
+      "tag": "mc2026 test",
+      "canonical": "mc2026|role=episode|index=86242|mc2026 test",
+      "sha256": "eaefc3b774193c306aa4f340924ae71db6db9b7faaef2685fe7e87795875ce53"
+    },
+    "86243": {
+      "segment": "86200-86299",
+      "tag": "mc2026 test",
+      "canonical": "mc2026|role=episode|index=86243|mc2026 test",
+      "sha256": "e084944cb95ce40733f6737a78316c1c511c2558ffeb7082259f05f7865814b6"
+    },
+    "86244": {
+      "segment": "86200-86299",
+      "tag": "mc2026 test",
+      "canonical": "mc2026|role=episode|index=86244|mc2026 test",
+      "sha256": "51950aaaa569dd6d8a03dc3a0e62471695e63a745b44ec342133c1a91448aae5"
+    },
+    "86245": {
+      "segment": "86200-86299",
+      "tag": "mc2026 test",
+      "canonical": "mc2026|role=episode|index=86245|mc2026 test",
+      "sha256": "edbf104c1b76896892c2bcbf049600b1902680d001e30177741d3499dbefb0fa"
+    },
+    "86246": {
+      "segment": "86200-86299",
+      "tag": "mc2026 test",
+      "canonical": "mc2026|role=episode|index=86246|mc2026 test",
+      "sha256": "5d81346fc9a4f32fbb8808c895b077dea4e49fa879daae767a6f3d369d89c86b"
+    },
+    "86247": {
+      "segment": "86200-86299",
+      "tag": "mc2026 test",
+      "canonical": "mc2026|role=episode|index=86247|mc2026 test",
+      "sha256": "a1974a324e132afa29564c54c9e37ba453e0615ee45f73773f5862f3dbf54550"
+    },
+    "86248": {
+      "segment": "86200-86299",
+      "tag": "mc2026 test",
+      "canonical": "mc2026|role=episode|index=86248|mc2026 test",
+      "sha256": "c0afcc2d304e6188160880bf9a120dcff6a1ec7b069bf6dcafab812081b96cff"
+    },
+    "86249": {
+      "segment": "86200-86299",
+      "tag": "mc2026 test",
+      "canonical": "mc2026|role=episode|index=86249|mc2026 test",
+      "sha256": "1b8ca915843e2a97bd5e450d7a78e8be11d1cd05d0036dc7aaa9b629bcbcb87f"
+    },
+    "86250": {
+      "segment": "86200-86299",
+      "tag": "mc2026 test",
+      "canonical": "mc2026|role=episode|index=86250|mc2026 test",
+      "sha256": "db82d0770c48e098ed3985c29dfe5bc9b2490ac0c5a6370c6a0aeaa180b11704"
+    },
+    "86251": {
+      "segment": "86200-86299",
+      "tag": "mc2026 test",
+      "canonical": "mc2026|role=episode|index=86251|mc2026 test",
+      "sha256": "7e8a41d6789a03f0397035181e729712e5b856ab992c1065034f5fc399a231b1"
+    },
+    "86252": {
+      "segment": "86200-86299",
+      "tag": "mc2026 test",
+      "canonical": "mc2026|role=episode|index=86252|mc2026 test",
+      "sha256": "996af5eec1546cbabb2f8c22df4867d51eb684b51427ed807ade491640fb1ad8"
+    },
+    "86253": {
+      "segment": "86200-86299",
+      "tag": "mc2026 test",
+      "canonical": "mc2026|role=episode|index=86253|mc2026 test",
+      "sha256": "5192c05f3cf7ab770c6a3dc004feb57212ec95d2e2ee3fdce7544a3bb3b4d4d5"
+    },
+    "86254": {
+      "segment": "86200-86299",
+      "tag": "mc2026 test",
+      "canonical": "mc2026|role=episode|index=86254|mc2026 test",
+      "sha256": "ab9604a512d7737545b06cdc4e24ff465af3f15d4779bc158c94d2a4a2c835a9"
+    },
+    "86255": {
+      "segment": "86200-86299",
+      "tag": "mc2026 test",
+      "canonical": "mc2026|role=episode|index=86255|mc2026 test",
+      "sha256": "5a90da65ff03d569931e3cbb08f7ac46296daa34eaae00cc219995f1dceb3d95"
+    },
+    "86256": {
+      "segment": "86200-86299",
+      "tag": "mc2026 test",
+      "canonical": "mc2026|role=episode|index=86256|mc2026 test",
+      "sha256": "fcd8d69f8395da6dd760f91f0d478703ee99800f7aa592b02adc8e9b5baa43fe"
+    },
+    "86257": {
+      "segment": "86200-86299",
+      "tag": "mc2026 test",
+      "canonical": "mc2026|role=episode|index=86257|mc2026 test",
+      "sha256": "855f6d992c0accf9fa866184beb2f98cc44164b913eec60702a800c128b2b9dc"
+    },
+    "86258": {
+      "segment": "86200-86299",
+      "tag": "mc2026 test",
+      "canonical": "mc2026|role=episode|index=86258|mc2026 test",
+      "sha256": "330bb9bc7ff5abfd2e25939c7301ed1d7bd49aff708f1d39278b4b3812b0700d"
+    },
+    "86259": {
+      "segment": "86200-86299",
+      "tag": "mc2026 test",
+      "canonical": "mc2026|role=episode|index=86259|mc2026 test",
+      "sha256": "c7db2fd369e86c4614a326b12b03545cc9fc0d5860fc6492632b2251d00375cc"
+    },
+    "86260": {
+      "segment": "86200-86299",
+      "tag": "mc2026 test",
+      "canonical": "mc2026|role=episode|index=86260|mc2026 test",
+      "sha256": "187cd272328b7695b11967d90bba88e3695896fe264bc998216a6fd3a4582e28"
+    },
+    "86261": {
+      "segment": "86200-86299",
+      "tag": "mc2026 test",
+      "canonical": "mc2026|role=episode|index=86261|mc2026 test",
+      "sha256": "70fb0c41cee9b13bd193b7a25d1876612abee606ca6cedbbc9d1b0cbdd0fb208"
+    },
+    "86262": {
+      "segment": "86200-86299",
+      "tag": "mc2026 test",
+      "canonical": "mc2026|role=episode|index=86262|mc2026 test",
+      "sha256": "c9973c1962eee6c1d5d3d8a7b5947af2b0f389f6777b95d2cdfac31824e55e9a"
+    },
+    "86263": {
+      "segment": "86200-86299",
+      "tag": "mc2026 test",
+      "canonical": "mc2026|role=episode|index=86263|mc2026 test",
+      "sha256": "910d70936768f4dd6f42f8578d0da5472d73a189dd8145a8c1485408600fee63"
+    },
+    "86264": {
+      "segment": "86200-86299",
+      "tag": "mc2026 test",
+      "canonical": "mc2026|role=episode|index=86264|mc2026 test",
+      "sha256": "e99c35a3a9f32c4d53cb7167b0bfab25c6015686f287e51910156b29e1549b6b"
+    },
+    "86265": {
+      "segment": "86200-86299",
+      "tag": "mc2026 test",
+      "canonical": "mc2026|role=episode|index=86265|mc2026 test",
+      "sha256": "d877f6441b4e298ca28c17c12c0597bc9db5e242b8c09f14d24b6fc4764c5e8d"
+    },
+    "86266": {
+      "segment": "86200-86299",
+      "tag": "mc2026 test",
+      "canonical": "mc2026|role=episode|index=86266|mc2026 test",
+      "sha256": "b81bd58c61f0dd655cc4bcd8cf9e6a162b13a27af1be21818fb4a6c6634881af"
+    },
+    "86267": {
+      "segment": "86200-86299",
+      "tag": "mc2026 test",
+      "canonical": "mc2026|role=episode|index=86267|mc2026 test",
+      "sha256": "14f7dc2f2c2abf7688e1bffa6d153c38277ee0b4f3e7c78ee325c4e86d615ea0"
+    },
+    "86268": {
+      "segment": "86200-86299",
+      "tag": "mc2026 test",
+      "canonical": "mc2026|role=episode|index=86268|mc2026 test",
+      "sha256": "03e295aa61905e2c022ffc9fa4ccc948ba660934dc9048fb7ebbe813842fce5b"
+    },
+    "86269": {
+      "segment": "86200-86299",
+      "tag": "mc2026 test",
+      "canonical": "mc2026|role=episode|index=86269|mc2026 test",
+      "sha256": "8fdc895b21279a6382c235e3736e6743ac593365611c2864a29f6005fba09707"
+    },
+    "86270": {
+      "segment": "86200-86299",
+      "tag": "mc2026 test",
+      "canonical": "mc2026|role=episode|index=86270|mc2026 test",
+      "sha256": "d4c9dc6ade0ec8630adc2e976969b9b23ecb736659f4345ac3fb8e28e2056042"
+    },
+    "86271": {
+      "segment": "86200-86299",
+      "tag": "mc2026 test",
+      "canonical": "mc2026|role=episode|index=86271|mc2026 test",
+      "sha256": "029ec9c1d932ae3c17adba6f5513d91a1914255cf4e2495009d7c87d24c62207"
+    },
+    "86272": {
+      "segment": "86200-86299",
+      "tag": "mc2026 test",
+      "canonical": "mc2026|role=episode|index=86272|mc2026 test",
+      "sha256": "05c003f0016bb62fca0e8b70663f36f9968b8031a04b2160a5e947797fdbe166"
+    },
+    "86273": {
+      "segment": "86200-86299",
+      "tag": "mc2026 test",
+      "canonical": "mc2026|role=episode|index=86273|mc2026 test",
+      "sha256": "09eeca619ccc23e31fb229f45b7178da4c0ba42c395f911be2ee7d538b776703"
+    },
+    "86274": {
+      "segment": "86200-86299",
+      "tag": "mc2026 test",
+      "canonical": "mc2026|role=episode|index=86274|mc2026 test",
+      "sha256": "610f29dd32149656fe799f671cc4c93741ac9a5cafbf4f2275124720eb7e7146"
+    },
+    "86275": {
+      "segment": "86200-86299",
+      "tag": "mc2026 test",
+      "canonical": "mc2026|role=episode|index=86275|mc2026 test",
+      "sha256": "dafe60238735950321a27b21f50c5f8c6914c95201d1324d3552fa213047293c"
+    },
+    "86276": {
+      "segment": "86200-86299",
+      "tag": "mc2026 test",
+      "canonical": "mc2026|role=episode|index=86276|mc2026 test",
+      "sha256": "3a011e4ca70d1bad9fcbe39801f1a6b466c1f91308ca3c0269bd9863af6c73f9"
+    },
+    "86277": {
+      "segment": "86200-86299",
+      "tag": "mc2026 test",
+      "canonical": "mc2026|role=episode|index=86277|mc2026 test",
+      "sha256": "024daa9c6309d7e147406bfd3a59e4608972d9ef1854fb0160391cf8df9fcec0"
+    },
+    "86278": {
+      "segment": "86200-86299",
+      "tag": "mc2026 test",
+      "canonical": "mc2026|role=episode|index=86278|mc2026 test",
+      "sha256": "0adde455a392a7bcc7926b2bb2c09994516b650ab7e2626ff05708ecfe6753d0"
+    },
+    "86279": {
+      "segment": "86200-86299",
+      "tag": "mc2026 test",
+      "canonical": "mc2026|role=episode|index=86279|mc2026 test",
+      "sha256": "ad7737122a35639433fa3f6f224ede0cf41405685210cdcf00bac77f3aed8d26"
+    },
+    "86280": {
+      "segment": "86200-86299",
+      "tag": "mc2026 test",
+      "canonical": "mc2026|role=episode|index=86280|mc2026 test",
+      "sha256": "0303de054f5950a07905f82b0b50d19f81bb6f77f9906b7541d08d83746a58f7"
+    },
+    "86281": {
+      "segment": "86200-86299",
+      "tag": "mc2026 test",
+      "canonical": "mc2026|role=episode|index=86281|mc2026 test",
+      "sha256": "8db12ffc86009211ae76a5a39a5783807c84d71108e497ce687d23c4cd6c3f49"
+    },
+    "86282": {
+      "segment": "86200-86299",
+      "tag": "mc2026 test",
+      "canonical": "mc2026|role=episode|index=86282|mc2026 test",
+      "sha256": "abcfd0523f5e4cab7f966a1a83a69e5d80edc7eb823d2273a9f1b0da4652e7b1"
+    },
+    "86283": {
+      "segment": "86200-86299",
+      "tag": "mc2026 test",
+      "canonical": "mc2026|role=episode|index=86283|mc2026 test",
+      "sha256": "b88189fcdede358567c8b5305b8da17a25da6b80c032774b87d3773c953ff3df"
+    },
+    "86284": {
+      "segment": "86200-86299",
+      "tag": "mc2026 test",
+      "canonical": "mc2026|role=episode|index=86284|mc2026 test",
+      "sha256": "88ccb812aeb7d3c6a616155c78271ce5f88abddee024bdf13522f60f6d1f9942"
+    },
+    "86285": {
+      "segment": "86200-86299",
+      "tag": "mc2026 test",
+      "canonical": "mc2026|role=episode|index=86285|mc2026 test",
+      "sha256": "8ee736606a77ee0210f07c4360ef92a89ea0bf67f83e8b9fe257aa3aea90acb4"
+    },
+    "86286": {
+      "segment": "86200-86299",
+      "tag": "mc2026 test",
+      "canonical": "mc2026|role=episode|index=86286|mc2026 test",
+      "sha256": "3f74ea39343740f5dc91461855c47aff100e8c25092ebccd115f82407c6ed6e1"
+    },
+    "86287": {
+      "segment": "86200-86299",
+      "tag": "mc2026 test",
+      "canonical": "mc2026|role=episode|index=86287|mc2026 test",
+      "sha256": "21d9d41e0b8285e136f3e6851c9cfba9480469185301a3fa4c91f8b3aa0a6c56"
+    },
+    "86288": {
+      "segment": "86200-86299",
+      "tag": "mc2026 test",
+      "canonical": "mc2026|role=episode|index=86288|mc2026 test",
+      "sha256": "828a7fb5eed8f0354f1e9ae8cf28e091c52cef0c050e512cc2f4ae95205f625b"
+    },
+    "86289": {
+      "segment": "86200-86299",
+      "tag": "mc2026 test",
+      "canonical": "mc2026|role=episode|index=86289|mc2026 test",
+      "sha256": "9c3333d58bac6bd975ccd6ca3707d0904de82e5abe94cb8e11b247097044c6ac"
+    },
+    "86290": {
+      "segment": "86200-86299",
+      "tag": "mc2026 test",
+      "canonical": "mc2026|role=episode|index=86290|mc2026 test",
+      "sha256": "0bc8ad485986c199360c3007c02748a8d122fa3fb31ab62456208f1178515461"
+    },
+    "86291": {
+      "segment": "86200-86299",
+      "tag": "mc2026 test",
+      "canonical": "mc2026|role=episode|index=86291|mc2026 test",
+      "sha256": "4c6e9d3e8ab3a617407452f2d19097ecf631166ec7960a74c5640441827afeaa"
+    },
+    "86292": {
+      "segment": "86200-86299",
+      "tag": "mc2026 test",
+      "canonical": "mc2026|role=episode|index=86292|mc2026 test",
+      "sha256": "c91fbb1b2618df52a29ac4d0913e4e37e2c425ae7d9154fddbb3796ba32443b8"
+    },
+    "86293": {
+      "segment": "86200-86299",
+      "tag": "mc2026 test",
+      "canonical": "mc2026|role=episode|index=86293|mc2026 test",
+      "sha256": "e3d3849acdbf3a3b3b64299a8d6a1c0564b76c18f91995428b77996b311514ec"
+    },
+    "86294": {
+      "segment": "86200-86299",
+      "tag": "mc2026 test",
+      "canonical": "mc2026|role=episode|index=86294|mc2026 test",
+      "sha256": "e0b5fd5e8ea161d5224dd135d363502d5bf5d8867f6ff9ee51630cbca54620f0"
+    },
+    "86295": {
+      "segment": "86200-86299",
+      "tag": "mc2026 test",
+      "canonical": "mc2026|role=episode|index=86295|mc2026 test",
+      "sha256": "163c058581b3e591e5f701a4b3c9ba00d7031e84b9b20e349539d3977f9f7b68"
+    },
+    "86296": {
+      "segment": "86200-86299",
+      "tag": "mc2026 test",
+      "canonical": "mc2026|role=episode|index=86296|mc2026 test",
+      "sha256": "d98426c925995079478ce67fa8da1e39a26c44bfdd5b678cfb778cfe242848c1"
+    },
+    "86297": {
+      "segment": "86200-86299",
+      "tag": "mc2026 test",
+      "canonical": "mc2026|role=episode|index=86297|mc2026 test",
+      "sha256": "92107e227ec285df0bfb4329edb06c15a1c895f12cbd29f06786b74235313ecc"
+    },
+    "86298": {
+      "segment": "86200-86299",
+      "tag": "mc2026 test",
+      "canonical": "mc2026|role=episode|index=86298|mc2026 test",
+      "sha256": "3f670063f80a21a6d258dd28692ee2818d1105b0dcd46406611a02e92b4f4a78"
+    },
+    "86299": {
+      "segment": "86200-86299",
+      "tag": "mc2026 test",
+      "canonical": "mc2026|role=episode|index=86299|mc2026 test",
+      "sha256": "7903e9fedc36cc473ddcb0785994054a924205abab2d8c63733dbbb82e0ee78f"
+    },
+    "86300": {
+      "segment": "86300-86319",
+      "tag": "mc2026 calibration (old topo only)",
+      "canonical": "mc2026|role=episode|index=86300|mc2026 calibration (old topo only)",
+      "sha256": "ec836102af4d8394befee4f0ff91e74ea85244abc2140fdf3b7669c761fd66af"
+    },
+    "86301": {
+      "segment": "86300-86319",
+      "tag": "mc2026 calibration (old topo only)",
+      "canonical": "mc2026|role=episode|index=86301|mc2026 calibration (old topo only)",
+      "sha256": "8fc4fdad9e2c8bb187e3368371f1e63be5512102b531e5a66d4a083c80fd12b2"
+    },
+    "86302": {
+      "segment": "86300-86319",
+      "tag": "mc2026 calibration (old topo only)",
+      "canonical": "mc2026|role=episode|index=86302|mc2026 calibration (old topo only)",
+      "sha256": "4569f9250acc23452ec90630e19b8797037861bd910ff46012347e2389e0fa34"
+    },
+    "86303": {
+      "segment": "86300-86319",
+      "tag": "mc2026 calibration (old topo only)",
+      "canonical": "mc2026|role=episode|index=86303|mc2026 calibration (old topo only)",
+      "sha256": "ec26e662730d6787123ca7e7f1894196eece35d9ed24b9fdc04349c17bac1eee"
+    },
+    "86304": {
+      "segment": "86300-86319",
+      "tag": "mc2026 calibration (old topo only)",
+      "canonical": "mc2026|role=episode|index=86304|mc2026 calibration (old topo only)",
+      "sha256": "f3d5f7bd785948dc9ef813f57a42faa6e56b0b17e34fb006c72b00b86e57419f"
+    },
+    "86305": {
+      "segment": "86300-86319",
+      "tag": "mc2026 calibration (old topo only)",
+      "canonical": "mc2026|role=episode|index=86305|mc2026 calibration (old topo only)",
+      "sha256": "322d8d9796ab3763a7d2dfceeb14347973d26df420ef199dee4d9b9ce1d7578e"
+    },
+    "86306": {
+      "segment": "86300-86319",
+      "tag": "mc2026 calibration (old topo only)",
+      "canonical": "mc2026|role=episode|index=86306|mc2026 calibration (old topo only)",
+      "sha256": "a207c7fa507bd82be1d8748ff6394d08f6dc03b675f9581a2a3a9e98da888e8a"
+    },
+    "86307": {
+      "segment": "86300-86319",
+      "tag": "mc2026 calibration (old topo only)",
+      "canonical": "mc2026|role=episode|index=86307|mc2026 calibration (old topo only)",
+      "sha256": "a7819ded36912f4b6b68958c6c57df7cca5537c38c74db8d1079a4bf5796833d"
+    },
+    "86308": {
+      "segment": "86300-86319",
+      "tag": "mc2026 calibration (old topo only)",
+      "canonical": "mc2026|role=episode|index=86308|mc2026 calibration (old topo only)",
+      "sha256": "2b08562ea50fafccb59a87cce19903329806be40defc28073413715886c2ffb1"
+    },
+    "86309": {
+      "segment": "86300-86319",
+      "tag": "mc2026 calibration (old topo only)",
+      "canonical": "mc2026|role=episode|index=86309|mc2026 calibration (old topo only)",
+      "sha256": "1ffa7a21a60838c3eacbc21188941c91c9ada6ab986226ad277ad02f6479b03b"
+    },
+    "86310": {
+      "segment": "86300-86319",
+      "tag": "mc2026 calibration (old topo only)",
+      "canonical": "mc2026|role=episode|index=86310|mc2026 calibration (old topo only)",
+      "sha256": "1ddbd2bcd9582099ed4ae98549f326f1ba9d4b9bae17f1fb066a88c299862867"
+    },
+    "86311": {
+      "segment": "86300-86319",
+      "tag": "mc2026 calibration (old topo only)",
+      "canonical": "mc2026|role=episode|index=86311|mc2026 calibration (old topo only)",
+      "sha256": "ab5dfc735d9661e8486d51260e8e2619435885ec058abfa9dc06e3f19955cca4"
+    },
+    "86312": {
+      "segment": "86300-86319",
+      "tag": "mc2026 calibration (old topo only)",
+      "canonical": "mc2026|role=episode|index=86312|mc2026 calibration (old topo only)",
+      "sha256": "7c59c9437998a75f464f7a9463b96c69d3cc308e2154959592f2eb261dab06c0"
+    },
+    "86313": {
+      "segment": "86300-86319",
+      "tag": "mc2026 calibration (old topo only)",
+      "canonical": "mc2026|role=episode|index=86313|mc2026 calibration (old topo only)",
+      "sha256": "d42dc51eda815e395559918c0ef4085026781966d99c42d5f955e69b206eb972"
+    },
+    "86314": {
+      "segment": "86300-86319",
+      "tag": "mc2026 calibration (old topo only)",
+      "canonical": "mc2026|role=episode|index=86314|mc2026 calibration (old topo only)",
+      "sha256": "290ab0e32ebca6cdc88f77311cd2ded1d6d7ee259c6d19db4a2ecfef7adfa579"
+    },
+    "86315": {
+      "segment": "86300-86319",
+      "tag": "mc2026 calibration (old topo only)",
+      "canonical": "mc2026|role=episode|index=86315|mc2026 calibration (old topo only)",
+      "sha256": "b204473f562740652640858209117f4fb38bdbc2b69b5a8f744161b533febb7d"
+    },
+    "86316": {
+      "segment": "86300-86319",
+      "tag": "mc2026 calibration (old topo only)",
+      "canonical": "mc2026|role=episode|index=86316|mc2026 calibration (old topo only)",
+      "sha256": "00617de07dfc529c4f8336ea9836518946dec32d642ece04db95f422ca06ab7f"
+    },
+    "86317": {
+      "segment": "86300-86319",
+      "tag": "mc2026 calibration (old topo only)",
+      "canonical": "mc2026|role=episode|index=86317|mc2026 calibration (old topo only)",
+      "sha256": "cbdefffaf72af84914a81fcbf31659379e2eccd9a164c138af495bfe6e314666"
+    },
+    "86318": {
+      "segment": "86300-86319",
+      "tag": "mc2026 calibration (old topo only)",
+      "canonical": "mc2026|role=episode|index=86318|mc2026 calibration (old topo only)",
+      "sha256": "6f09e1912f073944df4c03d92c007c65836996b92f144d96fa59c4d7c6905b6e"
+    },
+    "86319": {
+      "segment": "86300-86319",
+      "tag": "mc2026 calibration (old topo only)",
+      "canonical": "mc2026|role=episode|index=86319|mc2026 calibration (old topo only)",
+      "sha256": "ad572229e9315fc81d4411bc43cb0c271bc9c11660e9e914a61ad54edde20e6d"
+    },
+    "86400": {
+      "segment": "86400-86419",
+      "tag": "mc2026 final_confirm",
+      "canonical": "mc2026|role=episode|index=86400|mc2026 final_confirm",
+      "sha256": "4cf40d4051ab2d1cb71daf8b55025d23e663e4122d48fe4e2571421e2bf10760"
+    },
+    "86401": {
+      "segment": "86400-86419",
+      "tag": "mc2026 final_confirm",
+      "canonical": "mc2026|role=episode|index=86401|mc2026 final_confirm",
+      "sha256": "5d9c511d9738db160578a2f6bebb4b4c7c004df95b2e159cab11d16cbeec8edf"
+    },
+    "86402": {
+      "segment": "86400-86419",
+      "tag": "mc2026 final_confirm",
+      "canonical": "mc2026|role=episode|index=86402|mc2026 final_confirm",
+      "sha256": "7cd3dd84dbeea364f0a0aded73778017b8d4b2f38c7ac8850076e92332684ed7"
+    },
+    "86403": {
+      "segment": "86400-86419",
+      "tag": "mc2026 final_confirm",
+      "canonical": "mc2026|role=episode|index=86403|mc2026 final_confirm",
+      "sha256": "4320026dff0a7dd57d90cd745cdb69d8739011bcd8cd0d4fcd85b89abcde2b19"
+    },
+    "86404": {
+      "segment": "86400-86419",
+      "tag": "mc2026 final_confirm",
+      "canonical": "mc2026|role=episode|index=86404|mc2026 final_confirm",
+      "sha256": "23e1ea226a46b22413fa89d05705cebbf6e2b9c80a7cf1627cbf75c04da9852e"
+    },
+    "86405": {
+      "segment": "86400-86419",
+      "tag": "mc2026 final_confirm",
+      "canonical": "mc2026|role=episode|index=86405|mc2026 final_confirm",
+      "sha256": "1619075793fbd2e71ba5ac48c530374fed94c2ca888bd16f40b0992ac4055e90"
+    },
+    "86406": {
+      "segment": "86400-86419",
+      "tag": "mc2026 final_confirm",
+      "canonical": "mc2026|role=episode|index=86406|mc2026 final_confirm",
+      "sha256": "49f74480c87e324dbf89337c3fe164467e05af85089811eb50df2828c78725bf"
+    },
+    "86407": {
+      "segment": "86400-86419",
+      "tag": "mc2026 final_confirm",
+      "canonical": "mc2026|role=episode|index=86407|mc2026 final_confirm",
+      "sha256": "b1a839fd0129d255a82dcdc331beb66eae4f14ab3a80872acc91373ff830664f"
+    },
+    "86408": {
+      "segment": "86400-86419",
+      "tag": "mc2026 final_confirm",
+      "canonical": "mc2026|role=episode|index=86408|mc2026 final_confirm",
+      "sha256": "dd16ba7dd327496ad515bfc509c868d86f0c547bdd04cc68d99b9613f1692038"
+    },
+    "86409": {
+      "segment": "86400-86419",
+      "tag": "mc2026 final_confirm",
+      "canonical": "mc2026|role=episode|index=86409|mc2026 final_confirm",
+      "sha256": "f0175abf52e884eac5023e89db2097dd29e6bfcebcdcc87cc1b91818c2024aba"
+    },
+    "86410": {
+      "segment": "86400-86419",
+      "tag": "mc2026 final_confirm",
+      "canonical": "mc2026|role=episode|index=86410|mc2026 final_confirm",
+      "sha256": "f3444a738b0dccb157fc378f3699a03cb3f87901e265532bfe362c31a78d5fc1"
+    },
+    "86411": {
+      "segment": "86400-86419",
+      "tag": "mc2026 final_confirm",
+      "canonical": "mc2026|role=episode|index=86411|mc2026 final_confirm",
+      "sha256": "bec79e322ad4c958d38b530bb8af3c317b1217a78d28134425239f7cadef27cb"
+    },
+    "86412": {
+      "segment": "86400-86419",
+      "tag": "mc2026 final_confirm",
+      "canonical": "mc2026|role=episode|index=86412|mc2026 final_confirm",
+      "sha256": "7cb4f93ded5f33ac844509df36d271b8964f7f076358dc6b276a1c2a8bda92f1"
+    },
+    "86413": {
+      "segment": "86400-86419",
+      "tag": "mc2026 final_confirm",
+      "canonical": "mc2026|role=episode|index=86413|mc2026 final_confirm",
+      "sha256": "365bcfa47fbb9410ed5e99782bcb95ab1db7d5825210bd56c87b9cd3550760cc"
+    },
+    "86414": {
+      "segment": "86400-86419",
+      "tag": "mc2026 final_confirm",
+      "canonical": "mc2026|role=episode|index=86414|mc2026 final_confirm",
+      "sha256": "ba6cf7621c3d4d9415dc1acb979919debd942ae76ad5187ae7e6ccf64d7765d9"
+    },
+    "86415": {
+      "segment": "86400-86419",
+      "tag": "mc2026 final_confirm",
+      "canonical": "mc2026|role=episode|index=86415|mc2026 final_confirm",
+      "sha256": "edcce5f8af006d29b1c7ff7a2908f229afb2296532021f52439895e6643bae21"
+    },
+    "86416": {
+      "segment": "86400-86419",
+      "tag": "mc2026 final_confirm",
+      "canonical": "mc2026|role=episode|index=86416|mc2026 final_confirm",
+      "sha256": "b249f4fa8e711f4ece35f269e1d37383ee347ee7afbf41ab8bf5d3fc29493ab8"
+    },
+    "86417": {
+      "segment": "86400-86419",
+      "tag": "mc2026 final_confirm",
+      "canonical": "mc2026|role=episode|index=86417|mc2026 final_confirm",
+      "sha256": "6242129d5297f7a269259b6b5c6a9461b7816a2db75cfa06bd2066c3f970c23c"
+    },
+    "86418": {
+      "segment": "86400-86419",
+      "tag": "mc2026 final_confirm",
+      "canonical": "mc2026|role=episode|index=86418|mc2026 final_confirm",
+      "sha256": "728f94c17d23bd35eb4a486ed99a19132ba54049c3d73a237b366ed1aa8450ef"
+    },
+    "86419": {
+      "segment": "86400-86419",
+      "tag": "mc2026 final_confirm",
+      "canonical": "mc2026|role=episode|index=86419|mc2026 final_confirm",
+      "sha256": "bd7db2f2ae27bae52d598662397a1f4bbe05c1c62847b8970b51a8894cf557e2"
+    }
+  },
+  "disjoint_check": {
+    "passed": true,
+    "problems": []
+  }
+}

@@ -1,4 +1,16 @@
-# Recurrent Connection Topology Supports Reactive Control
+# Evolved Spiking Networks: Connectivity, Output Activity, and Control
+
+## Current Neural Computation Study
+
+The current study is **Evolved Spiking Networks with Fixed Synaptic Weight Magnitudes: Connectivity, Output Activity, and Preservation of Control Function**, by Xuewei Li, Bowen Zhao, Guangxu Mei, Huanci Li, and Xin Ding.
+
+Its data and source code are organized separately in [the dated study artifact](releases/2026-10-13-neural-computation/README.md). This includes the completed local rerun, matched graphs and measurements, executed source snapshots, and historical evidence kept distinct from the new execution. Start with [the reproduction instructions](releases/2026-10-13-neural-computation/reproducibility/REPRODUCE.md).
+
+The submission manuscript and cover letter are prepared separately and are not published in this repository. No journal acceptance or publication status is claimed.
+
+## Legacy Artifact
+
+The material below describes the earlier reactive-control manuscript and is retained for historical context. Its analyses and claims should not be substituted for the current dated study artifact.
 
 This repository is the public code and processed-data artifact for the manuscript:
 

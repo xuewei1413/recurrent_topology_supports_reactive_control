@@ -1,0 +1,9 @@
+{
+  "task": "CartPole",
+  "env_id": "CartPole-v1",
+  "obs_dim": 4,
+  "n_episodes": 500,
+  "estimation_seed": 12345,
+  "clip": 3.0,
+  "input_gain": 8.0
+}

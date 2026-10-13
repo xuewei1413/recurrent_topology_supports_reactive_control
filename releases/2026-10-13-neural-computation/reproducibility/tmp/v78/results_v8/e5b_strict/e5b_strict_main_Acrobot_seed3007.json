@@ -1,0 +1,282 @@
+{
+ "version": "v8_e5b_strict",
+ "cohort": "main",
+ "task": "Acrobot",
+ "tag": "seed3007",
+ "scaffold_seed": 3007,
+ "n_hh": 1424,
+ "n_skel": 285,
+ "n_strict": 32,
+ "strict_frac_of_skel": 0.11228070175438597,
+ "n_keys": 27,
+ "key_counts": {
+  "(1, 0, 4, 1, 1)": [
+   1,
+   2,
+   1
+  ],
+  "(1, 0, 3, 1, 1)": [
+   4,
+   1,
+   1
+  ],
+  "(1, 0, 5, 1, 1)": [
+   1,
+   1,
+   1
+  ],
+  "(-1, 7, 4, 1, 1)": [
+   1,
+   1,
+   1
+  ],
+  "(1, 4, 7, 1, 1)": [
+   2,
+   1,
+   1
+  ],
+  "(-1, 0, 3, 1, 1)": [
+   3,
+   3,
+   3
+  ],
+  "(1, 4, 0, 1, 1)": [
+   1,
+   2,
+   1
+  ],
+  "(-1, 0, 7, 1, 1)": [
+   1,
+   4,
+   1
+  ],
+  "(1, 2, 0, 1, 1)": [
+   3,
+   1,
+   1
+  ],
+  "(-1, 7, 3, 1, 1)": [
+   2,
+   2,
+   2
+  ],
+  "(1, 3, 7, 1, 1)": [
+   2,
+   2,
+   2
+  ],
+  "(1, 3, 3, 1, 1)": [
+   2,
+   1,
+   1
+  ],
+  "(-1, 7, 0, 1, 1)": [
+   1,
+   1,
+   1
+  ],
+  "(1, 4, 4, 1, 1)": [
+   1,
+   1,
+   1
+  ],
+  "(1, 5, 7, 1, 1)": [
+   2,
+   6,
+   2
+  ],
+  "(1, 0, 6, 1, 1)": [
+   2,
+   1,
+   1
+  ],
+  "(1, 3, 0, 1, 1)": [
+   1,
+   1,
+   1
+  ],
+  "(1, 5, 4, 1, 1)": [
+   2,
+   1,
+   1
+  ],
+  "(1, 0, 0, 1, 1)": [
+   1,
+   1,
+   1
+  ],
+  "(1, 6, 3, 1, 1)": [
+   1,
+   1,
+   1
+  ],
+  "(1, 2, 4, 1, 1)": [
+   1,
+   1,
+   1
+  ],
+  "(1, 5, 3, 1, 1)": [
+   1,
+   2,
+   1
+  ],
+  "(-1, 1, 0, 1, 1)": [
+   1,
+   1,
+   1
+  ],
+  "(1, 5, 0, 1, 1)": [
+   1,
+   1,
+   1
+  ],
+  "(-1, 1, 3, 1, 1)": [
+   2,
+   1,
+   1
+  ],
+  "(-1, 6, 0, 1, 1)": [
+   1,
+   1,
+   1
+  ],
+  "(-1, 1, 6, 1, 1)": [
+   1,
+   1,
+   1
+  ]
+ },
+ "skel_strict_hash": "32745cea694fab08",
+ "eval_seeds": [
+  96000,
+  96001,
+  96002,
+  96003,
+  96004,
+  96005,
+  96006,
+  96007,
+  96008,
+  96009,
+  96010,
+  96011,
+  96012,
+  96013,
+  96014,
+  96015,
+  96016,
+  96017,
+  96018,
+  96019
+ ],
+ "R": 10,
+ "J_F0": -187.4,
+ "J_del_skel_strict": -187.4,
+ "drop_skel_strict": 0.0,
+ "reps": [
+  {
+   "rep": 0,
+   "n_matched": 32,
+   "matched_hash": "08d8c7aa5d1f4bae",
+   "rand_hash": "607a293910a73561",
+   "J_del_matched": -174.15,
+   "drop_matched": -13.25,
+   "J_del_rand": -187.4,
+   "drop_rand": 0.0
+  },
+  {
+   "rep": 1,
+   "n_matched": 32,
+   "matched_hash": "afc151a5c6723599",
+   "rand_hash": "dd211427a7089401",
+   "J_del_matched": -174.15,
+   "drop_matched": -13.25,
+   "J_del_rand": -187.4,
+   "drop_rand": 0.0
+  },
+  {
+   "rep": 2,
+   "n_matched": 32,
+   "matched_hash": "b552a0a7c011ece8",
+   "rand_hash": "a040ad1e8a0a7e0a",
+   "J_del_matched": -174.15,
+   "drop_matched": -13.25,
+   "J_del_rand": -172.2,
+   "drop_rand": -15.200000000000017
+  },
+  {
+   "rep": 3,
+   "n_matched": 32,
+   "matched_hash": "cb246843ed62b1c7",
+   "rand_hash": "ce00efd4c5a64a36",
+   "J_del_matched": -174.15,
+   "drop_matched": -13.25,
+   "J_del_rand": -176.55,
+   "drop_rand": -10.849999999999994
+  },
+  {
+   "rep": 4,
+   "n_matched": 32,
+   "matched_hash": "a2c2a270801cd5e3",
+   "rand_hash": "3cc3c829a85ae5f1",
+   "J_del_matched": -174.15,
+   "drop_matched": -13.25,
+   "J_del_rand": -165.25,
+   "drop_rand": -22.150000000000006
+  },
+  {
+   "rep": 5,
+   "n_matched": 32,
+   "matched_hash": "cd6144f29a60bae2",
+   "rand_hash": "d042a653731f6760",
+   "J_del_matched": -174.15,
+   "drop_matched": -13.25,
+   "J_del_rand": -187.4,
+   "drop_rand": 0.0
+  },
+  {
+   "rep": 6,
+   "n_matched": 32,
+   "matched_hash": "4146c369e40239f3",
+   "rand_hash": "b6492d5013765e19",
+   "J_del_matched": -174.15,
+   "drop_matched": -13.25,
+   "J_del_rand": -187.4,
+   "drop_rand": 0.0
+  },
+  {
+   "rep": 7,
+   "n_matched": 32,
+   "matched_hash": "bb9029761a981647",
+   "rand_hash": "947b2d46ec8a6c4a",
+   "J_del_matched": -174.15,
+   "drop_matched": -13.25,
+   "J_del_rand": -187.4,
+   "drop_rand": 0.0
+  },
+  {
+   "rep": 8,
+   "n_matched": 32,
+   "matched_hash": "784ca291108285bb",
+   "rand_hash": "d966e52765a9342a",
+   "J_del_matched": -174.15,
+   "drop_matched": -13.25,
+   "J_del_rand": -186.3,
+   "drop_rand": -1.0999999999999943
+  },
+  {
+   "rep": 9,
+   "n_matched": 32,
+   "matched_hash": "18c2d1478d46f2db",
+   "rand_hash": "dc39900c725b3e4d",
+   "J_del_matched": -174.15,
+   "drop_matched": -13.25,
+   "J_del_rand": -187.4,
+   "drop_rand": 0.0
+  }
+ ],
+ "drop_matched_mean": -13.25,
+ "drop_rand_mean": -4.9300000000000015,
+ "elapsed_sec": 24.40272331237793,
+ "evo_seed": 3007
+}

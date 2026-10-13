@@ -1,0 +1,227 @@
+{
+ "version": "v8_e5b_strict",
+ "cohort": "main",
+ "task": "Acrobot",
+ "tag": "seed3005",
+ "scaffold_seed": 3005,
+ "n_hh": 1428,
+ "n_skel": 286,
+ "n_strict": 20,
+ "strict_frac_of_skel": 0.06993006993006994,
+ "n_keys": 16,
+ "key_counts": {
+  "(1, 3, 1, 1, 1)": [
+   1,
+   1,
+   1
+  ],
+  "(1, 6, 5, 1, 1)": [
+   2,
+   1,
+   1
+  ],
+  "(1, 5, 7, 1, 1)": [
+   2,
+   1,
+   1
+  ],
+  "(1, 6, 0, 1, 1)": [
+   3,
+   3,
+   3
+  ],
+  "(1, 4, 0, 1, 1)": [
+   2,
+   3,
+   2
+  ],
+  "(1, 6, 7, 1, 1)": [
+   1,
+   2,
+   1
+  ],
+  "(1, 1, 7, 1, 1)": [
+   2,
+   1,
+   1
+  ],
+  "(-1, 5, 0, 1, 1)": [
+   1,
+   1,
+   1
+  ],
+  "(1, 0, 7, 1, 1)": [
+   1,
+   1,
+   1
+  ],
+  "(1, 1, 0, 1, 1)": [
+   2,
+   5,
+   2
+  ],
+  "(1, 3, 0, 1, 1)": [
+   1,
+   1,
+   1
+  ],
+  "(-1, 1, 2, 1, 1)": [
+   1,
+   1,
+   1
+  ],
+  "(1, 6, 6, 1, 1)": [
+   1,
+   1,
+   1
+  ],
+  "(1, 1, 1, 1, 1)": [
+   1,
+   1,
+   1
+  ],
+  "(-1, 5, 7, 1, 1)": [
+   1,
+   2,
+   1
+  ],
+  "(-1, 1, 7, 1, 1)": [
+   1,
+   1,
+   1
+  ]
+ },
+ "skel_strict_hash": "8681a3f9296d7cbc",
+ "eval_seeds": [
+  96000,
+  96001,
+  96002,
+  96003,
+  96004,
+  96005,
+  96006,
+  96007,
+  96008,
+  96009,
+  96010,
+  96011,
+  96012,
+  96013,
+  96014,
+  96015,
+  96016,
+  96017,
+  96018,
+  96019
+ ],
+ "R": 10,
+ "J_F0": -84.4,
+ "J_del_skel_strict": -90.75,
+ "drop_skel_strict": 6.349999999999994,
+ "reps": [
+  {
+   "rep": 0,
+   "n_matched": 20,
+   "matched_hash": "75025d4411a65b35",
+   "rand_hash": "6479dae4fb4cceb5",
+   "J_del_matched": -106.0,
+   "drop_matched": 21.599999999999994,
+   "J_del_rand": -83.55,
+   "drop_rand": -0.8500000000000085
+  },
+  {
+   "rep": 1,
+   "n_matched": 20,
+   "matched_hash": "b8c612337a91828c",
+   "rand_hash": "82df9dfdb2a5bde7",
+   "J_del_matched": -89.0,
+   "drop_matched": 4.599999999999994,
+   "J_del_rand": -84.5,
+   "drop_rand": 0.09999999999999432
+  },
+  {
+   "rep": 2,
+   "n_matched": 20,
+   "matched_hash": "8e6469038954c4b4",
+   "rand_hash": "13b11022d0925779",
+   "J_del_matched": -93.85,
+   "drop_matched": 9.449999999999989,
+   "J_del_rand": -82.8,
+   "drop_rand": -1.6000000000000085
+  },
+  {
+   "rep": 3,
+   "n_matched": 20,
+   "matched_hash": "d92dda4ee79af639",
+   "rand_hash": "1dba9a9d83117c30",
+   "J_del_matched": -90.6,
+   "drop_matched": 6.199999999999989,
+   "J_del_rand": -83.15,
+   "drop_rand": -1.25
+  },
+  {
+   "rep": 4,
+   "n_matched": 20,
+   "matched_hash": "c9d020e87e609947",
+   "rand_hash": "b0afd616dc6cb29c",
+   "J_del_matched": -103.0,
+   "drop_matched": 18.599999999999994,
+   "J_del_rand": -108.35,
+   "drop_rand": 23.94999999999999
+  },
+  {
+   "rep": 5,
+   "n_matched": 20,
+   "matched_hash": "3cd6326e42f9da7e",
+   "rand_hash": "7d422fb1223222a1",
+   "J_del_matched": -106.9,
+   "drop_matched": 22.5,
+   "J_del_rand": -109.65,
+   "drop_rand": 25.25
+  },
+  {
+   "rep": 6,
+   "n_matched": 20,
+   "matched_hash": "024275b6669b0a2e",
+   "rand_hash": "77f6853a148b54f3",
+   "J_del_matched": -90.5,
+   "drop_matched": 6.099999999999994,
+   "J_del_rand": -83.4,
+   "drop_rand": -1.0
+  },
+  {
+   "rep": 7,
+   "n_matched": 20,
+   "matched_hash": "e1137fa1364f4b94",
+   "rand_hash": "8646210d267a78d3",
+   "J_del_matched": -90.8,
+   "drop_matched": 6.3999999999999915,
+   "J_del_rand": -83.4,
+   "drop_rand": -1.0
+  },
+  {
+   "rep": 8,
+   "n_matched": 20,
+   "matched_hash": "6f726bf5163dd8b2",
+   "rand_hash": "5c55d407bc78539c",
+   "J_del_matched": -106.0,
+   "drop_matched": 21.599999999999994,
+   "J_del_rand": -80.45,
+   "drop_rand": -3.950000000000003
+  },
+  {
+   "rep": 9,
+   "n_matched": 20,
+   "matched_hash": "7ce2532946d381f4",
+   "rand_hash": "bc0c5aa38ee60a08",
+   "J_del_matched": -90.6,
+   "drop_matched": 6.199999999999989,
+   "J_del_rand": -84.95,
+   "drop_rand": 0.5499999999999972
+  }
+ ],
+ "drop_matched_mean": 12.324999999999992,
+ "drop_rand_mean": 4.019999999999996,
+ "elapsed_sec": 12.448143005371094,
+ "evo_seed": 3005
+}

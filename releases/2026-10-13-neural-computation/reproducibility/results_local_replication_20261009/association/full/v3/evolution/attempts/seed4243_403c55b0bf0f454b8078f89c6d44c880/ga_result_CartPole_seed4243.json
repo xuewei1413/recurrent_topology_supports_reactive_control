@@ -1,0 +1,1180 @@
+{
+  "task": "CartPole",
+  "evolution_seed": 4243,
+  "edge_count": 1625,
+  "n_generations": 167,
+  "evaluations_done": 20040,
+  "best_fitness": 500.0,
+  "elapsed_sec": 7910.582100152969,
+  "fitness_history": [
+    {
+      "gen": 1,
+      "best": 130.0,
+      "mean": 17.391666666666666,
+      "median": 11.5,
+      "evals_done": 120
+    },
+    {
+      "gen": 2,
+      "best": 132.0,
+      "mean": 34.38333333333333,
+      "median": 21.75,
+      "evals_done": 240
+    },
+    {
+      "gen": 3,
+      "best": 132.0,
+      "mean": 71.09166666666667,
+      "median": 27.75,
+      "evals_done": 360
+    },
+    {
+      "gen": 4,
+      "best": 132.5,
+      "mean": 110.71666666666667,
+      "median": 132.0,
+      "evals_done": 480
+    },
+    {
+      "gen": 5,
+      "best": 150.5,
+      "mean": 149.95833333333334,
+      "median": 150.25,
+      "evals_done": 600
+    },
+    {
+      "gen": 6,
+      "best": 150.5,
+      "mean": 139.23333333333332,
+      "median": 150.25,
+      "evals_done": 720
+    },
+    {
+      "gen": 7,
+      "best": 154.5,
+      "mean": 139.16666666666666,
+      "median": 150.25,
+      "evals_done": 840
+    },
+    {
+      "gen": 8,
+      "best": 155.5,
+      "mean": 150.875,
+      "median": 150.5,
+      "evals_done": 960
+    },
+    {
+      "gen": 9,
+      "best": 155.5,
+      "mean": 149.68333333333334,
+      "median": 154.5,
+      "evals_done": 1080
+    },
+    {
+      "gen": 10,
+      "best": 133.75,
+      "mean": 45.31666666666667,
+      "median": 43.25,
+      "evals_done": 1200
+    },
+    {
+      "gen": 11,
+      "best": 140.5,
+      "mean": 52.025,
+      "median": 43.25,
+      "evals_done": 1320
+    },
+    {
+      "gen": 12,
+      "best": 233.75,
+      "mean": 70.75833333333334,
+      "median": 43.25,
+      "evals_done": 1440
+    },
+    {
+      "gen": 13,
+      "best": 233.75,
+      "mean": 132.64166666666668,
+      "median": 133.75,
+      "evals_done": 1560
+    },
+    {
+      "gen": 14,
+      "best": 257.75,
+      "mean": 179.4,
+      "median": 149.5,
+      "evals_done": 1680
+    },
+    {
+      "gen": 15,
+      "best": 227.25,
+      "mean": 199.63333333333333,
+      "median": 202.75,
+      "evals_done": 1800
+    },
+    {
+      "gen": 16,
+      "best": 227.25,
+      "mean": 208.33333333333334,
+      "median": 222.25,
+      "evals_done": 1920
+    },
+    {
+      "gen": 17,
+      "best": 325.5,
+      "mean": 217.95,
+      "median": 223.5,
+      "evals_done": 2040
+    },
+    {
+      "gen": 18,
+      "best": 331.0,
+      "mean": 233.41666666666666,
+      "median": 224.75,
+      "evals_done": 2160
+    },
+    {
+      "gen": 19,
+      "best": 356.25,
+      "mean": 240.24166666666667,
+      "median": 227.25,
+      "evals_done": 2280
+    },
+    {
+      "gen": 20,
+      "best": 400.75,
+      "mean": 297.075,
+      "median": 272.75,
+      "evals_done": 2400
+    },
+    {
+      "gen": 21,
+      "best": 456.5,
+      "mean": 361.1666666666667,
+      "median": 398.25,
+      "evals_done": 2520
+    },
+    {
+      "gen": 22,
+      "best": 456.5,
+      "mean": 394.3333333333333,
+      "median": 398.25,
+      "evals_done": 2640
+    },
+    {
+      "gen": 23,
+      "best": 456.5,
+      "mean": 405.25,
+      "median": 400.75,
+      "evals_done": 2760
+    },
+    {
+      "gen": 24,
+      "best": 456.5,
+      "mean": 429.2583333333333,
+      "median": 456.5,
+      "evals_done": 2880
+    },
+    {
+      "gen": 25,
+      "best": 443.75,
+      "mean": 415.15,
+      "median": 428.75,
+      "evals_done": 3000
+    },
+    {
+      "gen": 26,
+      "best": 443.75,
+      "mean": 424.85,
+      "median": 428.75,
+      "evals_done": 3120
+    },
+    {
+      "gen": 27,
+      "best": 443.75,
+      "mean": 420.51666666666665,
+      "median": 428.75,
+      "evals_done": 3240
+    },
+    {
+      "gen": 28,
+      "best": 443.75,
+      "mean": 411.26666666666665,
+      "median": 428.75,
+      "evals_done": 3360
+    },
+    {
+      "gen": 29,
+      "best": 443.75,
+      "mean": 418.10833333333335,
+      "median": 443.75,
+      "evals_done": 3480
+    },
+    {
+      "gen": 30,
+      "best": 446.75,
+      "mean": 375.325,
+      "median": 388.0,
+      "evals_done": 3600
+    },
+    {
+      "gen": 31,
+      "best": 499.5,
+      "mean": 401.98333333333335,
+      "median": 426.75,
+      "evals_done": 3720
+    },
+    {
+      "gen": 32,
+      "best": 499.5,
+      "mean": 434.675,
+      "median": 446.75,
+      "evals_done": 3840
+    },
+    {
+      "gen": 33,
+      "best": 499.5,
+      "mean": 474.84166666666664,
+      "median": 499.5,
+      "evals_done": 3960
+    },
+    {
+      "gen": 34,
+      "best": 499.5,
+      "mean": 473.64166666666665,
+      "median": 499.5,
+      "evals_done": 4080
+    },
+    {
+      "gen": 35,
+      "best": 441.25,
+      "mean": 421.21666666666664,
+      "median": 420.5,
+      "evals_done": 4200
+    },
+    {
+      "gen": 36,
+      "best": 441.25,
+      "mean": 417.15833333333336,
+      "median": 420.5,
+      "evals_done": 4320
+    },
+    {
+      "gen": 37,
+      "best": 441.25,
+      "mean": 412.01666666666665,
+      "median": 420.5,
+      "evals_done": 4440
+    },
+    {
+      "gen": 38,
+      "best": 453.0,
+      "mean": 426.34166666666664,
+      "median": 431.25,
+      "evals_done": 4560
+    },
+    {
+      "gen": 39,
+      "best": 453.0,
+      "mean": 406.0083333333333,
+      "median": 441.25,
+      "evals_done": 4680
+    },
+    {
+      "gen": 40,
+      "best": 495.25,
+      "mean": 425.875,
+      "median": 437.5,
+      "evals_done": 4800
+    },
+    {
+      "gen": 41,
+      "best": 495.25,
+      "mean": 433.4166666666667,
+      "median": 437.5,
+      "evals_done": 4920
+    },
+    {
+      "gen": 42,
+      "best": 495.25,
+      "mean": 469.5083333333333,
+      "median": 495.25,
+      "evals_done": 5040
+    },
+    {
+      "gen": 43,
+      "best": 495.25,
+      "mean": 489.025,
+      "median": 495.25,
+      "evals_done": 5160
+    },
+    {
+      "gen": 44,
+      "best": 495.25,
+      "mean": 484.34166666666664,
+      "median": 495.25,
+      "evals_done": 5280
+    },
+    {
+      "gen": 45,
+      "best": 393.0,
+      "mean": 373.2916666666667,
+      "median": 376.25,
+      "evals_done": 5400
+    },
+    {
+      "gen": 46,
+      "best": 393.0,
+      "mean": 375.05833333333334,
+      "median": 384.0,
+      "evals_done": 5520
+    },
+    {
+      "gen": 47,
+      "best": 393.0,
+      "mean": 372.1,
+      "median": 384.5,
+      "evals_done": 5640
+    },
+    {
+      "gen": 48,
+      "best": 426.5,
+      "mean": 373.46666666666664,
+      "median": 384.5,
+      "evals_done": 5760
+    },
+    {
+      "gen": 49,
+      "best": 426.5,
+      "mean": 387.725,
+      "median": 390.375,
+      "evals_done": 5880
+    },
+    {
+      "gen": 50,
+      "best": 409.75,
+      "mean": 375.56666666666666,
+      "median": 406.25,
+      "evals_done": 6000
+    },
+    {
+      "gen": 51,
+      "best": 424.0,
+      "mean": 404.325,
+      "median": 406.25,
+      "evals_done": 6120
+    },
+    {
+      "gen": 52,
+      "best": 424.0,
+      "mean": 390.93333333333334,
+      "median": 406.25,
+      "evals_done": 6240
+    },
+    {
+      "gen": 53,
+      "best": 483.5,
+      "mean": 393.875,
+      "median": 409.75,
+      "evals_done": 6360
+    },
+    {
+      "gen": 54,
+      "best": 483.5,
+      "mean": 414.15833333333336,
+      "median": 424.0,
+      "evals_done": 6480
+    },
+    {
+      "gen": 55,
+      "best": 495.25,
+      "mean": 446.5833333333333,
+      "median": 418.0,
+      "evals_done": 6600
+    },
+    {
+      "gen": 56,
+      "best": 500.0,
+      "mean": 492.625,
+      "median": 495.25,
+      "evals_done": 6720
+    },
+    {
+      "gen": 57,
+      "best": 500.0,
+      "mean": 480.725,
+      "median": 495.25,
+      "evals_done": 6840
+    },
+    {
+      "gen": 58,
+      "best": 500.0,
+      "mean": 487.025,
+      "median": 495.25,
+      "evals_done": 6960
+    },
+    {
+      "gen": 59,
+      "best": 500.0,
+      "mean": 480.01666666666665,
+      "median": 495.25,
+      "evals_done": 7080
+    },
+    {
+      "gen": 60,
+      "best": 497.25,
+      "mean": 476.0833333333333,
+      "median": 489.0,
+      "evals_done": 7200
+    },
+    {
+      "gen": 61,
+      "best": 497.25,
+      "mean": 478.2583333333333,
+      "median": 489.0,
+      "evals_done": 7320
+    },
+    {
+      "gen": 62,
+      "best": 500.0,
+      "mean": 483.94166666666666,
+      "median": 489.0,
+      "evals_done": 7440
+    },
+    {
+      "gen": 63,
+      "best": 500.0,
+      "mean": 486.8833333333333,
+      "median": 497.25,
+      "evals_done": 7560
+    },
+    {
+      "gen": 64,
+      "best": 500.0,
+      "mean": 489.7583333333333,
+      "median": 497.25,
+      "evals_done": 7680
+    },
+    {
+      "gen": 65,
+      "best": 500.0,
+      "mean": 471.18333333333334,
+      "median": 500.0,
+      "evals_done": 7800
+    },
+    {
+      "gen": 66,
+      "best": 500.0,
+      "mean": 495.34166666666664,
+      "median": 500.0,
+      "evals_done": 7920
+    },
+    {
+      "gen": 67,
+      "best": 500.0,
+      "mean": 500.0,
+      "median": 500.0,
+      "evals_done": 8040
+    },
+    {
+      "gen": 68,
+      "best": 500.0,
+      "mean": 497.35,
+      "median": 500.0,
+      "evals_done": 8160
+    },
+    {
+      "gen": 69,
+      "best": 500.0,
+      "mean": 500.0,
+      "median": 500.0,
+      "evals_done": 8280
+    },
+    {
+      "gen": 70,
+      "best": 500.0,
+      "mean": 490.5416666666667,
+      "median": 500.0,
+      "evals_done": 8400
+    },
+    {
+      "gen": 71,
+      "best": 500.0,
+      "mean": 500.0,
+      "median": 500.0,
+      "evals_done": 8520
+    },
+    {
+      "gen": 72,
+      "best": 500.0,
+      "mean": 497.875,
+      "median": 500.0,
+      "evals_done": 8640
+    },
+    {
+      "gen": 73,
+      "best": 500.0,
+      "mean": 500.0,
+      "median": 500.0,
+      "evals_done": 8760
+    },
+    {
+      "gen": 74,
+      "best": 500.0,
+      "mean": 500.0,
+      "median": 500.0,
+      "evals_done": 8880
+    },
+    {
+      "gen": 75,
+      "best": 500.0,
+      "mean": 498.15,
+      "median": 500.0,
+      "evals_done": 9000
+    },
+    {
+      "gen": 76,
+      "best": 500.0,
+      "mean": 500.0,
+      "median": 500.0,
+      "evals_done": 9120
+    },
+    {
+      "gen": 77,
+      "best": 500.0,
+      "mean": 497.80833333333334,
+      "median": 500.0,
+      "evals_done": 9240
+    },
+    {
+      "gen": 78,
+      "best": 500.0,
+      "mean": 497.0833333333333,
+      "median": 500.0,
+      "evals_done": 9360
+    },
+    {
+      "gen": 79,
+      "best": 500.0,
+      "mean": 497.725,
+      "median": 500.0,
+      "evals_done": 9480
+    },
+    {
+      "gen": 80,
+      "best": 500.0,
+      "mean": 499.03333333333336,
+      "median": 499.0,
+      "evals_done": 9600
+    },
+    {
+      "gen": 81,
+      "best": 500.0,
+      "mean": 498.45,
+      "median": 499.0,
+      "evals_done": 9720
+    },
+    {
+      "gen": 82,
+      "best": 500.0,
+      "mean": 483.14166666666665,
+      "median": 499.0,
+      "evals_done": 9840
+    },
+    {
+      "gen": 83,
+      "best": 500.0,
+      "mean": 491.5,
+      "median": 500.0,
+      "evals_done": 9960
+    },
+    {
+      "gen": 84,
+      "best": 500.0,
+      "mean": 491.65833333333336,
+      "median": 500.0,
+      "evals_done": 10080
+    },
+    {
+      "gen": 85,
+      "best": 500.0,
+      "mean": 500.0,
+      "median": 500.0,
+      "evals_done": 10200
+    },
+    {
+      "gen": 86,
+      "best": 500.0,
+      "mean": 493.15,
+      "median": 500.0,
+      "evals_done": 10320
+    },
+    {
+      "gen": 87,
+      "best": 500.0,
+      "mean": 500.0,
+      "median": 500.0,
+      "evals_done": 10440
+    },
+    {
+      "gen": 88,
+      "best": 500.0,
+      "mean": 498.03333333333336,
+      "median": 500.0,
+      "evals_done": 10560
+    },
+    {
+      "gen": 89,
+      "best": 500.0,
+      "mean": 500.0,
+      "median": 500.0,
+      "evals_done": 10680
+    },
+    {
+      "gen": 90,
+      "best": 500.0,
+      "mean": 492.48333333333335,
+      "median": 500.0,
+      "evals_done": 10800
+    },
+    {
+      "gen": 91,
+      "best": 500.0,
+      "mean": 500.0,
+      "median": 500.0,
+      "evals_done": 10920
+    },
+    {
+      "gen": 92,
+      "best": 500.0,
+      "mean": 500.0,
+      "median": 500.0,
+      "evals_done": 11040
+    },
+    {
+      "gen": 93,
+      "best": 500.0,
+      "mean": 499.5833333333333,
+      "median": 500.0,
+      "evals_done": 11160
+    },
+    {
+      "gen": 94,
+      "best": 500.0,
+      "mean": 470.0416666666667,
+      "median": 500.0,
+      "evals_done": 11280
+    },
+    {
+      "gen": 95,
+      "best": 500.0,
+      "mean": 420.03333333333336,
+      "median": 411.0,
+      "evals_done": 11400
+    },
+    {
+      "gen": 96,
+      "best": 500.0,
+      "mean": 456.1666666666667,
+      "median": 496.75,
+      "evals_done": 11520
+    },
+    {
+      "gen": 97,
+      "best": 500.0,
+      "mean": 487.525,
+      "median": 500.0,
+      "evals_done": 11640
+    },
+    {
+      "gen": 98,
+      "best": 500.0,
+      "mean": 500.0,
+      "median": 500.0,
+      "evals_done": 11760
+    },
+    {
+      "gen": 99,
+      "best": 500.0,
+      "mean": 485.25,
+      "median": 500.0,
+      "evals_done": 11880
+    },
+    {
+      "gen": 100,
+      "best": 500.0,
+      "mean": 498.5416666666667,
+      "median": 500.0,
+      "evals_done": 12000
+    },
+    {
+      "gen": 101,
+      "best": 500.0,
+      "mean": 493.35833333333335,
+      "median": 500.0,
+      "evals_done": 12120
+    },
+    {
+      "gen": 102,
+      "best": 500.0,
+      "mean": 498.5416666666667,
+      "median": 500.0,
+      "evals_done": 12240
+    },
+    {
+      "gen": 103,
+      "best": 500.0,
+      "mean": 488.725,
+      "median": 500.0,
+      "evals_done": 12360
+    },
+    {
+      "gen": 104,
+      "best": 500.0,
+      "mean": 498.5416666666667,
+      "median": 500.0,
+      "evals_done": 12480
+    },
+    {
+      "gen": 105,
+      "best": 500.0,
+      "mean": 493.2916666666667,
+      "median": 500.0,
+      "evals_done": 12600
+    },
+    {
+      "gen": 106,
+      "best": 500.0,
+      "mean": 500.0,
+      "median": 500.0,
+      "evals_done": 12720
+    },
+    {
+      "gen": 107,
+      "best": 500.0,
+      "mean": 500.0,
+      "median": 500.0,
+      "evals_done": 12840
+    },
+    {
+      "gen": 108,
+      "best": 500.0,
+      "mean": 498.1333333333333,
+      "median": 500.0,
+      "evals_done": 12960
+    },
+    {
+      "gen": 109,
+      "best": 500.0,
+      "mean": 500.0,
+      "median": 500.0,
+      "evals_done": 13080
+    },
+    {
+      "gen": 110,
+      "best": 500.0,
+      "mean": 493.2083333333333,
+      "median": 492.25,
+      "evals_done": 13200
+    },
+    {
+      "gen": 111,
+      "best": 500.0,
+      "mean": 491.6666666666667,
+      "median": 495.75,
+      "evals_done": 13320
+    },
+    {
+      "gen": 112,
+      "best": 500.0,
+      "mean": 490.15,
+      "median": 495.75,
+      "evals_done": 13440
+    },
+    {
+      "gen": 113,
+      "best": 500.0,
+      "mean": 490.1333333333333,
+      "median": 497.875,
+      "evals_done": 13560
+    },
+    {
+      "gen": 114,
+      "best": 500.0,
+      "mean": 485.40833333333336,
+      "median": 500.0,
+      "evals_done": 13680
+    },
+    {
+      "gen": 115,
+      "best": 500.0,
+      "mean": 495.81666666666666,
+      "median": 500.0,
+      "evals_done": 13800
+    },
+    {
+      "gen": 116,
+      "best": 500.0,
+      "mean": 494.2916666666667,
+      "median": 500.0,
+      "evals_done": 13920
+    },
+    {
+      "gen": 117,
+      "best": 500.0,
+      "mean": 481.40833333333336,
+      "median": 500.0,
+      "evals_done": 14040
+    },
+    {
+      "gen": 118,
+      "best": 500.0,
+      "mean": 476.78333333333336,
+      "median": 500.0,
+      "evals_done": 14160
+    },
+    {
+      "gen": 119,
+      "best": 500.0,
+      "mean": 496.30833333333334,
+      "median": 500.0,
+      "evals_done": 14280
+    },
+    {
+      "gen": 120,
+      "best": 500.0,
+      "mean": 480.06666666666666,
+      "median": 500.0,
+      "evals_done": 14400
+    },
+    {
+      "gen": 121,
+      "best": 500.0,
+      "mean": 500.0,
+      "median": 500.0,
+      "evals_done": 14520
+    },
+    {
+      "gen": 122,
+      "best": 500.0,
+      "mean": 482.8833333333333,
+      "median": 500.0,
+      "evals_done": 14640
+    },
+    {
+      "gen": 123,
+      "best": 500.0,
+      "mean": 495.6333333333333,
+      "median": 500.0,
+      "evals_done": 14760
+    },
+    {
+      "gen": 124,
+      "best": 500.0,
+      "mean": 487.51666666666665,
+      "median": 500.0,
+      "evals_done": 14880
+    },
+    {
+      "gen": 125,
+      "best": 500.0,
+      "mean": 488.6166666666667,
+      "median": 500.0,
+      "evals_done": 15000
+    },
+    {
+      "gen": 126,
+      "best": 500.0,
+      "mean": 497.51666666666665,
+      "median": 500.0,
+      "evals_done": 15120
+    },
+    {
+      "gen": 127,
+      "best": 500.0,
+      "mean": 488.55,
+      "median": 500.0,
+      "evals_done": 15240
+    },
+    {
+      "gen": 128,
+      "best": 500.0,
+      "mean": 482.65,
+      "median": 500.0,
+      "evals_done": 15360
+    },
+    {
+      "gen": 129,
+      "best": 500.0,
+      "mean": 497.60833333333335,
+      "median": 500.0,
+      "evals_done": 15480
+    },
+    {
+      "gen": 130,
+      "best": 500.0,
+      "mean": 494.3666666666667,
+      "median": 500.0,
+      "evals_done": 15600
+    },
+    {
+      "gen": 131,
+      "best": 500.0,
+      "mean": 494.3666666666667,
+      "median": 500.0,
+      "evals_done": 15720
+    },
+    {
+      "gen": 132,
+      "best": 500.0,
+      "mean": 494.3666666666667,
+      "median": 500.0,
+      "evals_done": 15840
+    },
+    {
+      "gen": 133,
+      "best": 500.0,
+      "mean": 500.0,
+      "median": 500.0,
+      "evals_done": 15960
+    },
+    {
+      "gen": 134,
+      "best": 500.0,
+      "mean": 475.3833333333333,
+      "median": 500.0,
+      "evals_done": 16080
+    },
+    {
+      "gen": 135,
+      "best": 500.0,
+      "mean": 460.5,
+      "median": 454.25,
+      "evals_done": 16200
+    },
+    {
+      "gen": 136,
+      "best": 500.0,
+      "mean": 485.90833333333336,
+      "median": 500.0,
+      "evals_done": 16320
+    },
+    {
+      "gen": 137,
+      "best": 500.0,
+      "mean": 494.80833333333334,
+      "median": 500.0,
+      "evals_done": 16440
+    },
+    {
+      "gen": 138,
+      "best": 500.0,
+      "mean": 492.075,
+      "median": 500.0,
+      "evals_done": 16560
+    },
+    {
+      "gen": 139,
+      "best": 500.0,
+      "mean": 489.575,
+      "median": 500.0,
+      "evals_done": 16680
+    },
+    {
+      "gen": 140,
+      "best": 500.0,
+      "mean": 466.76666666666665,
+      "median": 500.0,
+      "evals_done": 16800
+    },
+    {
+      "gen": 141,
+      "best": 500.0,
+      "mean": 487.80833333333334,
+      "median": 500.0,
+      "evals_done": 16920
+    },
+    {
+      "gen": 142,
+      "best": 500.0,
+      "mean": 490.15833333333336,
+      "median": 500.0,
+      "evals_done": 17040
+    },
+    {
+      "gen": 143,
+      "best": 500.0,
+      "mean": 496.25,
+      "median": 500.0,
+      "evals_done": 17160
+    },
+    {
+      "gen": 144,
+      "best": 500.0,
+      "mean": 487.75,
+      "median": 500.0,
+      "evals_done": 17280
+    },
+    {
+      "gen": 145,
+      "best": 500.0,
+      "mean": 491.23333333333335,
+      "median": 500.0,
+      "evals_done": 17400
+    },
+    {
+      "gen": 146,
+      "best": 500.0,
+      "mean": 487.825,
+      "median": 500.0,
+      "evals_done": 17520
+    },
+    {
+      "gen": 147,
+      "best": 500.0,
+      "mean": 498.875,
+      "median": 500.0,
+      "evals_done": 17640
+    },
+    {
+      "gen": 148,
+      "best": 500.0,
+      "mean": 500.0,
+      "median": 500.0,
+      "evals_done": 17760
+    },
+    {
+      "gen": 149,
+      "best": 500.0,
+      "mean": 471.6666666666667,
+      "median": 500.0,
+      "evals_done": 17880
+    },
+    {
+      "gen": 150,
+      "best": 500.0,
+      "mean": 470.5833333333333,
+      "median": 500.0,
+      "evals_done": 18000
+    },
+    {
+      "gen": 151,
+      "best": 500.0,
+      "mean": 488.10833333333335,
+      "median": 500.0,
+      "evals_done": 18120
+    },
+    {
+      "gen": 152,
+      "best": 500.0,
+      "mean": 483.95,
+      "median": 500.0,
+      "evals_done": 18240
+    },
+    {
+      "gen": 153,
+      "best": 500.0,
+      "mean": 498.85,
+      "median": 500.0,
+      "evals_done": 18360
+    },
+    {
+      "gen": 154,
+      "best": 500.0,
+      "mean": 486.8833333333333,
+      "median": 500.0,
+      "evals_done": 18480
+    },
+    {
+      "gen": 155,
+      "best": 500.0,
+      "mean": 500.0,
+      "median": 500.0,
+      "evals_done": 18600
+    },
+    {
+      "gen": 156,
+      "best": 500.0,
+      "mean": 480.5833333333333,
+      "median": 500.0,
+      "evals_done": 18720
+    },
+    {
+      "gen": 157,
+      "best": 500.0,
+      "mean": 479.6666666666667,
+      "median": 500.0,
+      "evals_done": 18840
+    },
+    {
+      "gen": 158,
+      "best": 500.0,
+      "mean": 485.06666666666666,
+      "median": 500.0,
+      "evals_done": 18960
+    },
+    {
+      "gen": 159,
+      "best": 500.0,
+      "mean": 499.575,
+      "median": 500.0,
+      "evals_done": 19080
+    },
+    {
+      "gen": 160,
+      "best": 500.0,
+      "mean": 472.725,
+      "median": 500.0,
+      "evals_done": 19200
+    },
+    {
+      "gen": 161,
+      "best": 500.0,
+      "mean": 460.325,
+      "median": 500.0,
+      "evals_done": 19320
+    },
+    {
+      "gen": 162,
+      "best": 500.0,
+      "mean": 467.15,
+      "median": 500.0,
+      "evals_done": 19440
+    },
+    {
+      "gen": 163,
+      "best": 500.0,
+      "mean": 465.85,
+      "median": 500.0,
+      "evals_done": 19560
+    },
+    {
+      "gen": 164,
+      "best": 500.0,
+      "mean": 475.21666666666664,
+      "median": 500.0,
+      "evals_done": 19680
+    },
+    {
+      "gen": 165,
+      "best": 500.0,
+      "mean": 469.60833333333335,
+      "median": 476.25,
+      "evals_done": 19800
+    },
+    {
+      "gen": 166,
+      "best": 500.0,
+      "mean": 472.2083333333333,
+      "median": 500.0,
+      "evals_done": 19920
+    },
+    {
+      "gen": 167,
+      "best": 500.0,
+      "mean": 478.89166666666665,
+      "median": 500.0,
+      "evals_done": 20040
+    }
+  ]
+}

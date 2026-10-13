@@ -1,0 +1,412 @@
+{
+  "analysis_status": "retrospective_reporting_audit",
+  "cohorts": {
+    "v3": {
+      "n": 25,
+      "rho_bidx_dnorm": -0.6538461538461537,
+      "max_abs_dnorm_reconstruction_diff": 0.0,
+      "comparisons": {
+        "neg_dnorm": {
+          "sample_delta_rho": 0.17230769230769222,
+          "bootstrap_median_delta_rho": 0.16135300374231992,
+          "percentile_CI_from_existing_10000_bootstraps": [
+            -0.10387899215781814,
+            0.47662057285671966
+          ]
+        },
+        "J0": {
+          "sample_delta_rho": 0.5619377259456813,
+          "bootstrap_median_delta_rho": 0.5621758306903655,
+          "percentile_CI_from_existing_10000_bootstraps": [
+            -0.05915459643584827,
+            1.1188818384979118
+          ]
+        }
+      },
+      "dose": {
+        "adjacency_denominator": {
+          "range": [
+            0.6962864721485411,
+            0.7447386286490156
+          ],
+          "dose_only": {
+            "rho": 0.6322304138588591,
+            "df": 22,
+            "p_approx": 0.0009178693194614113
+          },
+          "J0_dnorm_dose": {
+            "rho": 0.5272654502311214,
+            "df": 20,
+            "p_approx": 0.011682224641504878
+          }
+        },
+        "covered_denominator": {
+          "range": [
+            0.7383966244725738,
+            0.7919320594479831
+          ],
+          "dose_only": {
+            "rho": 0.6317407158890014,
+            "df": 22,
+            "p_approx": 0.0009289345251433145
+          },
+          "J0_dnorm_dose": {
+            "rho": 0.5268880109688564,
+            "df": 20,
+            "p_approx": 0.011753303414835232
+          }
+        }
+      },
+      "selection": {
+        "k": 5,
+        "scores": {
+          "background_idx": {
+            "mean_J24": 436.15,
+            "seeds": [
+              4238,
+              4254,
+              4244,
+              4233,
+              4232
+            ]
+          },
+          "neg_dnorm": {
+            "mean_J24": 295.90999999999997,
+            "seeds": [
+              4238,
+              4250,
+              4230,
+              4233,
+              4244
+            ]
+          }
+        },
+        "random_selection_exact_expected_J24": 201.07,
+        "J0_uniform_tie_exact_expected_J24": 185.28928571428568,
+        "J0_tie_pool_size": 14
+      }
+    },
+    "c2": {
+      "n": 30,
+      "rho_bidx_dnorm": -0.8705228031145716,
+      "max_abs_dnorm_reconstruction_diff": 0.0,
+      "comparisons": {
+        "neg_dnorm": {
+          "sample_delta_rho": 0.05250862197360273,
+          "bootstrap_median_delta_rho": 0.049425674481334336,
+          "percentile_CI_from_existing_10000_bootstraps": [
+            -0.1312315008194097,
+            0.2452133459038734
+          ]
+        },
+        "J0": {
+          "sample_delta_rho": 0.6064376331988379,
+          "bootstrap_median_delta_rho": 0.5926611410735153,
+          "percentile_CI_from_existing_10000_bootstraps": [
+            0.2023277533089804,
+            0.9326670466849968
+          ]
+        }
+      },
+      "dose": {
+        "adjacency_denominator": {
+          "range": [
+            0.6939854593522803,
+            0.7440476190476191
+          ],
+          "dose_only": {
+            "rho": 0.5968636673375547,
+            "df": 27,
+            "p_approx": 0.000631155996023633
+          },
+          "J0_dnorm_dose": {
+            "rho": 0.3331577298870093,
+            "df": 25,
+            "p_approx": 0.08948383831718038
+          }
+        },
+        "covered_denominator": {
+          "range": [
+            0.7271468144044322,
+            0.7883672039243167
+          ],
+          "dose_only": {
+            "rho": 0.5943309887832178,
+            "df": 27,
+            "p_approx": 0.0006747022210239724
+          },
+          "J0_dnorm_dose": {
+            "rho": 0.3031296285134118,
+            "df": 25,
+            "p_approx": 0.12429389258394823
+          }
+        }
+      },
+      "selection": {
+        "k": 6,
+        "scores": {
+          "background_idx": {
+            "mean_J24": 291.50000000000006,
+            "seeds": [
+              4274,
+              4267,
+              4289,
+              4264,
+              4277,
+              4285
+            ]
+          },
+          "neg_dnorm": {
+            "mean_J24": 282.15833333333336,
+            "seeds": [
+              4274,
+              4267,
+              4277,
+              4271,
+              4289,
+              4276
+            ]
+          }
+        },
+        "random_selection_exact_expected_J24": 187.17166666666668,
+        "J0_uniform_tie_exact_expected_J24": 196.58571428571435,
+        "J0_tie_pool_size": 21
+      }
+    }
+  },
+  "inputs": [
+    {
+      "path": "paper\\analysis\\exploratory_ranker_compare.json",
+      "sha256": "642760a40639d99eadb9c436059e69814562f578b567f3cadfef3468a3058fbf"
+    },
+    {
+      "path": "paper\\analysis\\dose_v2\\dose_r3_CartPole_seed4230.json",
+      "sha256": "5370f84cf2ca473863e321d98234513622810f0df0154d254f07192de2d2e35b"
+    },
+    {
+      "path": "paper\\analysis\\dose_v2\\dose_r3_CartPole_seed4231.json",
+      "sha256": "71f2f806d8e9878ef625da82bae61ab91e05aa429818077ebe3881b1e78ccc3a"
+    },
+    {
+      "path": "paper\\analysis\\dose_v2\\dose_r3_CartPole_seed4232.json",
+      "sha256": "19deb1d9cd43e75a335fa36b4478eae3592dd20e16f4e00a7f871d0b955bee3c"
+    },
+    {
+      "path": "paper\\analysis\\dose_v2\\dose_r3_CartPole_seed4233.json",
+      "sha256": "7b2bd2a49c9096f0e3f4d24a49564b8e5afbdb35ec170b171f363f38e64e82f4"
+    },
+    {
+      "path": "paper\\analysis\\dose_v2\\dose_r3_CartPole_seed4234.json",
+      "sha256": "37a051379c28a4b031a4ab14e117fa3975b039cfae8ef5729562697441a6b03b"
+    },
+    {
+      "path": "paper\\analysis\\dose_v2\\dose_r3_CartPole_seed4235.json",
+      "sha256": "10742424dc2634f43dfdcad04f991f8970a6c6c52c8c8b13a8c9c007f2a5159d"
+    },
+    {
+      "path": "paper\\analysis\\dose_v2\\dose_r3_CartPole_seed4236.json",
+      "sha256": "60cf1c65a529320c38c6c5c5aacb653fd8a26b243a48e48b04e518a8f895af07"
+    },
+    {
+      "path": "paper\\analysis\\dose_v2\\dose_r3_CartPole_seed4237.json",
+      "sha256": "2c297c4ef82f0d9c3251fb30be462376282c17dcdcaba2976ad033adb18eb755"
+    },
+    {
+      "path": "paper\\analysis\\dose_v2\\dose_r3_CartPole_seed4238.json",
+      "sha256": "d1e49fbcbcf6842cd9f804aad8755a18e93d0cc388ae94988e2d8d77df1259b2"
+    },
+    {
+      "path": "paper\\analysis\\dose_v2\\dose_r3_CartPole_seed4239.json",
+      "sha256": "9fd28da524d6fca2f8c40876a4bb1cd5a31fab429a8d80f6f52a0c9ac3b7b03f"
+    },
+    {
+      "path": "paper\\analysis\\dose_v2\\dose_r3_CartPole_seed4240.json",
+      "sha256": "32ffb26768663a376827f9bce4ea7573b0bf349a64bc56e4726abd6f97ffc440"
+    },
+    {
+      "path": "paper\\analysis\\dose_v2\\dose_r3_CartPole_seed4241.json",
+      "sha256": "f76b19540a5b945d9dd41fd8a8b8aac97e2d1a683e1912bf1c73cf0590a7fae2"
+    },
+    {
+      "path": "paper\\analysis\\dose_v2\\dose_r3_CartPole_seed4242.json",
+      "sha256": "ee50bba01aade865a577a279abb97ea315fc862b5df95fc6d6cd3f95f3542b87"
+    },
+    {
+      "path": "paper\\analysis\\dose_v2\\dose_r3_CartPole_seed4243.json",
+      "sha256": "50395c82a1476d33c0e533efdb1a9646fb70c3c534a77a327dd8a32921620d80"
+    },
+    {
+      "path": "paper\\analysis\\dose_v2\\dose_r3_CartPole_seed4244.json",
+      "sha256": "253d454b2c9f51f204b2a1c26309551521b59742492ea34693e6a0b555d2ed15"
+    },
+    {
+      "path": "paper\\analysis\\dose_v2\\dose_r3_CartPole_seed4245.json",
+      "sha256": "d86fdcb85f187c786d6c1ee1556218f039669e9c338a44f0a242c2e57ce80475"
+    },
+    {
+      "path": "paper\\analysis\\dose_v2\\dose_r3_CartPole_seed4246.json",
+      "sha256": "b4a876518d501fa654709e5a7cefc52bdf9aee6c84f86cf53adee48ac1503b04"
+    },
+    {
+      "path": "paper\\analysis\\dose_v2\\dose_r3_CartPole_seed4247.json",
+      "sha256": "16a915282b9c1db9c93d7e1e77992f301f6af9f97aeea5a495192b5fe374ccf4"
+    },
+    {
+      "path": "paper\\analysis\\dose_v2\\dose_r3_CartPole_seed4248.json",
+      "sha256": "0bbdccb3247bbafed7fa9b4b0410dff0a229fcb8b170e4dad48c7fff0e821f26"
+    },
+    {
+      "path": "paper\\analysis\\dose_v2\\dose_r3_CartPole_seed4249.json",
+      "sha256": "6fe35bc04b26e37fe155c161b4af2110ccd69c10d24af4aabc646f3642144fd2"
+    },
+    {
+      "path": "paper\\analysis\\dose_v2\\dose_r3_CartPole_seed4250.json",
+      "sha256": "bcccc67ac484b0bea8625b03b34b097a6d93d137c70ba8a161e73539a0982aa9"
+    },
+    {
+      "path": "paper\\analysis\\dose_v2\\dose_r3_CartPole_seed4251.json",
+      "sha256": "ad9a7205f0e2d0dbe21241a7a179b187569e39897c9d3a4dac141d800163794a"
+    },
+    {
+      "path": "paper\\analysis\\dose_v2\\dose_r3_CartPole_seed4252.json",
+      "sha256": "965f64af7c03a0bcbdaecd0c1a0f4943da4dd25d79b941867c79b736fdd09c83"
+    },
+    {
+      "path": "paper\\analysis\\dose_v2\\dose_r3_CartPole_seed4253.json",
+      "sha256": "be621b9a8b470592a02b8413923c55fc66fdd7dc945cddf5039084ce32f25b4b"
+    },
+    {
+      "path": "paper\\analysis\\dose_v2\\dose_r3_CartPole_seed4254.json",
+      "sha256": "cac7a444b3c7bd4b597a5e0549a10e73ab2a5a3fec1d5e2c83f23e5c612cd8ce"
+    },
+    {
+      "path": "paper\\analysis\\dose_v2\\dose_r3_CartPole_seed4260.json",
+      "sha256": "489c2291fb9d4048d85067120e295b5029f2b815ea4ded9c4e63f91ef89d8bc9"
+    },
+    {
+      "path": "paper\\analysis\\dose_v2\\dose_r3_CartPole_seed4261.json",
+      "sha256": "6aef8492fd2c8d4b9753e48a4bac5e3adbe7dc1bc449a26d0fa5ad0601de7af5"
+    },
+    {
+      "path": "paper\\analysis\\dose_v2\\dose_r3_CartPole_seed4262.json",
+      "sha256": "660ddb14d112a7487bf89b1a8f8db1e8bf70beae528110f38299610e730f5b24"
+    },
+    {
+      "path": "paper\\analysis\\dose_v2\\dose_r3_CartPole_seed4263.json",
+      "sha256": "da09c8dcb47295f738fe9b3f64f643ac0e340783421e2a45a4a5ee3bf2df03b1"
+    },
+    {
+      "path": "paper\\analysis\\dose_v2\\dose_r3_CartPole_seed4264.json",
+      "sha256": "44386145c881a95d2a2ecdd6d54f064b76be4e3489fb5fda8a75fe5b4acec907"
+    },
+    {
+      "path": "paper\\analysis\\dose_v2\\dose_r3_CartPole_seed4265.json",
+      "sha256": "2ef797f25cfc82be69396f32a4bd4fc6df80a486b223af7a181408396d9c87b0"
+    },
+    {
+      "path": "paper\\analysis\\dose_v2\\dose_r3_CartPole_seed4266.json",
+      "sha256": "96b35d5efa39f99582bf41e5af80d321aade255f6a0931a4e83460faceaa7e70"
+    },
+    {
+      "path": "paper\\analysis\\dose_v2\\dose_r3_CartPole_seed4267.json",
+      "sha256": "c344504d5c695e9c12a46c464e3585e1ceecac302ddebca62dfbbe2b43639ad6"
+    },
+    {
+      "path": "paper\\analysis\\dose_v2\\dose_r3_CartPole_seed4268.json",
+      "sha256": "f1201b55dca6e4a20e544bba5852ef5017db018045593fc2115f08ec31d4e8df"
+    },
+    {
+      "path": "paper\\analysis\\dose_v2\\dose_r3_CartPole_seed4269.json",
+      "sha256": "40a458cadb9094a9c10b6c0cb995ad949da77ee500242d6440d75ca656f176ed"
+    },
+    {
+      "path": "paper\\analysis\\dose_v2\\dose_r3_CartPole_seed4270.json",
+      "sha256": "c76e228e9368a59f591ab548778f14dc08f31817049f335f0558160d7a542c62"
+    },
+    {
+      "path": "paper\\analysis\\dose_v2\\dose_r3_CartPole_seed4271.json",
+      "sha256": "14c4c33fd22737b71bf0a5abafe194b84f9782b24746f156df046ca664e15563"
+    },
+    {
+      "path": "paper\\analysis\\dose_v2\\dose_r3_CartPole_seed4272.json",
+      "sha256": "82f2db913fd03d779f91b258446b135acad3c6e918c4d2caa772a51e9668371c"
+    },
+    {
+      "path": "paper\\analysis\\dose_v2\\dose_r3_CartPole_seed4273.json",
+      "sha256": "3cf44d5f2655f20bc2ec609585438a4f442a3dd23c45f2796e96e97e023cf969"
+    },
+    {
+      "path": "paper\\analysis\\dose_v2\\dose_r3_CartPole_seed4274.json",
+      "sha256": "83a89205d69de92223bfb9e2757148abd6dbe75dff38e3a32075f917a30a25ff"
+    },
+    {
+      "path": "paper\\analysis\\dose_v2\\dose_r3_CartPole_seed4275.json",
+      "sha256": "9a210e85124611efa101581f0eaa631dd5ab34271286260b838df5be284c9f18"
+    },
+    {
+      "path": "paper\\analysis\\dose_v2\\dose_r3_CartPole_seed4276.json",
+      "sha256": "59eee1ce095b4ea78ace1993da20324c684fa85dd8ff1ed44abf2459332e22ee"
+    },
+    {
+      "path": "paper\\analysis\\dose_v2\\dose_r3_CartPole_seed4277.json",
+      "sha256": "288d333a305b97619a45d41bf594d8c86fcdc51af3a660fb73f9e3dc50779932"
+    },
+    {
+      "path": "paper\\analysis\\dose_v2\\dose_r3_CartPole_seed4278.json",
+      "sha256": "d85a2a591398721b5e01acb04621a3dae6f342f68828fb8fdf543412ee086f98"
+    },
+    {
+      "path": "paper\\analysis\\dose_v2\\dose_r3_CartPole_seed4279.json",
+      "sha256": "94501489564d673f0de9799e7c3a9eaffe87ea7e6edd9a1db6f293ae35f319f3"
+    },
+    {
+      "path": "paper\\analysis\\dose_v2\\dose_r3_CartPole_seed4280.json",
+      "sha256": "7ad958a9d4cbb67252cc6d89523bcabc903dbbb526826eee6fa6ef9688a6fe04"
+    },
+    {
+      "path": "paper\\analysis\\dose_v2\\dose_r3_CartPole_seed4281.json",
+      "sha256": "4ac2a9436875cebbd2b19e5fc7ec2d921d6800b997456626ee5d27c4ead5e9fa"
+    },
+    {
+      "path": "paper\\analysis\\dose_v2\\dose_r3_CartPole_seed4282.json",
+      "sha256": "48f8409ca03648e199b7b9636d4a1e655ed17a8d8a87be2277f6a04b2244207e"
+    },
+    {
+      "path": "paper\\analysis\\dose_v2\\dose_r3_CartPole_seed4283.json",
+      "sha256": "2ec9f5b535ffb052771eb4a3b46963294aacc4f9563372d908a0011afcbf5d29"
+    },
+    {
+      "path": "paper\\analysis\\dose_v2\\dose_r3_CartPole_seed4284.json",
+      "sha256": "b2b8d7ca7c44faf10cb29a91d175a776e5b1bbd8791662619f6db951f0abb8ef"
+    },
+    {
+      "path": "paper\\analysis\\dose_v2\\dose_r3_CartPole_seed4285.json",
+      "sha256": "84b7b01cc9b6cd0b0b035b81a4042f964180246edf8428565241cdb1c6be6f7e"
+    },
+    {
+      "path": "paper\\analysis\\dose_v2\\dose_r3_CartPole_seed4286.json",
+      "sha256": "00aca688ec5ff390612c12d5ba94f77f2be54247c632eae13206d036a9d79f86"
+    },
+    {
+      "path": "paper\\analysis\\dose_v2\\dose_r3_CartPole_seed4287.json",
+      "sha256": "fd76d795653b033e33f68d9723e4ca1e4473ab1096e44daf405f83997d993522"
+    },
+    {
+      "path": "paper\\analysis\\dose_v2\\dose_r3_CartPole_seed4288.json",
+      "sha256": "69ea6ef969a28312b308d986608d40654c5e2ee2df3adb001a88d86c267ca6d4"
+    },
+    {
+      "path": "paper\\analysis\\dose_v2\\dose_r3_CartPole_seed4289.json",
+      "sha256": "9ee16e0ed08cc6e5e75cd9de2f3257052177bc56a4d4369e20f3b16bc9313191"
+    },
+    {
+      "path": "_phase8\\regime3_confirmatory.csv",
+      "sha256": "7e039f398c52367fede40aa91366a3454679a6f839dbc060260aa0105d8b220b"
+    },
+    {
+      "path": "_phase8\\regime3_c2_confirmatory_full.csv",
+      "sha256": "490e8c4369a433b3492ff2b585f12155c47b0a92008df2a090cfca9da0bfda6c"
+    }
+  ],
+  "script_sha256": "650f4e86da820d86fc14d62bd72d6089c74540f2922dcdfaa9c30bd5ab555d7e"
+}

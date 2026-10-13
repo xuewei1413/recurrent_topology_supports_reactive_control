@@ -1,0 +1,247 @@
+{
+ "version": "v8_e5b_strict",
+ "cohort": "main",
+ "task": "Acrobot",
+ "tag": "seed3001",
+ "scaffold_seed": 3001,
+ "n_hh": 1427,
+ "n_skel": 285,
+ "n_strict": 25,
+ "strict_frac_of_skel": 0.08771929824561403,
+ "n_keys": 20,
+ "key_counts": {
+  "(1, 3, 0, 1, 1)": [
+   3,
+   1,
+   1
+  ],
+  "(1, 6, 5, 1, 1)": [
+   1,
+   3,
+   1
+  ],
+  "(1, 4, 0, 1, 1)": [
+   5,
+   4,
+   4
+  ],
+  "(-1, 7, 2, 1, 1)": [
+   2,
+   1,
+   1
+  ],
+  "(-1, 4, 6, 1, 1)": [
+   1,
+   1,
+   1
+  ],
+  "(1, 4, 2, 1, 1)": [
+   3,
+   2,
+   2
+  ],
+  "(1, 1, 0, 1, 1)": [
+   1,
+   1,
+   1
+  ],
+  "(1, 2, 2, 1, 1)": [
+   1,
+   1,
+   1
+  ],
+  "(1, 4, 4, 1, 1)": [
+   3,
+   1,
+   1
+  ],
+  "(-1, 1, 2, 1, 1)": [
+   2,
+   1,
+   1
+  ],
+  "(1, 2, 4, 1, 1)": [
+   1,
+   2,
+   1
+  ],
+  "(-1, 1, 0, 1, 1)": [
+   2,
+   1,
+   1
+  ],
+  "(1, 6, 2, 1, 1)": [
+   2,
+   2,
+   2
+  ],
+  "(1, 2, 1, 1, 1)": [
+   2,
+   1,
+   1
+  ],
+  "(-1, 0, 5, 1, 1)": [
+   1,
+   1,
+   1
+  ],
+  "(1, 1, 2, 1, 1)": [
+   1,
+   1,
+   1
+  ],
+  "(-1, 4, 5, 1, 1)": [
+   1,
+   1,
+   1
+  ],
+  "(-1, 6, 1, 1, 1)": [
+   1,
+   1,
+   1
+  ],
+  "(1, 2, 7, 1, 1)": [
+   1,
+   1,
+   1
+  ],
+  "(1, 0, 0, 1, 1)": [
+   1,
+   1,
+   1
+  ]
+ },
+ "skel_strict_hash": "e920a4750046f093",
+ "eval_seeds": [
+  96000,
+  96001,
+  96002,
+  96003,
+  96004,
+  96005,
+  96006,
+  96007,
+  96008,
+  96009,
+  96010,
+  96011,
+  96012,
+  96013,
+  96014,
+  96015,
+  96016,
+  96017,
+  96018,
+  96019
+ ],
+ "R": 10,
+ "J_F0": -91.95,
+ "J_del_skel_strict": -91.95,
+ "drop_skel_strict": 0.0,
+ "reps": [
+  {
+   "rep": 0,
+   "n_matched": 25,
+   "matched_hash": "f171b85e8efe3605",
+   "rand_hash": "001660df47512be2",
+   "J_del_matched": -98.0,
+   "drop_matched": 6.049999999999997,
+   "J_del_rand": -91.95,
+   "drop_rand": 0.0
+  },
+  {
+   "rep": 1,
+   "n_matched": 25,
+   "matched_hash": "59c08c7545df5949",
+   "rand_hash": "a47195faa1766685",
+   "J_del_matched": -98.0,
+   "drop_matched": 6.049999999999997,
+   "J_del_rand": -95.85,
+   "drop_rand": 3.8999999999999915
+  },
+  {
+   "rep": 2,
+   "n_matched": 25,
+   "matched_hash": "80dbde78f99cb79b",
+   "rand_hash": "75553c553e5ef81b",
+   "J_del_matched": -98.0,
+   "drop_matched": 6.049999999999997,
+   "J_del_rand": -120.3,
+   "drop_rand": 28.349999999999994
+  },
+  {
+   "rep": 3,
+   "n_matched": 25,
+   "matched_hash": "359b2fa0ede4710c",
+   "rand_hash": "50a5574beda8245e",
+   "J_del_matched": -98.0,
+   "drop_matched": 6.049999999999997,
+   "J_del_rand": -91.95,
+   "drop_rand": 0.0
+  },
+  {
+   "rep": 4,
+   "n_matched": 25,
+   "matched_hash": "59c08c7545df5949",
+   "rand_hash": "f0a96f54d7f02567",
+   "J_del_matched": -98.0,
+   "drop_matched": 6.049999999999997,
+   "J_del_rand": -91.95,
+   "drop_rand": 0.0
+  },
+  {
+   "rep": 5,
+   "n_matched": 25,
+   "matched_hash": "80dbde78f99cb79b",
+   "rand_hash": "437f882e132a4ecc",
+   "J_del_matched": -98.0,
+   "drop_matched": 6.049999999999997,
+   "J_del_rand": -92.25,
+   "drop_rand": 0.29999999999999716
+  },
+  {
+   "rep": 6,
+   "n_matched": 25,
+   "matched_hash": "f171b85e8efe3605",
+   "rand_hash": "e8232eef6a4f9628",
+   "J_del_matched": -98.0,
+   "drop_matched": 6.049999999999997,
+   "J_del_rand": -91.25,
+   "drop_rand": -0.7000000000000028
+  },
+  {
+   "rep": 7,
+   "n_matched": 25,
+   "matched_hash": "c93196ea195fc091",
+   "rand_hash": "e6f0d0880231fd15",
+   "J_del_matched": -98.0,
+   "drop_matched": 6.049999999999997,
+   "J_del_rand": -124.35,
+   "drop_rand": 32.39999999999999
+  },
+  {
+   "rep": 8,
+   "n_matched": 25,
+   "matched_hash": "f171b85e8efe3605",
+   "rand_hash": "da16f3234f0d3702",
+   "J_del_matched": -98.0,
+   "drop_matched": 6.049999999999997,
+   "J_del_rand": -91.95,
+   "drop_rand": 0.0
+  },
+  {
+   "rep": 9,
+   "n_matched": 25,
+   "matched_hash": "80dbde78f99cb79b",
+   "rand_hash": "cab7d802bb2c70e9",
+   "J_del_matched": -98.0,
+   "drop_matched": 6.049999999999997,
+   "J_del_rand": -91.95,
+   "drop_rand": 0.0
+  }
+ ],
+ "drop_matched_mean": 6.049999999999997,
+ "drop_rand_mean": 6.424999999999997,
+ "elapsed_sec": 13.479947090148926,
+ "evo_seed": 3001
+}

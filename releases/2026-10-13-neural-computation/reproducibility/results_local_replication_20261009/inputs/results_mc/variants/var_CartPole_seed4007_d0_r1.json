@@ -1,0 +1,20 @@
+{
+ "task": "CartPole",
+ "seed": 4007,
+ "band": "high",
+ "d_index": 0,
+ "rep": 1,
+ "frac_target": 0.12,
+ "n_swaps_target": 179,
+ "hamming": 179,
+ "parent_edge_hash": "83f3b9aefc0cfc94",
+ "variant_edge_hash": "a994c59956363b4c",
+ "invariants": {
+  "ih_unchanged": true,
+  "ho_unchanged": true,
+  "in_degree_ok": true,
+  "out_degree_ok": true
+ },
+ "passed": true,
+ "rng_seed": 391478982
+}

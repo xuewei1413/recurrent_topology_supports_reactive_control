@@ -1,0 +1,890 @@
+{
+  "operation": "English label translation; scientific SVG geometry and plotted values preserved",
+  "source_manuscript_sha256": "cddea7092382b2fb366cc2a7cc854b0dff19f2bcb8b6bbc3883a94ae1e11db03",
+  "english_manuscript_sha256": "d523f51a015576a6426cde7a02b1abb9cd0588ed22b1f8f6d1e884eb2079a455",
+  "axis_label_note": "The old undefined B shorthand is spelled out as normalized post-rewiring return; J24 is retained.",
+  "figures": [
+    {
+      "file": "00_overview",
+      "source_sha256": "90bcdbdca8763b30a8464507cb58a9547557f4f823badab6e4e68b8ba195fdec",
+      "output_svg_sha256": "61b8c3cffae6f6b630864eecfccbdc412a3f25d6f9ef050e914bd52a15ef6a20",
+      "output_png_sha256": "00b0792f99d4c42b3ec0fe5ab363f562e0ff6b7018b41584eca0fb52ac2e4021",
+      "translated": [
+        {
+          "original": "结构干预",
+          "english": "Connectivity interventions",
+          "font_size": 10,
+          "max_width": 245
+        },
+        {
+          "original": "输出端的积分与动作读出",
+          "english": "Output integration and action readout",
+          "font_size": 10,
+          "max_width": 340
+        },
+        {
+          "original": "固定突触幅值，仅进化连接",
+          "english": "Fixed weight magnitudes; evolved connectivity",
+          "font_size": 8,
+          "max_width": 270
+        },
+        {
+          "original": "任务观测",
+          "english": "Observations",
+          "font_size": 7,
+          "max_width": 230
+        },
+        {
+          "original": "原网络",
+          "english": "Original network",
+          "font_size": 7.5,
+          "max_width": 230
+        },
+        {
+          "original": "背景重接",
+          "english": "Background rewiring",
+          "font_size": 9,
+          "max_width": 136
+        },
+        {
+          "original": "保持边数与入度、出度",
+          "english": "Edge count, in- and out-degree preserved",
+          "font_size": 7,
+          "max_width": 136
+        },
+        {
+          "original": "指定连接删除",
+          "english": "Specified deletion",
+          "font_size": 9,
+          "max_width": 136
+        },
+        {
+          "original": "按次序累计删除连接组",
+          "english": "Sequential connection-group deletion",
+          "font_size": 7,
+          "max_width": 136
+        },
+        {
+          "original": "计算过程示意·非实验轨迹",
+          "english": "Schematic computation; not recorded trajectories",
+          "font_size": 7,
+          "max_width": 350
+        },
+        {
+          "original": "汇聚输入",
+          "english": "Input currents",
+          "font_size": 8,
+          "max_width": 230
+        },
+        {
+          "original": "膜电位",
+          "english": "Membrane potential",
+          "font_size": 8,
+          "max_width": 230
+        },
+        {
+          "original": "发放与计数",
+          "english": "Spikes and counts",
+          "font_size": 8,
+          "max_width": 166
+        },
+        {
+          "original": "阈值",
+          "english": "Threshold",
+          "font_size": 6.5,
+          "max_width": 230
+        },
+        {
+          "original": "内部时间",
+          "english": "Internal time",
+          "font_size": 6.5,
+          "max_width": 230
+        },
+        {
+          "original": "+兴奋",
+          "english": "+ Excitation",
+          "font_size": 6.5,
+          "max_width": 230
+        },
+        {
+          "original": "−抑制",
+          "english": "- Inhibition",
+          "font_size": 6.5,
+          "max_width": 230
+        },
+        {
+          "original": "动作",
+          "english": "Action",
+          "font_size": 9,
+          "max_width": 166
+        },
+        {
+          "original": "比较计数",
+          "english": "Compare counts",
+          "font_size": 8.5,
+          "max_width": 166
+        },
+        {
+          "original": "20个内部步·包含平局裁决",
+          "english": "20 internal steps; tie-breaking included",
+          "font_size": 6.5,
+          "max_width": 166
+        },
+        {
+          "original": "重接与删除后的功能保持相关",
+          "english": "Association between performance after rewiring and deletion",
+          "font_size": 10,
+          "max_width": 454
+        },
+        {
+          "original": "CartPole·25个原网络",
+          "english": "CartPole: 25 original networks",
+          "font_size": 8,
+          "max_width": 193
+        },
+        {
+          "original": "每点为同一原网络的配对测量",
+          "english": "Each point: paired measures of one network",
+          "font_size": 7,
+          "max_width": 193
+        },
+        {
+          "original": "实测关联",
+          "english": "Measured association",
+          "font_size": 7.5,
+          "max_width": 193
+        },
+        {
+          "original": "待检验的解释联系",
+          "english": "Candidate explanation",
+          "font_size": 7,
+          "max_width": 166
+        },
+        {
+          "original": "结构改变后的输出活动",
+          "english": "Output activity after connectivity changes",
+          "font_size": 8,
+          "max_width": 166
+        },
+        {
+          "original": "可能解释网络的耐受差异",
+          "english": "May explain differences in tolerance",
+          "font_size": 8,
+          "max_width": 166
+        },
+        {
+          "original": "机制解释",
+          "english": "Mechanistic interpretation",
+          "font_size": 7.5,
+          "max_width": 166
+        },
+        {
+          "original": "背景重接后保留的回报比例",
+          "english": "Return retained after background rewiring",
+          "font_size": 7,
+          "max_width": 230
+        },
+        {
+          "original": "指定删除后的回报",
+          "english": "Return after specified deletion",
+          "font_size": 7,
+          "max_width": 230
+        }
+      ],
+      "scientific_geometry_unchanged": true,
+      "width": 680.31494140625,
+      "height": 428.031494140625
+    },
+    {
+      "file": "01_cross_perturbation",
+      "source_sha256": "ebb6e67c6afb1a33e40028ea9f843efc1d219d64a1a0aa9e3bf475f420ba3c76",
+      "output_svg_sha256": "54fef9a7bf0ee5d9608f5ed728233b1f04dcef847aab2df43b6d44644e5e4c9a",
+      "output_png_sha256": "16912f601acae34351b0985e134ae6a1de22c73289cc7fdd2b32ee70741f8a70",
+      "translated": [
+        {
+          "original": "重接后功能保持B",
+          "english": "Normalized post-rewiring return",
+          "font_size": 7.5,
+          "max_width": 215
+        },
+        {
+          "original": "删除后回报J24",
+          "english": "Post-deletion return J24",
+          "font_size": 7.5,
+          "max_width": 160
+        },
+        {
+          "original": "重接后功能保持B",
+          "english": "Normalized post-rewiring return",
+          "font_size": 7.5,
+          "max_width": 215
+        },
+        {
+          "original": "重接后功能保持B",
+          "english": "Normalized post-rewiring return",
+          "font_size": 7.5,
+          "max_width": 215
+        },
+        {
+          "original": "删除后回报J24",
+          "english": "Post-deletion return J24",
+          "font_size": 7.5,
+          "max_width": 160
+        },
+        {
+          "original": "重接后功能保持B",
+          "english": "Normalized post-rewiring return",
+          "font_size": 7.5,
+          "max_width": 215
+        },
+        {
+          "original": "相关系数ρ",
+          "english": "Correlation coefficient rho",
+          "font_size": 7.5,
+          "max_width": 215
+        },
+        {
+          "original": "未调整",
+          "english": "Unadjusted",
+          "font_size": 6.5,
+          "max_width": 75
+        },
+        {
+          "original": "控剂量",
+          "english": "Deletion-adjusted",
+          "font_size": 6.5,
+          "max_width": 75
+        },
+        {
+          "original": "完整调整",
+          "english": "Fully adjusted",
+          "font_size": 6.5,
+          "max_width": 75
+        },
+        {
+          "original": "未调整",
+          "english": "Unadjusted",
+          "font_size": 6.5,
+          "max_width": 75
+        },
+        {
+          "original": "控剂量",
+          "english": "Deletion-adjusted",
+          "font_size": 6.5,
+          "max_width": 75
+        },
+        {
+          "original": "完整调整",
+          "english": "Fully adjusted",
+          "font_size": 6.5,
+          "max_width": 75
+        },
+        {
+          "original": "主队列",
+          "english": "Main cohort",
+          "font_size": 6.5,
+          "max_width": 215
+        },
+        {
+          "original": "另一队列",
+          "english": "Subsequent cohort",
+          "font_size": 6.5,
+          "max_width": 215
+        },
+        {
+          "original": "本地复跑主队列",
+          "english": "Local rerun: main cohort",
+          "font_size": 9,
+          "max_width": 215
+        },
+        {
+          "original": "25个网络",
+          "english": "25 networks",
+          "font_size": 7,
+          "max_width": 215
+        },
+        {
+          "original": "本地复跑后续队列",
+          "english": "Local rerun: subsequent cohort",
+          "font_size": 9,
+          "max_width": 215
+        },
+        {
+          "original": "历史原计划15个+追加15个种子",
+          "english": "15 historically planned + 15 added seeds",
+          "font_size": 7,
+          "max_width": 215
+        },
+        {
+          "original": "●原计划范围",
+          "english": "● Planned range",
+          "font_size": 7,
+          "max_width": 215
+        },
+        {
+          "original": "◇追加范围",
+          "english": "◇ Added range",
+          "font_size": 7,
+          "max_width": 215
+        },
+        {
+          "original": "每点为一个网络",
+          "english": "Each point: one network",
+          "font_size": 7,
+          "max_width": 215
+        },
+        {
+          "original": "新评估段复测",
+          "english": "New-episode retest",
+          "font_size": 9,
+          "max_width": 147
+        },
+        {
+          "original": "沿用b的30个网络",
+          "english": "Same 30 networks as b",
+          "font_size": 7,
+          "max_width": 147
+        },
+        {
+          "original": "跨评估段配对",
+          "english": "Cross-episode pairing",
+          "font_size": 9,
+          "max_width": 147
+        },
+        {
+          "original": "原评估段B/新评估段回报",
+          "english": "Earlier rewiring / new deletion",
+          "font_size": 7,
+          "max_width": 147
+        },
+        {
+          "original": "协变量调整",
+          "english": "Covariate adjustment",
+          "font_size": 9,
+          "max_width": 147
+        },
+        {
+          "original": "点估计与95%CI",
+          "english": "Estimates and 95% CI",
+          "font_size": 7,
+          "max_width": 147
+        },
+        {
+          "original": "复测不增加独立网络数；完整调整包含基准回报、输出敏感性与实际删边比例。",
+          "english": "Retesting adds no networks. Full adjustment: baseline return, output sensitivity, deletion fraction.",
+          "font_size": 6.8,
+          "max_width": 480
+        }
+      ],
+      "scientific_geometry_unchanged": true,
+      "width": 510.2362060546875,
+      "height": 445.03936767578125
+    },
+    {
+      "file": "02_topology_controls",
+      "source_sha256": "033e713c70b4bb5d75691b4487c8aea3a65284977085dc427f9ba6d09feb6b45",
+      "output_svg_sha256": "e556a12627b9188918cda5ad49752f9e0f45dd1f0f545069ee7bb5c91f387d32",
+      "output_png_sha256": "41427786d7d7ea34fc6af68dcbf226236eb844dbb79efa211cf80e115125d076",
+      "translated": [
+        {
+          "original": "具体连接组织支撑控制表现",
+          "english": "Connection arrangement supports control",
+          "font_size": 36,
+          "max_width": 1600
+        },
+        {
+          "original": "同一进化网络与两类随机化结构配对比较·每任务20个拓扑",
+          "english": "Paired comparisons with two randomized controls; 20 networks per task",
+          "font_size": 23,
+          "max_width": 1600
+        },
+        {
+          "original": "同边数随机图",
+          "english": "Same edge count",
+          "font_size": 22,
+          "max_width": 1600
+        },
+        {
+          "original": "度保持重接图",
+          "english": "Degree preserved",
+          "font_size": 22,
+          "max_width": 1600
+        },
+        {
+          "original": "原网络中位回报499.4",
+          "english": "Median original return 499.4",
+          "font_size": 20,
+          "max_width": 410
+        },
+        {
+          "original": "两项优势均超过预设差",
+          "english": "Both exceed threshold",
+          "font_size": 17,
+          "max_width": 320
+        },
+        {
+          "original": "原网络中位回报-90.3",
+          "english": "Median original return -90.3",
+          "font_size": 20,
+          "max_width": 410
+        },
+        {
+          "original": "两项优势均超过预设差",
+          "english": "Both exceed threshold",
+          "font_size": 17,
+          "max_width": 320
+        },
+        {
+          "original": "原网络中位回报-112.7",
+          "english": "Median original return -112.7",
+          "font_size": 20,
+          "max_width": 410
+        },
+        {
+          "original": "两项优势均超过预设差",
+          "english": "Both exceed threshold",
+          "font_size": 17,
+          "max_width": 320
+        },
+        {
+          "original": "原网络中位回报-128.7",
+          "english": "Median original return -128.7",
+          "font_size": 20,
+          "max_width": 410
+        },
+        {
+          "original": "两项优势均超过预设差",
+          "english": "Both exceed threshold",
+          "font_size": 17,
+          "max_width": 320
+        },
+        {
+          "original": "横轴：配对回报差的中位数；每行单独标尺。线段为95%bootstrap区间。",
+          "english": "Median paired return differences; separate row scales. Lines: 95% bootstrap intervals.",
+          "font_size": 20,
+          "max_width": 1600
+        }
+      ],
+      "scientific_geometry_unchanged": true,
+      "width": 1800,
+      "height": 1055
+    },
+    {
+      "file": "03_localization",
+      "source_sha256": "d25c4de12ffe3013b3f7c36a66ca4f88a25c7acb08a5cb164cec469ba3cdf651",
+      "output_svg_sha256": "eb8138c5780164a0ff7779d9adbf453a4a2d380a084e2486a7ea01f4520f4350",
+      "output_png_sha256": "444d4be4656c5512831d89b806520826454099d197d6cfc133bedc345924abad",
+      "translated": [
+        {
+          "original": "相同删边数，行为损伤仍因选边方式而异",
+          "english": "Equal deletion counts can yield different impairment",
+          "font_size": 36,
+          "max_width": 1600
+        },
+        {
+          "original": "CartPole·每点为一条进化谱系；纵向散开仅用于避免点重叠",
+          "english": "CartPole: each point is one lineage; vertical jitter reveals overlap",
+          "font_size": 23,
+          "max_width": 1600
+        },
+        {
+          "original": "按三跳路径分数选边",
+          "english": "Three-hop path score",
+          "font_size": 31,
+          "max_width": 690
+        },
+        {
+          "original": "高分边vs匹配边；30条谱系",
+          "english": "High-score vs matched; 30 lineages",
+          "font_size": 22,
+          "max_width": 690
+        },
+        {
+          "original": "预设回报差30",
+          "english": "Prespecified difference 30",
+          "font_size": 18,
+          "max_width": 690
+        },
+        {
+          "original": "中位超额损伤158.6",
+          "english": "Median excess impairment 158.6",
+          "font_size": 30,
+          "max_width": 690
+        },
+        {
+          "original": "损伤差为正25/30",
+          "english": "Positive differences: 25/30",
+          "font_size": 22,
+          "max_width": 690
+        },
+        {
+          "original": "输出响应计分",
+          "english": "Output sensitivity",
+          "font_size": 31,
+          "max_width": 690
+        },
+        {
+          "original": "高敏感边vs低敏感边；30条谱系",
+          "english": "High vs low sensitivity; 30 lineages",
+          "font_size": 22,
+          "max_width": 690
+        },
+        {
+          "original": "预设回报差30",
+          "english": "Prespecified difference 30",
+          "font_size": 18,
+          "max_width": 690
+        },
+        {
+          "original": "中位超额损伤44.1",
+          "english": "Median excess impairment 44.1",
+          "font_size": 30,
+          "max_width": 690
+        },
+        {
+          "original": "损伤差为正25/30",
+          "english": "Positive differences: 25/30",
+          "font_size": 22,
+          "max_width": 690
+        },
+        {
+          "original": "横轴为等边数删除的超额回报损伤；零线表示超额损伤为零。两面板标尺不同。",
+          "english": "Excess return loss at equal deletion counts; zero indicates no excess. Panels use separate scales.",
+          "font_size": 22,
+          "max_width": 1600
+        },
+        {
+          "original": "匹配计算路径分数的两项连接数量后，可比较的边减少；精确匹配结果见正文。",
+          "english": "Matching both path-score component counts reduces eligible edges; exact-matching results are in the text.",
+          "font_size": 20,
+          "max_width": 1600
+        }
+      ],
+      "scientific_geometry_unchanged": true,
+      "width": 1800,
+      "height": 945
+    },
+    {
+      "file": "04_conditional_retention",
+      "source_sha256": "ddfcd6643a1303490b96541080d7c5c5445f8697f91ee6068c217a84b0154dd5",
+      "output_svg_sha256": "73c72f37fd466566a8a6d5affc9f417441c8ce67f7f6b24efa0245dd41428576",
+      "output_png_sha256": "d8759abfd2544bd5be2e36914a4dff598682fbbcf286e7c3da4c42ffc0722f34",
+      "translated": [
+        {
+          "original": "仅保留易损连接，通常低于完整网络表现",
+          "english": "Retaining vulnerable connections alone usually lowers performance",
+          "font_size": 36,
+          "max_width": 1600
+        },
+        {
+          "original": "CartPole全因子队列·30条谱系，各谱系先合并两个预算版本",
+          "english": "Full-factorial CartPole cohort: 30 lineages; two budget versions averaged per lineage",
+          "font_size": 23,
+          "max_width": 1600
+        },
+        {
+          "original": "A四种保留条件下的回报",
+          "english": "A  Return under four retention conditions",
+          "font_size": 28,
+          "max_width": 1600
+        },
+        {
+          "original": "完整网络",
+          "english": "Complete network",
+          "font_size": 23,
+          "max_width": 405
+        },
+        {
+          "original": "中位499.5",
+          "english": "Median 499.5",
+          "font_size": 20,
+          "max_width": 405
+        },
+        {
+          "original": "只保留高分边集",
+          "english": "High-score connections only",
+          "font_size": 23,
+          "max_width": 405
+        },
+        {
+          "original": "中位276.4",
+          "english": "Median 276.4",
+          "font_size": 20,
+          "max_width": 405
+        },
+        {
+          "original": "只保留其余隐藏边",
+          "english": "Other hidden connections only",
+          "font_size": 23,
+          "max_width": 405
+        },
+        {
+          "original": "中位229.3",
+          "english": "Median 229.3",
+          "font_size": 20,
+          "max_width": 405
+        },
+        {
+          "original": "仅保留输入输出连接",
+          "english": "Input-output connections only",
+          "font_size": 23,
+          "max_width": 405
+        },
+        {
+          "original": "中位270.4",
+          "english": "Median 270.4",
+          "font_size": 20,
+          "max_width": 405
+        },
+        {
+          "original": "B删除交互",
+          "english": "B  Deletion interaction",
+          "font_size": 26.1261,
+          "max_width": 270
+        },
+        {
+          "original": "中位266.7",
+          "english": "Median 266.7",
+          "font_size": 29,
+          "max_width": 1600
+        },
+        {
+          "original": "两次单独删除的损失之和>联合删除损失",
+          "english": "Sum of separate losses > joint loss",
+          "font_size": 22,
+          "max_width": 1600
+        },
+        {
+          "original": "仅输入输出连接优于部分保留",
+          "english": "Interface-only > at least one partial set",
+          "font_size": 23,
+          "max_width": 515
+        },
+        {
+          "original": "CartPole·指定边集的条件比较",
+          "english": "CartPole: comparisons for the specified sets",
+          "font_size": 21,
+          "max_width": 1600
+        }
+      ],
+      "scientific_geometry_unchanged": true,
+      "width": 1800,
+      "height": 1055
+    },
+    {
+      "file": "05_readout_boundaries",
+      "source_sha256": "4a56404350ad1ed2cd824cd9ea36d8cebc43a023e8ca7d2e21b6c5b528c3c63a",
+      "output_svg_sha256": "d752e6906bdb928d787886d83d0d1c4d827552fa1079bcbaf11a3cd0960c51cf",
+      "output_png_sha256": "6a77e48f61b1350fb22419e1b700dd530fd971f7cf8d3a1d10c81adaa44d096b",
+      "translated": [
+        {
+          "original": "同一连接图会受读出规则影响",
+          "english": "Readout rules affect the same connectivity graph",
+          "font_size": 36,
+          "max_width": 1600
+        },
+        {
+          "original": "改规则损伤已有策略；按新规则重新进化，结构优势仍可出现",
+          "english": "Changing the rule impairs existing policies; evolution under the new rule retains an advantage",
+          "font_size": 23,
+          "max_width": 1600
+        },
+        {
+          "original": "A原网络交叉测试：改用随机平局",
+          "english": "A  Existing policies tested with random tie-breaking",
+          "font_size": 30,
+          "max_width": 1600
+        },
+        {
+          "original": "网络回报下降",
+          "english": "Networks with lower return",
+          "font_size": 21,
+          "max_width": 340
+        },
+        {
+          "original": "中位损失459.7",
+          "english": "Median loss 459.7",
+          "font_size": 23,
+          "max_width": 340
+        },
+        {
+          "original": "横轴：默认最小动作编号读出回报−随机平局读出回报；每点为一个原网络。",
+          "english": "Smallest-index return minus random-tie return; each point is one original network.",
+          "font_size": 20,
+          "max_width": 1600
+        },
+        {
+          "original": "B在随机平局规则下重新进化",
+          "english": "B  New evolution under random tie-breaking",
+          "font_size": 30,
+          "max_width": 1600
+        },
+        {
+          "original": "横轴：相对度保持重接对照的配对回报差；两任务分别标尺。",
+          "english": "Paired return advantages over degree-preserving controls; separate task scales.",
+          "font_size": 19,
+          "max_width": 1600
+        },
+        {
+          "original": "超过两类对照",
+          "english": "Exceeds both controls",
+          "font_size": 18,
+          "max_width": 340
+        },
+        {
+          "original": "超过两类对照",
+          "english": "Exceeds both controls",
+          "font_size": 18,
+          "max_width": 340
+        },
+        {
+          "original": "C证据覆盖范围",
+          "english": "C  Tasks supporting each finding",
+          "font_size": 30,
+          "max_width": 1600
+        },
+        {
+          "original": "随机结构对照",
+          "english": "Randomized controls",
+          "font_size": 21,
+          "max_width": 450
+        },
+        {
+          "original": "支持",
+          "english": "Supported",
+          "font_size": 20,
+          "max_width": 238
+        },
+        {
+          "original": "支持",
+          "english": "Supported",
+          "font_size": 20,
+          "max_width": 238
+        },
+        {
+          "original": "15/20·有限",
+          "english": "15/20; limited",
+          "font_size": 20,
+          "max_width": 238
+        },
+        {
+          "original": "按路径分数选边",
+          "english": "Path-score selection",
+          "font_size": 21,
+          "max_width": 450
+        },
+        {
+          "original": "较大效应",
+          "english": "Larger effect",
+          "font_size": 20,
+          "max_width": 238
+        },
+        {
+          "original": "较大效应",
+          "english": "Larger effect",
+          "font_size": 20,
+          "max_width": 238
+        },
+        {
+          "original": "未报告",
+          "english": "Not reported",
+          "font_size": 20,
+          "max_width": 238
+        },
+        {
+          "original": "未报告",
+          "english": "Not reported",
+          "font_size": 20,
+          "max_width": 238
+        },
+        {
+          "original": "按输出变化选边",
+          "english": "Output-sensitivity selection",
+          "font_size": 21,
+          "max_width": 450
+        },
+        {
+          "original": "超过预设差",
+          "english": "Above threshold",
+          "font_size": 20,
+          "max_width": 238
+        },
+        {
+          "original": "低于预设差",
+          "english": "Below threshold",
+          "font_size": 20,
+          "max_width": 238
+        },
+        {
+          "original": "未报告",
+          "english": "Not reported",
+          "font_size": 20,
+          "max_width": 238
+        },
+        {
+          "original": "未报告",
+          "english": "Not reported",
+          "font_size": 20,
+          "max_width": 238
+        },
+        {
+          "original": "跨扰动关联",
+          "english": "Cross-perturbation association",
+          "font_size": 21,
+          "max_width": 450
+        },
+        {
+          "original": "多队列同向",
+          "english": "Across cohorts",
+          "font_size": 20,
+          "max_width": 238
+        },
+        {
+          "original": "任务内初步",
+          "english": "Preliminary",
+          "font_size": 20,
+          "max_width": 238
+        },
+        {
+          "original": "未报告",
+          "english": "Not reported",
+          "font_size": 20,
+          "max_width": 238
+        },
+        {
+          "original": "未报告",
+          "english": "Not reported",
+          "font_size": 20,
+          "max_width": 238
+        },
+        {
+          "original": "随机平局重进化",
+          "english": "Random-tie evolution",
+          "font_size": 21,
+          "max_width": 450
+        },
+        {
+          "original": "未报告",
+          "english": "Not reported",
+          "font_size": 20,
+          "max_width": 238
+        },
+        {
+          "original": "未报告",
+          "english": "Not reported",
+          "font_size": 20,
+          "max_width": 238
+        },
+        {
+          "original": "“未报告”表示本稿未呈现对应检验；不同任务的状态不构成任务间效应比较。",
+          "english": "Not reported: no corresponding test presented. Task-specific statuses do not compare effects across tasks.",
+          "font_size": 19,
+          "max_width": 1600
+        }
+      ],
+      "scientific_geometry_unchanged": true,
+      "width": 1800,
+      "height": 1445
+    }
+  ]
+}

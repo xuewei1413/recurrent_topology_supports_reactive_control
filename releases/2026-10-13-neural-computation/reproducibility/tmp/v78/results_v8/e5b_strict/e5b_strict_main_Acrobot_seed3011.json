@@ -1,0 +1,44 @@
+{
+ "version": "v8_e5b_strict",
+ "cohort": "main",
+ "task": "Acrobot",
+ "tag": "seed3011",
+ "scaffold_seed": 3011,
+ "n_hh": 1446,
+ "n_skel": 289,
+ "n_strict": 1,
+ "strict_frac_of_skel": 0.0034602076124567475,
+ "n_keys": 1,
+ "key_counts": {
+  "(1, 1, 5, 1, 1)": [
+   2,
+   1,
+   1
+  ]
+ },
+ "skel_strict_hash": "0d3cc6d410ed685e",
+ "eval_seeds": [
+  96000,
+  96001,
+  96002,
+  96003,
+  96004,
+  96005,
+  96006,
+  96007,
+  96008,
+  96009,
+  96010,
+  96011,
+  96012,
+  96013,
+  96014,
+  96015,
+  96016,
+  96017,
+  96018,
+  96019
+ ],
+ "R": 10,
+ "skipped": "only 1 strictly matchable skeleton edges"
+}

@@ -1,0 +1,421 @@
+{
+  "analysis": "post-hoc audit of historical exact-matching records",
+  "score": "0.25 * pin1 * pout1",
+  "matching_key": [
+    "sign",
+    "source_group_8",
+    "target_group_8",
+    "pin1",
+    "pout1"
+  ],
+  "summary_source_sha256": "a50b7db308746747bc193ddff614bc045cbe50bfb8ba84e416f10d3e4bf6e124",
+  "cohorts": {
+    "CartPole": {
+      "network_records": 20,
+      "evaluated_networks": 20,
+      "median_matched_fraction": 0.346098473941837,
+      "matched_selected_edges": 2081,
+      "zero_score_matched_selected_edges": 2081,
+      "matched_score_values": [
+        0.0
+      ],
+      "mean_selected_minus_control_loss": 25.283750000000005,
+      "median_selected_minus_control_loss": -0.019999999999998862,
+      "mean_difference_90pct_t_interval": [
+        -29.097620355377607,
+        79.66512035537758
+      ],
+      "wilcoxon_p": 0.7764250047999479,
+      "equivalence_bound": 30.0,
+      "historical_tost_p": 0.4411883692948779,
+      "equivalence_confirmed": false,
+      "archived_summaries_reproduced": true,
+      "records": [
+        {
+          "source": "tmp/v78/results_v8/e5b_strict/e5b_strict_main_CartPole_seed3000.json",
+          "sha256": "78176cbebc73003e46eca1404c4079f47612ecaa63d2b6a669569e19ca8163b9",
+          "n_selected": 301,
+          "n_matched": 117,
+          "matched_fraction": 0.38870431893687707,
+          "evaluated": true,
+          "skip_reason": null
+        },
+        {
+          "source": "tmp/v78/results_v8/e5b_strict/e5b_strict_main_CartPole_seed3001.json",
+          "sha256": "c2196bd5e62c849b4d5cf383338d99424465585f8138db640b88a423392baf57",
+          "n_selected": 301,
+          "n_matched": 142,
+          "matched_fraction": 0.4717607973421927,
+          "evaluated": true,
+          "skip_reason": null
+        },
+        {
+          "source": "tmp/v78/results_v8/e5b_strict/e5b_strict_main_CartPole_seed3002.json",
+          "sha256": "3e472e0e6433a64410f112225986bea1ad3756fe6bdd6c938bf08900bf9cf078",
+          "n_selected": 298,
+          "n_matched": 120,
+          "matched_fraction": 0.40268456375838924,
+          "evaluated": true,
+          "skip_reason": null
+        },
+        {
+          "source": "tmp/v78/results_v8/e5b_strict/e5b_strict_main_CartPole_seed3003.json",
+          "sha256": "7f5c2164ec55614a343846d8e0698fd7ae80b28bf0fa6e241ebc198249d25809",
+          "n_selected": 299,
+          "n_matched": 73,
+          "matched_fraction": 0.24414715719063546,
+          "evaluated": true,
+          "skip_reason": null
+        },
+        {
+          "source": "tmp/v78/results_v8/e5b_strict/e5b_strict_main_CartPole_seed3004.json",
+          "sha256": "f4d0fc8d05e28414a3bb2be6ee69f461ce52f69a48eab41821785163ef0070c6",
+          "n_selected": 302,
+          "n_matched": 104,
+          "matched_fraction": 0.3443708609271523,
+          "evaluated": true,
+          "skip_reason": null
+        },
+        {
+          "source": "tmp/v78/results_v8/e5b_strict/e5b_strict_main_CartPole_seed3005.json",
+          "sha256": "3a55b070f7136b73499de7fe036a05516876b8bdccf97915b0d48ba5827dd370",
+          "n_selected": 298,
+          "n_matched": 94,
+          "matched_fraction": 0.31543624161073824,
+          "evaluated": true,
+          "skip_reason": null
+        },
+        {
+          "source": "tmp/v78/results_v8/e5b_strict/e5b_strict_main_CartPole_seed3006.json",
+          "sha256": "22ad043b8eaf9680da537ab09f6c0291592c59c4c5adc5756f269142f8c3ef14",
+          "n_selected": 301,
+          "n_matched": 76,
+          "matched_fraction": 0.25249169435215946,
+          "evaluated": true,
+          "skip_reason": null
+        },
+        {
+          "source": "tmp/v78/results_v8/e5b_strict/e5b_strict_main_CartPole_seed3007.json",
+          "sha256": "b71eafd031a933d3c24daa636d24b4487913cb972561addeced0893e39f46709",
+          "n_selected": 299,
+          "n_matched": 109,
+          "matched_fraction": 0.36454849498327757,
+          "evaluated": true,
+          "skip_reason": null
+        },
+        {
+          "source": "tmp/v78/results_v8/e5b_strict/e5b_strict_main_CartPole_seed3008.json",
+          "sha256": "d2a4ae46aa0e64d13a179502813d2073b6a233f813794a7deaf7d42084b945b7",
+          "n_selected": 298,
+          "n_matched": 106,
+          "matched_fraction": 0.35570469798657717,
+          "evaluated": true,
+          "skip_reason": null
+        },
+        {
+          "source": "tmp/v78/results_v8/e5b_strict/e5b_strict_main_CartPole_seed3009.json",
+          "sha256": "6d05b0b8a3000f33c1a35c3d1dffeabecb1d1feb833ad296cf31400ddf93cd93",
+          "n_selected": 302,
+          "n_matched": 106,
+          "matched_fraction": 0.3509933774834437,
+          "evaluated": true,
+          "skip_reason": null
+        },
+        {
+          "source": "tmp/v78/results_v8/e5b_strict/e5b_strict_main_CartPole_seed3010.json",
+          "sha256": "7bd74a0b972d378a5409fe069b3d7db1c7e3f749a8f75bdd5b8daf7555ab72b7",
+          "n_selected": 304,
+          "n_matched": 167,
+          "matched_fraction": 0.5493421052631579,
+          "evaluated": true,
+          "skip_reason": null
+        },
+        {
+          "source": "tmp/v78/results_v8/e5b_strict/e5b_strict_main_CartPole_seed3011.json",
+          "sha256": "806670064a0670aed930bec8d690a9baf7699633523d5fef4896b009be7ea9c4",
+          "n_selected": 298,
+          "n_matched": 87,
+          "matched_fraction": 0.29194630872483224,
+          "evaluated": true,
+          "skip_reason": null
+        },
+        {
+          "source": "tmp/v78/results_v8/e5b_strict/e5b_strict_main_CartPole_seed3012.json",
+          "sha256": "76fddc25b5d21f2d63c2013710c436ddfbec63b1938cfaf2fa2e50270e27cd36",
+          "n_selected": 300,
+          "n_matched": 76,
+          "matched_fraction": 0.25333333333333335,
+          "evaluated": true,
+          "skip_reason": null
+        },
+        {
+          "source": "tmp/v78/results_v8/e5b_strict/e5b_strict_main_CartPole_seed3013.json",
+          "sha256": "7639bfa1d3910e7fd46b1cf391bb28819e8eb0063dffe217a1288f7c603e4213",
+          "n_selected": 300,
+          "n_matched": 131,
+          "matched_fraction": 0.43666666666666665,
+          "evaluated": true,
+          "skip_reason": null
+        },
+        {
+          "source": "tmp/v78/results_v8/e5b_strict/e5b_strict_main_CartPole_seed3014.json",
+          "sha256": "e896a27b1f0ab87fe23f6bca2bdb9fe68fb13b209146031b06ffbc329e97e8d0",
+          "n_selected": 299,
+          "n_matched": 93,
+          "matched_fraction": 0.3110367892976589,
+          "evaluated": true,
+          "skip_reason": null
+        },
+        {
+          "source": "tmp/v78/results_v8/e5b_strict/e5b_strict_main_CartPole_seed3015.json",
+          "sha256": "668f1093dd1a954bc2a9f33ab2b7880c0c19a1bc7dc6c0cdc30bab29932b2c64",
+          "n_selected": 299,
+          "n_matched": 73,
+          "matched_fraction": 0.24414715719063546,
+          "evaluated": true,
+          "skip_reason": null
+        },
+        {
+          "source": "tmp/v78/results_v8/e5b_strict/e5b_strict_main_CartPole_seed3016.json",
+          "sha256": "557c2a51c5e88e36df586cec3857ae0fc0922b1474f12bbfa59c56e56cb5ace1",
+          "n_selected": 299,
+          "n_matched": 79,
+          "matched_fraction": 0.26421404682274247,
+          "evaluated": true,
+          "skip_reason": null
+        },
+        {
+          "source": "tmp/v78/results_v8/e5b_strict/e5b_strict_main_CartPole_seed3017.json",
+          "sha256": "a52bf455d02edf2ce849a562115d66476f0e8e3fb297685eb0d8861a990f5de2",
+          "n_selected": 302,
+          "n_matched": 150,
+          "matched_fraction": 0.4966887417218543,
+          "evaluated": true,
+          "skip_reason": null
+        },
+        {
+          "source": "tmp/v78/results_v8/e5b_strict/e5b_strict_main_CartPole_seed3018.json",
+          "sha256": "4682bdb95cf72f5272d75d4853b2b267d32c0cb0fc0f616ebc9b6da66fa611a4",
+          "n_selected": 301,
+          "n_matched": 74,
+          "matched_fraction": 0.24584717607973422,
+          "evaluated": true,
+          "skip_reason": null
+        },
+        {
+          "source": "tmp/v78/results_v8/e5b_strict/e5b_strict_main_CartPole_seed3019.json",
+          "sha256": "dd9e909ae8ff2a872ec3a6939e0343c5171185fe75b2fe4212a860b7f6aec59c",
+          "n_selected": 299,
+          "n_matched": 104,
+          "matched_fraction": 0.34782608695652173,
+          "evaluated": true,
+          "skip_reason": null
+        }
+      ]
+    },
+    "Acrobot": {
+      "network_records": 20,
+      "evaluated_networks": 19,
+      "median_matched_fraction": 0.10821068278181198,
+      "matched_selected_edges": 550,
+      "zero_score_matched_selected_edges": 158,
+      "matched_score_values": [
+        0.0,
+        0.25
+      ],
+      "mean_selected_minus_control_loss": 15.53184210526316,
+      "median_selected_minus_control_loss": -0.39000000000000346,
+      "mean_difference_90pct_t_interval": [
+        -5.428261433203485,
+        36.49194564372979
+      ],
+      "wilcoxon_p": 0.981116590883351,
+      "equivalence_bound": 10.0,
+      "historical_tost_p": 0.6736629943904522,
+      "equivalence_confirmed": false,
+      "archived_summaries_reproduced": true,
+      "records": [
+        {
+          "source": "tmp/v78/results_v8/e5b_strict/e5b_strict_main_Acrobot_seed3000.json",
+          "sha256": "a9dc9f324ebd8ee663415e4770ede61e25e6813ffbb8674d8125f19fc9cf363b",
+          "n_selected": 284,
+          "n_matched": 33,
+          "matched_fraction": 0.11619718309859155,
+          "evaluated": true,
+          "skip_reason": null
+        },
+        {
+          "source": "tmp/v78/results_v8/e5b_strict/e5b_strict_main_Acrobot_seed3001.json",
+          "sha256": "ffc78f32f459cd3cc6f6110d74199797c73e14035c4c5a3aeb9f62b925346b61",
+          "n_selected": 285,
+          "n_matched": 25,
+          "matched_fraction": 0.08771929824561403,
+          "evaluated": true,
+          "skip_reason": null
+        },
+        {
+          "source": "tmp/v78/results_v8/e5b_strict/e5b_strict_main_Acrobot_seed3002.json",
+          "sha256": "95b2b69afa9afcbde7705784dc6c0cca2379399a668b6c80d352cf72d5b98a96",
+          "n_selected": 286,
+          "n_matched": 8,
+          "matched_fraction": 0.027972027972027972,
+          "evaluated": true,
+          "skip_reason": null
+        },
+        {
+          "source": "tmp/v78/results_v8/e5b_strict/e5b_strict_main_Acrobot_seed3003.json",
+          "sha256": "8e2ba1acfcb92d6e5660f347ca3da305aa6e616e4bf860ef5148fbcfae0762e6",
+          "n_selected": 287,
+          "n_matched": 37,
+          "matched_fraction": 0.1289198606271777,
+          "evaluated": true,
+          "skip_reason": null
+        },
+        {
+          "source": "tmp/v78/results_v8/e5b_strict/e5b_strict_main_Acrobot_seed3004.json",
+          "sha256": "6d6c415af46cd8bc3fc890c24a42f8d9a41cb87fd8677a1726eaa62658b386c6",
+          "n_selected": 291,
+          "n_matched": 54,
+          "matched_fraction": 0.18556701030927836,
+          "evaluated": true,
+          "skip_reason": null
+        },
+        {
+          "source": "tmp/v78/results_v8/e5b_strict/e5b_strict_main_Acrobot_seed3005.json",
+          "sha256": "b3331b2b7fdf90f27fcaa58b6302766984ec5ba3d993d954480d814b85705345",
+          "n_selected": 286,
+          "n_matched": 20,
+          "matched_fraction": 0.06993006993006994,
+          "evaluated": true,
+          "skip_reason": null
+        },
+        {
+          "source": "tmp/v78/results_v8/e5b_strict/e5b_strict_main_Acrobot_seed3006.json",
+          "sha256": "f6198815cf5ddd1331661c50621db0557c48f39b3a71dec3a75939ca236dfcdf",
+          "n_selected": 290,
+          "n_matched": 20,
+          "matched_fraction": 0.06896551724137931,
+          "evaluated": true,
+          "skip_reason": null
+        },
+        {
+          "source": "tmp/v78/results_v8/e5b_strict/e5b_strict_main_Acrobot_seed3007.json",
+          "sha256": "492d3df2a8839112edd84f1c4fa4d2eb63dbbfeffaae2b1df338e0614985f966",
+          "n_selected": 285,
+          "n_matched": 32,
+          "matched_fraction": 0.11228070175438597,
+          "evaluated": true,
+          "skip_reason": null
+        },
+        {
+          "source": "tmp/v78/results_v8/e5b_strict/e5b_strict_main_Acrobot_seed3008.json",
+          "sha256": "f52c00e0c25460f61f248ca87e466b301a172f5422352c4f9f4d2f6dddba4d97",
+          "n_selected": 284,
+          "n_matched": 31,
+          "matched_fraction": 0.10915492957746478,
+          "evaluated": true,
+          "skip_reason": null
+        },
+        {
+          "source": "tmp/v78/results_v8/e5b_strict/e5b_strict_main_Acrobot_seed3009.json",
+          "sha256": "c7ae0ee25f91939f5383dd59cffd93526f6f929c029cfe451e6401d3997d4827",
+          "n_selected": 287,
+          "n_matched": 40,
+          "matched_fraction": 0.13937282229965156,
+          "evaluated": true,
+          "skip_reason": null
+        },
+        {
+          "source": "tmp/v78/results_v8/e5b_strict/e5b_strict_main_Acrobot_seed3010.json",
+          "sha256": "0ca6d8ae407c1dfa70bb282049fbc6d7028820302400b558365a1d2ab00bff0d",
+          "n_selected": 289,
+          "n_matched": 31,
+          "matched_fraction": 0.10726643598615918,
+          "evaluated": true,
+          "skip_reason": null
+        },
+        {
+          "source": "tmp/v78/results_v8/e5b_strict/e5b_strict_main_Acrobot_seed3011.json",
+          "sha256": "cd704a958e0d65bfb977d6143775ee321332d4ab89f05a35567781bb75f557ce",
+          "n_selected": 289,
+          "n_matched": 1,
+          "matched_fraction": 0.0034602076124567475,
+          "evaluated": false,
+          "skip_reason": "only 1 strictly matchable skeleton edges"
+        },
+        {
+          "source": "tmp/v78/results_v8/e5b_strict/e5b_strict_main_Acrobot_seed3012.json",
+          "sha256": "47640582f185ced3b276314d51b624843f252e599aab7a7348fffdce6304fc28",
+          "n_selected": 286,
+          "n_matched": 40,
+          "matched_fraction": 0.13986013986013987,
+          "evaluated": true,
+          "skip_reason": null
+        },
+        {
+          "source": "tmp/v78/results_v8/e5b_strict/e5b_strict_main_Acrobot_seed3013.json",
+          "sha256": "fe0fb7e21f966461c75ea492701944f5b784e42988743823d1920ff5be34f881",
+          "n_selected": 289,
+          "n_matched": 12,
+          "matched_fraction": 0.04152249134948097,
+          "evaluated": true,
+          "skip_reason": null
+        },
+        {
+          "source": "tmp/v78/results_v8/e5b_strict/e5b_strict_main_Acrobot_seed3014.json",
+          "sha256": "83bca9b663af6c0906a95bfb34dda0c9054d65fe741e31522028b712f1af90d4",
+          "n_selected": 288,
+          "n_matched": 33,
+          "matched_fraction": 0.11458333333333333,
+          "evaluated": true,
+          "skip_reason": null
+        },
+        {
+          "source": "tmp/v78/results_v8/e5b_strict/e5b_strict_main_Acrobot_seed3015.json",
+          "sha256": "29f32b47e64f85da3a8f073195b75ce56847140fdf4c1463b3c0807631fb80f1",
+          "n_selected": 287,
+          "n_matched": 20,
+          "matched_fraction": 0.06968641114982578,
+          "evaluated": true,
+          "skip_reason": null
+        },
+        {
+          "source": "tmp/v78/results_v8/e5b_strict/e5b_strict_main_Acrobot_seed3016.json",
+          "sha256": "b44d6c2f119ab948952e80f6fe5ba0d1960b1a67934b745b4be8506da6e56e23",
+          "n_selected": 287,
+          "n_matched": 22,
+          "matched_fraction": 0.07665505226480836,
+          "evaluated": true,
+          "skip_reason": null
+        },
+        {
+          "source": "tmp/v78/results_v8/e5b_strict/e5b_strict_main_Acrobot_seed3017.json",
+          "sha256": "a214d02e5d77e298ca633079a89aab5706636d75a475a08a1ad618dd611dd09a",
+          "n_selected": 291,
+          "n_matched": 28,
+          "matched_fraction": 0.09621993127147767,
+          "evaluated": true,
+          "skip_reason": null
+        },
+        {
+          "source": "tmp/v78/results_v8/e5b_strict/e5b_strict_main_Acrobot_seed3018.json",
+          "sha256": "ea13a9c6884797144f39ae18cbcd8e6de874c3c2be7337a9a1d43668be20afab",
+          "n_selected": 285,
+          "n_matched": 32,
+          "matched_fraction": 0.11228070175438597,
+          "evaluated": true,
+          "skip_reason": null
+        },
+        {
+          "source": "tmp/v78/results_v8/e5b_strict/e5b_strict_main_Acrobot_seed3019.json",
+          "sha256": "d4942a89992d9db9e89c7706a30834e2769f181bbfb37c0b77fc90bcc625de51",
+          "n_selected": 284,
+          "n_matched": 31,
+          "matched_fraction": 0.10915492957746478,
+          "evaluated": true,
+          "skip_reason": null
+        }
+      ]
+    }
+  }
+}

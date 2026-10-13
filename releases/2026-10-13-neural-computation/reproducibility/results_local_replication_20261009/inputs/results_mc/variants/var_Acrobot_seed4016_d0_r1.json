@@ -1,0 +1,20 @@
+{
+ "task": "Acrobot",
+ "seed": 4016,
+ "band": "high",
+ "d_index": 0,
+ "rep": 1,
+ "frac_target": 0.12,
+ "n_swaps_target": 169,
+ "hamming": 169,
+ "parent_edge_hash": "a18bb12b11d7b667",
+ "variant_edge_hash": "f74d39c972d6080e",
+ "invariants": {
+  "ih_unchanged": true,
+  "ho_unchanged": true,
+  "in_degree_ok": true,
+  "out_degree_ok": true
+ },
+ "passed": true,
+ "rng_seed": 490427140
+}

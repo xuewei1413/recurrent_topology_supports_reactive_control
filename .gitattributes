@@ -1,0 +1,2 @@
+# Preserve byte-level provenance when this release is checked out on any platform.
+releases/2026-10-13-neural-computation/reproducibility/** -text

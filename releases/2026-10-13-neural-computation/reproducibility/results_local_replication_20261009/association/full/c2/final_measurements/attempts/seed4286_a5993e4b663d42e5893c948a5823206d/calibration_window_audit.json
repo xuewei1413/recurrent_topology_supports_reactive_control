@@ -1,0 +1,1 @@
+{"dropped_states": 0, "dropped_windows": [], "minimum_valid_states": 250, "original_calibration_sha256": "52fe92b7b986fd25863f69ca5498703893b419f77a2d4647826d5363c532910a", "retained_calibration_sha256": "52fe92b7b986fd25863f69ca5498703893b419f77a2d4647826d5363c532910a", "retained_states": 279, "revision": "calibration_guard_v1", "sampled_states": 279, "tau_max": 5}

@@ -1,0 +1,226 @@
+{
+  "protocol_name": "mc2026_mediation_v1",
+  "created": "2026-08-08",
+  "design_doc": "docs/plans/2026-08-07-multi-output-current-mediation-design.md",
+  "sesoi_source": "_phase8/sesoi_config.json（生成时校验一致，服务器用冻结值）",
+  "sesoi": {
+    "CartPole": 30.0,
+    "Acrobot": 10.0
+  },
+  "evolution_seeds": {
+    "CartPole": [
+      4000,
+      4001,
+      4002,
+      4003,
+      4004,
+      4005,
+      4006,
+      4007,
+      4008,
+      4009,
+      4010,
+      4011
+    ],
+    "Acrobot": [
+      4012,
+      4013,
+      4014,
+      4015,
+      4016,
+      4017,
+      4018,
+      4019,
+      4020,
+      4021,
+      4022,
+      4023
+    ]
+  },
+  "episode_segments": {
+    "train": [
+      86000,
+      86099
+    ],
+    "selection": [
+      86100,
+      86119
+    ],
+    "test": [
+      86200,
+      86299
+    ],
+    "calibration": [
+      86300,
+      86319
+    ],
+    "final_confirm": [
+      86400,
+      86419
+    ]
+  },
+  "dynamics": {
+    "T_internal_steps": 20,
+    "leak": "1 - dt/tau",
+    "tau": 5.0,
+    "threshold": 0.4,
+    "w0": 0.6
+  },
+  "mediator": "J^HO(t,k) = sum_j W_oj s_j(t,k-1)（每内部步逐输出通道净突触电流）",
+  "injection_semantics": "只替换 HO 净电流在 recipient 膜电位更新中的贡献（v[-n_out:] += J*_ho - J_native_ho），不直接钳制 v⁻/输出脉冲/动作/回报",
+  "measurement_chain": [
+    "J -> v- -> e -> a -> R"
+  ],
+  "alpha": {
+    "primary": 1.0,
+    "secondary": [
+      0.25,
+      0.5,
+      0.75
+    ]
+  },
+  "dose": {
+    "levels": 3,
+    "copies": 2,
+    "bands": {
+      "low": "<1x SESOI",
+      "mid": "1-3x SESOI",
+      "high": ">3x SESOI, floor ratio < 0.2"
+    },
+    "rule": "数值剂量在 P1 于旧拓扑(3000-3019)上冻结后写入 mc_dose_frozen.json，新队列生成(P3)前必须存在"
+  },
+  "controls": {
+    "none": "recipient 原生运行",
+    "self_exact": "对应 F0 与变体之间精确交换（双向）",
+    "energy_random": "每内部步与 exact correction 相同 L2 能量，方向随机",
+    "time_shuffle": "按冻结块长打乱 donor J 轨迹时间顺序",
+    "channel_permute": "只置换输出通道身份",
+    "foreign_donor": "使用同任务另一高性能 F0 的在线 J（环移 (i+1) mod 12 配对）",
+    "action_only": "只使用 donor 当前动作标签的 one-hot 最简促动向量，与 exact 逐步等能"
+  },
+  "time_shuffle_block_len": 4,
+  "channel_permute": {
+    "CartPole": [
+      1,
+      0
+    ],
+    "Acrobot": [
+      1,
+      2,
+      0
+    ]
+  },
+  "foreign_donor_rule": "cyclic (i+1) mod 12, 配对冻结于 P5 controls_mc.json",
+  "action_only": {
+    "construction": "donor 当前环境步动作标签 → 单位 one-hot 向量，逐环境步缩放至 ||exact correction(t)||，步内时间恒定",
+    "tie": "argmax 平局时取零向量（冻结规则）"
+  },
+  "energy_match": {
+    "criterion": "per internal step L2 == ||exact correction||",
+    "tol": 1e-09
+  },
+  "subsets": {
+    "CartPole": [
+      [
+        0
+      ],
+      [
+        1
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "Acrobot": [
+      [
+        0
+      ],
+      [
+        1
+      ],
+      [
+        2
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        2
+      ]
+    ]
+  },
+  "nonredundant_subsets": {
+    "CartPole": [
+      [
+        0
+      ],
+      [
+        1
+      ]
+    ],
+    "Acrobot": [
+      [
+        0
+      ],
+      [
+        1
+      ],
+      [
+        2
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ]
+    ]
+  },
+  "gatekeeping": [
+    "1. self-exact 正向救援（var←F0）",
+    "2. reverse-exact 反向损伤（F0←var）",
+    "3. self-exact 相对 action-only",
+    "4. self-exact 相对 time-shuffle 与 energy-random",
+    "5. 下游 v⁻ 与 e 有序恢复",
+    "6. full-vector 相对 best-single-channel",
+    "7. 次级：foreign-donor、channel-permute、剂量、通道 Shapley"
+  ],
+  "upgrade_gates": [
+    "1. 新队列 self-exact 正向救援相对 none 达到 SESOI，CI 排除 0",
+    "2. reverse-exact 对 F0 反向损伤达到 SESOI，CI 排除 0",
+    "3. self-exact 显著且实践上优于 action-only",
+    "4. self-exact 优于 time-shuffle 和 energy-random",
+    "5. v⁻ 与 e 在行为恢复前按预测恢复，反向交换时按预测偏离",
+    "6. full-vector 稳定优于 best-single-channel 才允许声称多输出协同",
+    "7. CartPole 完整通过，Acrobot 至少方向复现",
+    "8. 全部主判断拓扑级独立单位，代码/种子/轨迹确定性重放"
+  ],
+  "statistics": {
+    "unit": "topology lineage (CP n=12, Acr n=12)",
+    "paired_test": "permutation / exact sign-flip (n<=20)",
+    "ci": "cluster bootstrap by seed",
+    "mediator_proportion": "M = (R_rescue - R_var) / (R_F0 - R_var)，仅 gap>=SESOI 预定义子集",
+    "shapley": "CP 精确 2 通道公式 / Acr 8 子集精确公式",
+    "dual_criterion": "方向统计显著 + SESOI 实践达标"
+  },
+  "derive_seed": "sha256('mc2026|' + '|'.join(parts))[:16] hex int",
+  "config_hash": "f0ebbddc006ce8f9544e95e8aa0ce927d1b5b3e232a24cef2a2c985a988e0506"
+}

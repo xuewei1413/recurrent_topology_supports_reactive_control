@@ -1,0 +1,242 @@
+{
+ "version": "v8_e5b_strict",
+ "cohort": "main",
+ "task": "Acrobot",
+ "tag": "seed3006",
+ "scaffold_seed": 3006,
+ "n_hh": 1448,
+ "n_skel": 290,
+ "n_strict": 20,
+ "strict_frac_of_skel": 0.06896551724137931,
+ "n_keys": 19,
+ "key_counts": {
+  "(1, 7, 6, 0, 0)": [
+   1,
+   5,
+   1
+  ],
+  "(-1, 0, 4, 0, 0)": [
+   1,
+   2,
+   1
+  ],
+  "(-1, 0, 1, 1, 0)": [
+   2,
+   3,
+   2
+  ],
+  "(1, 4, 1, 0, 0)": [
+   1,
+   3,
+   1
+  ],
+  "(1, 6, 1, 3, 0)": [
+   1,
+   4,
+   1
+  ],
+  "(1, 4, 4, 0, 0)": [
+   1,
+   3,
+   1
+  ],
+  "(1, 0, 6, 0, 0)": [
+   1,
+   5,
+   1
+  ],
+  "(1, 4, 6, 4, 0)": [
+   1,
+   2,
+   1
+  ],
+  "(-1, 2, 1, 0, 0)": [
+   1,
+   3,
+   1
+  ],
+  "(1, 5, 6, 0, 0)": [
+   1,
+   4,
+   1
+  ],
+  "(-1, 3, 4, 2, 0)": [
+   1,
+   1,
+   1
+  ],
+  "(1, 5, 4, 1, 0)": [
+   1,
+   4,
+   1
+  ],
+  "(1, 6, 4, 1, 0)": [
+   1,
+   3,
+   1
+  ],
+  "(-1, 0, 6, 0, 0)": [
+   1,
+   4,
+   1
+  ],
+  "(1, 7, 6, 1, 0)": [
+   1,
+   3,
+   1
+  ],
+  "(1, 5, 6, 1, 0)": [
+   1,
+   5,
+   1
+  ],
+  "(-1, 4, 4, 0, 0)": [
+   1,
+   1,
+   1
+  ],
+  "(1, 6, 4, 0, 0)": [
+   1,
+   3,
+   1
+  ],
+  "(-1, 1, 6, 2, 0)": [
+   1,
+   1,
+   1
+  ]
+ },
+ "skel_strict_hash": "87254136b47a5b69",
+ "eval_seeds": [
+  96000,
+  96001,
+  96002,
+  96003,
+  96004,
+  96005,
+  96006,
+  96007,
+  96008,
+  96009,
+  96010,
+  96011,
+  96012,
+  96013,
+  96014,
+  96015,
+  96016,
+  96017,
+  96018,
+  96019
+ ],
+ "R": 10,
+ "J_F0": -85.8,
+ "J_del_skel_strict": -89.55,
+ "drop_skel_strict": 3.75,
+ "reps": [
+  {
+   "rep": 0,
+   "n_matched": 20,
+   "matched_hash": "7b37075b50d6e7a3",
+   "rand_hash": "39df41c17a7fad0a",
+   "J_del_matched": -95.2,
+   "drop_matched": 9.400000000000006,
+   "J_del_rand": -85.8,
+   "drop_rand": 0.0
+  },
+  {
+   "rep": 1,
+   "n_matched": 20,
+   "matched_hash": "f9a2ed05f76accd5",
+   "rand_hash": "c9efec5e7948f6df",
+   "J_del_matched": -95.2,
+   "drop_matched": 9.400000000000006,
+   "J_del_rand": -95.75,
+   "drop_rand": 9.950000000000003
+  },
+  {
+   "rep": 2,
+   "n_matched": 20,
+   "matched_hash": "3d8e831086be54f3",
+   "rand_hash": "584922ae7110b921",
+   "J_del_matched": -99.2,
+   "drop_matched": 13.400000000000006,
+   "J_del_rand": -109.0,
+   "drop_rand": 23.200000000000003
+  },
+  {
+   "rep": 3,
+   "n_matched": 20,
+   "matched_hash": "6ec8ab689e40ce96",
+   "rand_hash": "185b133a79b81d06",
+   "J_del_matched": -95.2,
+   "drop_matched": 9.400000000000006,
+   "J_del_rand": -85.8,
+   "drop_rand": 0.0
+  },
+  {
+   "rep": 4,
+   "n_matched": 20,
+   "matched_hash": "8bd569326334da05",
+   "rand_hash": "09fac96e1c3504d0",
+   "J_del_matched": -92.25,
+   "drop_matched": 6.450000000000003,
+   "J_del_rand": -85.2,
+   "drop_rand": -0.5999999999999943
+  },
+  {
+   "rep": 5,
+   "n_matched": 20,
+   "matched_hash": "118ba282255fe6eb",
+   "rand_hash": "a95d8102ed59591d",
+   "J_del_matched": -93.75,
+   "drop_matched": 7.950000000000003,
+   "J_del_rand": -85.8,
+   "drop_rand": 0.0
+  },
+  {
+   "rep": 6,
+   "n_matched": 20,
+   "matched_hash": "7e14f45a52d3d547",
+   "rand_hash": "69465a076c09ab53",
+   "J_del_matched": -95.2,
+   "drop_matched": 9.400000000000006,
+   "J_del_rand": -86.4,
+   "drop_rand": 0.6000000000000085
+  },
+  {
+   "rep": 7,
+   "n_matched": 20,
+   "matched_hash": "45c0a5e16aa6ac7c",
+   "rand_hash": "c63ac0c33d711b4c",
+   "J_del_matched": -85.8,
+   "drop_matched": 0.0,
+   "J_del_rand": -84.6,
+   "drop_rand": -1.2000000000000028
+  },
+  {
+   "rep": 8,
+   "n_matched": 20,
+   "matched_hash": "51c0db4cc3203e20",
+   "rand_hash": "90b8d6a57ec477ff",
+   "J_del_matched": -95.2,
+   "drop_matched": 9.400000000000006,
+   "J_del_rand": -102.95,
+   "drop_rand": 17.150000000000006
+  },
+  {
+   "rep": 9,
+   "n_matched": 20,
+   "matched_hash": "2a6536fa4d983586",
+   "rand_hash": "0b5138a180874137",
+   "J_del_matched": -85.8,
+   "drop_matched": 0.0,
+   "J_del_rand": -85.2,
+   "drop_rand": -0.5999999999999943
+  }
+ ],
+ "drop_matched_mean": 7.480000000000004,
+ "drop_rand_mean": 4.850000000000003,
+ "elapsed_sec": 12.726853370666504,
+ "evo_seed": 3006
+}

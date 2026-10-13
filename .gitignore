@@ -65,3 +65,11 @@ struct_ai/code/experiments/results/**/RUN_DONE.txt
 
 # Generated local outputs from figure regeneration.
 outputs/
+
+# The current study artifact is intentionally public; local caches remain excluded.
+!releases/2026-10-13-neural-computation/reproducibility/paper/
+!releases/2026-10-13-neural-computation/reproducibility/paper/**
+!releases/2026-10-13-neural-computation/reproducibility/**/paper/
+!releases/2026-10-13-neural-computation/reproducibility/**/paper/**
+releases/**/__pycache__/
+releases/**/*.py[cod]

@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "scope": "Statistics and instrument tests only; no new full simulations",
+  "source": "Independent public-release directory",
+  "completed_checks": [
+    "instruments",
+    "current",
+    "association",
+    "comparison"
+  ],
+  "recomputed_outputs_sha256": {
+    "results_local_replication_20261009/current/full/analysis_CartPole.json": "a40d5f1f219a34ce3bbc2d5102c54b974e222d89b488b27a34544747b4c6548c",
+    "results_local_replication_20261009/current/full/analysis_Acrobot.json": "e3079293d00161181078a6d49b0dc90208094790e1a9eda4311476d766d0f156",
+    "results_local_replication_20261009/association/full/analysis_both.json": "531cc04b0e6ec19e743f698ff84f0f3d2c041228c352de8f22ec1e201002a87e",
+    "paper/analysis/2026-10-12_local_comparison.json": "d808827e0b68a1c26d0db0936aa46b44cc6ec19869c0c5b00a94f14a73ea0b9b"
+  },
+  "all_four_outputs_byte_identical": true
+}
