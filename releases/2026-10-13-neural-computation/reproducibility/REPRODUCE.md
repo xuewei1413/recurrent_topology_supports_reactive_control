@@ -2,6 +2,15 @@
 
 Run the commands below from this `reproducibility/` directory. The published graph files and measurements are matched to one another and must not be mixed with historical CSV outcomes.
 
+On Windows, use a short checkout directory and enable Git long-path support because execution snapshots retain full provenance paths:
+
+```powershell
+git -c core.longpaths=true clone https://github.com/xuewei1413/recurrent_topology_supports_reactive_control.git C:/snn-study
+git -C C:/snn-study config core.longpaths true
+```
+
+The release's Git attributes preserve original file bytes across platforms; do not rewrite line endings before checking the SHA-256 manifest.
+
 ## Environment
 
 The local execution used Python 3.12.14, NumPy 1.26.4, Gymnasium 1.2.2, and SciPy 1.13.1. Create a separate environment and install the pinned dependencies:
